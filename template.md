@@ -5,15 +5,15 @@
 - **Host**: TBD
 - **Dates**: TBD
 - **Times**:
-  - 10:00 to 17:00 PDT on TBD
-  - 10:00 to 16:00 PDT on TBD
+    - 10:00 to 17:00 PDT on TBD
+    - 10:00 to 16:00 PDT on TBD
 - **Location**: TBD
 - **Wifi**: TBD
 - **Dinner**: TBD
 - **Contact**:
-  - Name: TBD
-  - Phone: TBD
-  - Email: TBD
+    - Name: TBD
+    - Phone: TBD
+    - Email: TBD
 
 ## Logistics
 
@@ -35,16 +35,17 @@ TBD Hotels nearby (optional)
 ## Agenda items
 
 1. Opening, welcome and roll call
-  1. Opening of the meeting
-  1. Introduction of attendees
-  1. Host facilities, local logistics
+    1. Opening of the meeting
+    1. Introduction of attendees
+    1. Host facilities, local logistics
 1. Find volunteers for note taking
 1. Adoption of the agenda
 1. Approval of the minutes from last meeting
-1. Agenda item goes here
-1. Agenda item goes here
-1. Agenda item goes here
-1. Agenda item goes here
+1. Proposals and discussions
+    1. Agenda item goes here
+    1. Agenda item goes here
+    1. Agenda item goes here
+    1. Agenda item goes here
 1. Closure
 
 ### Schedule constraints
