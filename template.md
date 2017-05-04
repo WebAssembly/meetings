@@ -1,4 +1,4 @@
-<img src="./WebAssembly.svg" align="right" height="70" alt="WebAssembly logo" />
+![WebAssembly logo](WebAssembly.svg)
 
 ## Agenda for the TBD meeting of WebAssembly's Community Group
 
