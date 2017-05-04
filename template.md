@@ -1,4 +1,4 @@
-![WebAssembly logo](WebAssembly.svg)
+![WebAssembly logo](WebAssembly.png)
 
 ## Agenda for the TBD meeting of WebAssembly's Community Group
 
