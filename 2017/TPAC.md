@@ -1,12 +1,12 @@
 ![WebAssembly logo](/images/WebAssembly.png)
 
-## Agenda for the TBD meeting of WebAssembly's Community Group
+# WebAssembly meeting at W3C TPAC 2017
+## (W3C Technical Plenary / Advisory Committee Meetings Week 2017)
 
-- **Host**: TBD
-- **Dates**: TBD
+- **Dates**: Monday-Tuesday November 6-7, 2017 *tentative*
 - **Times**:
-    - 10:00 to 17:00 PDT on TBD
-    - 10:00 to 16:00 PDT on TBD
+    - Monday - 8:30am to 6:00pm *tentative*
+    - Tuesday - 8:30am to 6:00pm *tentative*
 - **Location**: TBD
 - **Wifi**: TBD
 - **Dinner**: TBD
@@ -34,6 +34,8 @@ TBD Hotels nearby (optional)
 
 ## Agenda items
 
+TBD
+
 1. Opening, welcome and roll call
     1. Opening of the meeting
     1. Introduction of attendees
@@ -52,4 +54,4 @@ TBD Hotels nearby (optional)
 
 ## Dates and locations of future meetings
 
-TBD (Copy the table from the previous agenda)
+TBD
