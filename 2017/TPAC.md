@@ -5,9 +5,9 @@
 
 - **Dates**: Monday-Tuesday November 6-7, 2017 *tentative*
 - **Times**:
-    - Monday - 8:30am to 6:00pm *tentative*
-    - Tuesday - 8:30am to 6:00pm *tentative*
-- **Location**: TBD
+    - Monday - 8:00am to 6:00pm
+    - Tuesday - 8:00am to 6:00pm
+- **Location**: Hyatt Regency San Francisco Airport; 1333 Bayshore Highway Burlingame, CA 94010
 - **Wifi**: TBD
 - **Dinner**: TBD
 - **Contact**:
@@ -17,20 +17,17 @@
 
 ## Logistics
 
-* Where to park
-* How to access the building
-* Technical presentation requirements (adapters, google hangouts/other accounts required, etc.)
-* Any other logistics required to participate in the meeting
+Hosted by [W3C TPAC](https://www.w3.org/2017/11/TPAC/). See the site for details.
 
 Allen's paper on standards committee participation for newbees: http://wirfs-brock.com/allen/files/papers/standpats-asianplop2016.pdf
 
 ### Registration
 
-TBD
+Opens June 2017, see [TPAC page](https://www.w3.org/2017/11/TPAC/) for details.
 
 ### Hotels
 
-TBD Hotels nearby (optional)
+See [TPAC page](https://www.w3.org/2017/11/TPAC/).
 
 ## Agenda items
 
