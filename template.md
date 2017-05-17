@@ -22,8 +22,6 @@
 * Technical presentation requirements (adapters, google hangouts/other accounts required, etc.)
 * Any other logistics required to participate in the meeting
 
-Allen's paper on standards committee participation for newbees: http://wirfs-brock.com/allen/files/papers/standpats-asianplop2016.pdf
-
 ### Registration
 
 TBD
@@ -53,3 +51,7 @@ TBD Hotels nearby (optional)
 ## Dates and locations of future meetings
 
 TBD (Copy the table from the previous agenda)
+
+## Meeting notes
+
+Notes added here after the meeting.
