@@ -17,6 +17,7 @@ Meeting process is documented:
 * [Attendance](process/attendance.md)
 * [Day-of](process/day-of.md)
 * [Consensus](process/consensus.md)
+* [Hosting](process/hosting.md)
 
 ## Meetings
 
