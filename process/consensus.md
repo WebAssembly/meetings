@@ -36,6 +36,10 @@ Lack of consensus doesn't necessarily prevent an idea from being revisited
 later. "More information requested" or "request more work" are acceptable
 outcomes for lack of consensus.
 
+In some cases where consensus seems to obviously have been reached, the chair
+may poll a lighter-weight request for objections to unanimous consensus. A
+single objection is sufficient to force the above consensus process.
+
 ## Decision process
 
 As per the [Community Group charter](https://webassembly.github.io/cg-charter/):

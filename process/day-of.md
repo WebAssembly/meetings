@@ -19,7 +19,7 @@ meeting. It is not acceptable to stall the meeting due to lack of preparation.
 ## Notes
 
 Notes are taken throughout the meeting by a designated note-taker (who may
-change throughout the day). Names of each participants, their sponsoring company
+change throughout the day). Names of each participants, their affiliated company
 / institution, and what is discussed, are recorded in the notes. This
 establishes where ideas came from, and how they came about. Before posting the
 notes to the meeting document, the notes are sent out to attendees to verify
