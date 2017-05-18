@@ -9,7 +9,7 @@ through an email to the Community Group's mailing list.
 
 It is expected that a small breakfast, snacks, and beverages will be offered on
 premise, either for free or for a reasonable fee. The host may organize a dinner
-as well.
+as well. If a dinner is held, the host may require RSVP ahead of time.
 
 All attendees are required to be members of the
 [community group](w3.org/community/webassembly/) prior to attending. Further, we
