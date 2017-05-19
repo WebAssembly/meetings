@@ -19,8 +19,6 @@
 
 Hosted by [W3C TPAC](https://www.w3.org/2017/11/TPAC/). See the site for details.
 
-Allen's paper on standards committee participation for newbees: http://wirfs-brock.com/allen/files/papers/standpats-asianplop2016.pdf
-
 ### Registration
 
 Opens June 2017, see [TPAC page](https://www.w3.org/2017/11/TPAC/) for details.
@@ -52,3 +50,7 @@ TBD
 ## Dates and locations of future meetings
 
 TBD
+
+## Meeting notes
+
+Notes added here after the meeting.
