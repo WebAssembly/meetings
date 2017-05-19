@@ -1,6 +1,6 @@
 # Hosting a WebAssembly meeting
 
-Any company can volunteer to host a WebAssembly meeting. Simply contact
+Any organization can volunteer to host a WebAssembly meeting. Simply contact
 [the chair](https://www.w3.org/community/webassembly/) or bring up the
 possibility at a meeting.
 
