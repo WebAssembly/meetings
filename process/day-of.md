@@ -5,9 +5,10 @@
 The meeting invitation contains an agenda which will be updated through pull
 requests in the days leading up to the meeting. Champions for individual
 features are expected to provide details of their proposal in a timely fashion
-so that attendees may review the material ahead of time. Some meetings may have
-an overall "theme" which guides which proposals should be discussed in that
-meeting.
+so that attendees may review the material ahead of time. Champions are also
+expected to provide a list of questions on which attendees will be polled for
+[consensus](consensus.md). Some meetings may have an overall "theme" which
+guides which proposals should be discussed in that meeting.
 
 The chair will cover the agenda in order. One of the first items covered
 involves adoption of the agenda, at which point the group may elect to modify
