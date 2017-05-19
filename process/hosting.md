@@ -15,6 +15,7 @@ Locations should have the following characteristics:
 * A single-layered circle or square layout is ideal
 * Whiteboards and markers
 * Bathrooms near the meeting room
+* Accessible to people with disabilities
 * Electricity to all seats
 * Wi-Fi
 * Presenter's podium with projector
