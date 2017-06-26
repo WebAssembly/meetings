@@ -27,6 +27,13 @@ Polling consensus is done by the chair:
 3. If deemed relevant, the chair can ask certain participants if their wish to
    explain their vote for the note-taker.
 4. The chair determines whether consensus was reached.
+5. A participant may decide to register a formal objection to the decision. An
+   individual who registers a formal objection should cite technical arguments
+   and propose changes that would remove the formal objection; these proposals
+   may be vague or incomplete. Note: in the Working Group, formal objections are
+   reviewed by the W3C Director. Such review is not guaranteed for the Community
+   Group. Formal objections that do not provide substantive arguments or
+   rationale are unlikely to receive serious consideration by the Director.
 
 There is no specific number of votes required to establish or block
 consensus. In some circumstances a single implementor's or user's concerns may,
@@ -63,12 +70,12 @@ We introduce the following concepts to help the online decision process:
 
 We differentiate the following cases:
 
-1. Editorial issues without technical impact don't require consensus. GitHub
-   issues and pull requests are sufficient. Their title should identify them as
-   editorial. Closing or merging them after a full work day of positive review
-   by at least one contributor of different affiliation is acceptable as long as
-   there is no objection. Authors should be willing to revisit the editorial
-   nature of the change if there is any contention.
+1. Editors are empowered to make changes that have no technical impact without
+   explicit group decision. GitHub issues and pull requests are
+   sufficient. Their title should identify them as editorial. Closing or merging
+   them after a full work day of positive review by at least one contributor of
+   different affiliation is acceptable as long as there is no objection. Editors
+   shall revisit the editorial nature of the change if there is any contention.
 2. Small technical changes or additions can be discussed in GitHub issues and
    pull requests. It is the author's responsibility to ensure that interested
    parties sign off. Simply mentioning people on GitHub may go unnoticed, the
@@ -77,8 +84,9 @@ We differentiate the following cases:
    three contributors of different affiliations is acceptable as long as there
    is no objection. Consensus will be deemed to not have been reached if
    interested parties did not sign off. At any point in time a contributor can
-   request that final consensus be delayed to an in-person meeting. The chair
-   can, at their discretion, refuse such a request.
+   request that final consensus be delayed to an in-person meeting. In this
+   case, the chair puts the item on the group's agenda of upcoming
+   discussions.
 3. Substantial technical changes or additions are usually carried in their own
    GitHub repository by a champion. It is critical that these proposals be able
    to evolve quickly without much process. Early on in such a proposal's
