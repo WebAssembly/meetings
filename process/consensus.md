@@ -44,12 +44,12 @@ single objection is sufficient to force the above consensus process.
 
 ## Online consensus
 
-It it critical that work progress between in-person meetings: agreed-upon
+It is critical that work progresses between in-person meetings: agreed-upon
 designs need to move forward, and new ideas need to reach some level of maturity
 before being discussed in-person. To that end, this group can reach consensus
 online, either on GitHub repositories under the WebAssembly organization or in
-official video calls. In the later case, decisions are recorded in meeting notes
-and published just like in-person meeting notes are published.
+official video calls. In the latter case, decisions are recorded in meeting
+notes and published just like in-person meeting notes are published.
 
 We introduce the following concepts to help the online decision process:
 
@@ -86,7 +86,7 @@ We differentiate the following cases:
    at will. As the proposal matures it is expected that the champion will seek
    collaborators to form a small group. Gauging consensus in the small group is
    left up to the champion, with input from the chair. When a proposal is near
-   maturity to champion shall bring it to an in-person meeting and seek wider
+   maturity the champion shall bring it to an in-person meeting and seek wider
    consensus on open design points and contended issues. All decisions made by
    the small group can be revisited until consensus is reached at an in-person
    meeting.
