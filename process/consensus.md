@@ -9,9 +9,11 @@ Consensus is critical in a standards process:
   over time, break down. Recording dissent is therefore a critical part of
   building consensus.
 
-Champions are expected to list points for which they will seek consensus in the
-meeting agenda, and new consensus points can be added in-person as the
-discussion proceeds.
+## In-person meeting consensus
+
+For in-person meetings, champions are expected to list points for which they
+will seek consensus in the meeting agenda, and new consensus points can be added
+in-person as the discussion proceeds.
 
 Polling consensus is done by the chair:
 
@@ -25,6 +27,13 @@ Polling consensus is done by the chair:
 3. If deemed relevant, the chair can ask certain participants if their wish to
    explain their vote for the note-taker.
 4. The chair determines whether consensus was reached.
+5. A participant may decide to register a formal objection to the decision. An
+   individual who registers a formal objection should cite technical arguments
+   and propose changes that would remove the formal objection; these proposals
+   may be vague or incomplete. Note: in the Working Group, formal objections are
+   reviewed by the W3C Director. Such review is not guaranteed for the Community
+   Group. Formal objections that do not provide substantive arguments or
+   rationale are unlikely to receive serious consideration by the Director.
 
 There is no specific number of votes required to establish or block
 consensus. In some circumstances a single implementor's or user's concerns may,
@@ -39,6 +48,63 @@ outcomes for lack of consensus.
 In some cases where consensus seems to obviously have been reached, the chair
 may poll a lighter-weight request for objections to unanimous consensus. A
 single objection is sufficient to force the above consensus process.
+
+## Online consensus
+
+It is critical that work progresses between in-person meetings: agreed-upon
+designs need to move forward, and new ideas need to reach some level of maturity
+before being discussed in-person. To that end, this group can reach consensus
+online, either on GitHub repositories under the WebAssembly organization or in
+official video calls. In the latter case, decisions are recorded in meeting
+notes and published just like in-person meeting notes are published.
+
+We introduce the following concepts to help the online decision process:
+
+* Contributors of *different affiliation* are individuals who are affiliated
+  with different companies or institutions.
+* *Interested parties* are individuals, companies, or institutions who usually
+  participate in the WebAssembly Community Group or Working Group and are
+  interested in a particular topic.
+* *Small group* is a subset of Community Group and Working Group participants
+  who decide to collaborate on a single targeted proposal.
+
+We differentiate the following cases:
+
+1. Editors are empowered to make changes that have no technical impact without
+   explicit group decision. GitHub issues and pull requests are
+   sufficient. Their title should identify them as editorial. Closing or merging
+   them after a full work day of positive review by at least one contributor of
+   different affiliation is acceptable as long as there is no objection. Editors
+   shall revisit the editorial nature of the change if there is any contention.
+2. Small technical changes or additions can be discussed in GitHub issues and
+   pull requests. It is the author's responsibility to ensure that interested
+   parties sign off. Simply mentioning people on GitHub may go unnoticed, the
+   onus remains on the author to contact interested parties and obtain their
+   feedback. Closing or merging after a full week of positive review by at least
+   three contributors of different affiliations is acceptable as long as there
+   is no objection. Consensus will be deemed to not have been reached if
+   interested parties did not sign off. At any point in time a contributor can
+   request that final consensus be delayed to an in-person meeting. In this
+   case, the chair puts the item on the group's agenda of upcoming
+   discussions.
+3. Substantial technical changes or additions are usually carried in their own
+   GitHub repository by a champion. It is critical that these proposals be able
+   to evolve quickly without much process. Early on in such a proposal's
+   lifetime no consensus is needed and a single champion can modify the proposal
+   at will. As the proposal matures it is expected that the champion will seek
+   collaborators to form a small group. Gauging consensus in the small group is
+   left up to the champion, with input from the chair. When a proposal is near
+   maturity the champion shall bring it to an in-person meeting and seek wider
+   consensus on open design points and contended issues. All decisions made by
+   the small group can be revisited until consensus is reached at an in-person
+   meeting.
+
+Only 1. and 2. apply to the Working Group since the Community Group is the sole
+venue where substantial work can occur. It is expected that Working Group
+changes or additions in 2.'s category are validated by the Community Group
+before being adopted by the Working Group. It is expected that all changes or
+additions which reach consensus in the Community Group will be forwarded to the
+Working Group for adoption.
 
 ## Decision process
 
