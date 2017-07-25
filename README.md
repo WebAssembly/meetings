@@ -24,4 +24,5 @@ Meeting process is documented:
 * 2017
 
    * [May Community Group](2017/CG-05.md)
+   * [July Community Group](2017/CG-07.md)
    * [TPAC](2017/TPAC.md)
