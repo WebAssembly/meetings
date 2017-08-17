@@ -24,8 +24,9 @@ Meeting process is documented:
 * 2017
 
    * [May in-person](2017/CG-05.md)
-   * [July video call](2017/CG-07-06.md)
+   * [July 6th video call](2017/CG-07-06.md)
    * [July in-person](2017/CG-07.md)
-   * [August video call](2017/CG-08-08.md)
+   * [August 8th video call](2017/CG-08-08.md)
+   * [August 22nd video call](2017/CG-08-22.md)
    * [November in-person](2017/CG-11.md)
    * [TPAC](2017/TPAC.md)
