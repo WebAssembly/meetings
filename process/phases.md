@@ -1,4 +1,4 @@
-# [DRAFT] WebAssembly W3C Process
+# WebAssembly W3C Process
 
 This file describes how feature proposals will progress through
 the standardization process.
@@ -95,6 +95,8 @@ At this point:
    * During this phase, Working Group members discuss the feature,
      consider edge cases, and work to confirm consensus that the feature is now
      complete.
+   * Periodically, the Working Group will hold polls on how "ship worthy" the feature is,
+     in order to help browsers to make decisions about when to ship.
    * Only minor cosmetic changes occur at this point.
      If substantial changes are deemed required, the feature is sent back to
      the Community Group.
