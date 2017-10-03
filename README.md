@@ -32,5 +32,6 @@ Meeting process is documented:
    * [WG September 15th video call](2017/WG-09-15.md)
    * [CG September 19th video call](2017/CG-09-19.md)
    * [CG October 3rd video call](2017/CG-10-03.md)
+   * [CG October 17th video call](2017/CG-10-17.md)
    * [CG November in-person](2017/CG-11.md)
    * [TPAC](2017/TPAC.md)
