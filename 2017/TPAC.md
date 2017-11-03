@@ -7,7 +7,9 @@
 - **Times**:
     - Monday - 8:00am to 6:00pm
     - Tuesday - 8:00am to 6:00pm
-- **Location**: Hyatt Regency San Francisco Airport; 1333 Bayshore Highway Burlingame, CA 94010
+- **Location**:
+  * Hyatt Regency San Francisco Airport; 1333 Bayshore Highway Burlingame, CA 94010
+  * Sandpebble B, Lobby Level
 - **Wifi**: TBD
 - **Dinner**: TBD
 - **Contact**:
@@ -35,7 +37,7 @@ See [TPAC page](https://www.w3.org/2017/11/TPAC/).
 
 #### 9:00am - 10:00am : OPEN SLOT
 
-#### 10:00am - 12:00pm : WebAssembly Working Group Meeting
+#### 10:00am - 11:30am : WebAssembly Working Group Meeting
 
 Official meeting of the WebAssembly Working Group.
 
@@ -51,7 +53,15 @@ Official meeting of the WebAssembly Working Group.
     1. Agenda item goes here
 1. Closure
 
-#### 12:00am - 2:00pm : Lunch
+#### 11:30am - 12:30pm : WebAssembly Visits WebPerf
+
+The Web Performance WG is discussing the
+[Lifecycle API](https://github.com/spanicker/web-lifecycle/blob/master/README.md).
+
+As modulating things like xCoin mining has bearing on WebAssembly,
+our group should go to the WePerf Room (Sandpebble C, Lobby Level).
+
+#### 12:30am - 2:00pm : Lunch
 
 Free-form mingling in the WebAssembly Room
 
@@ -90,11 +100,22 @@ Presenter + Moderator: *Corentin Wallez*
     * API extensibility in WASM (can't just add a dictionary entry like JS)
     *Any questions you might have!
 
-#### 3:00pm - 4:00pm : OPEN SLOT
+#### 3:30pm - 5:00pm : Host Bindings (JS + DOM) for WebAssembly
+Presenter: *Brad Nelson*
 
-#### 4:00pm - 5:00pm : OPEN SLOT
+WebAssembly currently in practice relies on a substantial amount of support from
+JavaScript + Web APIs to be useful on the Web. Interoperability with JavaScript
+and Web APIs will help make WebAssembly in practice more "of the Web"
+while improving performance and ergonomics. Bindings for non-Web hosts embeddings are also relevant.
 
-#### 5:00pm - 6:00pm : OPEN SLOT
+[Proposal](https://github.com/flagxor/spec/blob/jsdom/proposals/jsdom/Overview.md)
+
+#### 5:00pm - 6:00pm : Open Discussion
+
+WebAssembly folks and others can discuss topics of interest.
+
+NOTE: Brad Nelson will be away presenting to the AC.
+
 
 
 ### Schedule constraints
