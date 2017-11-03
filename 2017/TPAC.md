@@ -3,7 +3,7 @@
 # WebAssembly meeting at W3C TPAC 2017
 ## (W3C Technical Plenary / Advisory Committee Meetings Week 2017)
 
-- **Dates**: Monday-Tuesday November 6-7, 2017 *tentative*
+- **Dates**: Monday-Tuesday November 6-7, 2017
 - **Times**:
     - Monday - 8:00am to 6:00pm
     - Tuesday - 8:00am to 6:00pm
@@ -11,11 +11,10 @@
   * Hyatt Regency San Francisco Airport; 1333 Bayshore Highway Burlingame, CA 94010
   * Sandpebble B, Lobby Level
 - **Wifi**: TBD
-- **Dinner**: TBD
 - **Contact**:
-    - Name: TBD
-    - Phone: TBD
-    - Email: TBD
+    - Name: Brad Nelson
+    - Phone: +1 650-214-2933
+    - Email: bradnelson@google.com
 
 ## Logistics
 
