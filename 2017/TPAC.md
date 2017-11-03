@@ -64,9 +64,10 @@ Official meeting of the WebAssembly Working Group.
 #### 11:00am - 11:30am : Proposals in Progress
 Presenter: *Brad Nelson*
 
-Brad will give a quick rundown of all current in-progress WebAssembly proposals,
-what [phase](http://github.com/WebAssembly/meetings/blob/master/process/phases.md) each is at,
-and 
+Brad will give a quick rundown of all current in-progress WebAssembly proposals.
+We'll talk about where each is at in terms of our
+[phases](http://github.com/WebAssembly/meetings/blob/master/process/phases.md)
+and the obstacles each proposal faces.
 
 #### 11:30am - 12:30pm : WebAssembly Visits WebPerf
 
