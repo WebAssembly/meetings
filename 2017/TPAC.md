@@ -33,9 +33,10 @@ See [TPAC page](https://www.w3.org/2017/11/TPAC/).
 
 ### Day 1 : Monday, November 6th
 
-#### 8:00am - 9:00am : OPEN SLOT
+#### 8:00am - 10:00am : Open Discussion
 
-#### 9:00am - 10:00am : OPEN SLOT
+Swing by and talk about WebAssembly!
+WebAssembly folks and others can discuss topics of interest.
 
 #### 10:00am - 11:30am : WebAssembly Working Group Meeting
 
@@ -48,10 +49,25 @@ Official meeting of the WebAssembly Working Group.
 1. Find volunteers for note taking
 1. Adoption of the agenda
 1. Approval of the minutes from last meeting
+1. TPAC Welcome
+    1. Welcome to TPAC (Brad Nelson).
+    1. Introduction of our W3C Team member [Eric Prud'hommeaux](https://www.w3.org/People/Eric/).
 1. Proposals and discussions
-    1. Agenda item goes here
-    1. Agenda item goes here
+    1. Discussion on increased coordination with other W3C Groups.
+      * We'll talk about where we should be collaborating more with other groups,
+        how we conduct outreach, and plan.
+    1. Discussion on the status of the specification.
+      1. [WebAssembly Core Specification](https://github.com/WebAssembly/spec)
+      1. [WebAssembly JavaScript API](https://littledan.github.io/spec/document/JS.html)
+      1. [WebAssembly Web API](https://littledan.github.io/spec/document/web/)
 1. Closure
+
+#### 11:00am - 11:30am : Proposals in Progress
+Presenter: *Brad Nelson*
+
+Brad will give a quick rundown of all current in-progress WebAssembly proposals,
+what [phase](http://github.com/WebAssembly/meetings/blob/master/process/phases.md) each is at,
+and 
 
 #### 11:30am - 12:30pm : WebAssembly Visits WebPerf
 
@@ -65,20 +81,38 @@ our group should go to the WePerf Room (Sandpebble C, Lobby Level).
 
 Free-form mingling in the WebAssembly Room
 
-#### 2:00pm - 3:00pm : API + ABI Compatibility
-Moderator: *Derek Schuff*
-* TODO(dschuff): Agenda
+#### 2:00pm - 3:00pm : WebAssembly from Above
+Presenter: *Ben Titzer*
 
-#### 3:00pm - 4:00pm : OPEN SLOT
+Ben will give a high level overview of WebAssembly.
 
-#### 4:00pm - 5:00pm : OPEN SLOT
+#### 3:00pm - 4:00pm : Toolchains
+Presenter: *Derek Schuff*
 
-#### 5:00pm - 6:00pm : OPEN SLOT
+Emscripten is WebAssembly's toolchain.
+Derek will give an introduction on how to use it, tips and tricks, and where it's going.
+
+#### 4:00pm - 5:00pm : Demos
+
+Come see Demos of WebAssembly:
+* Google Earth (preview) - Live demo only
+* [WebDSP](https://d2jta7o2zej4pf.cloudfront.net/)
+* [Construct3](https://editor.construct.net/)
+* [Epic Zen Garden](https://s3.amazonaws.com/mozilla-games/ZenGarden/EpicZenGarden.html)
+* [WebSight](https://websightjs.com/)
+* [NASA Access Mars](https://accessmars.withgoogle.com/)
+
+#### 5:00pm - 6:00pm : Open Discussion
+
+WebAssembly folks and others can discuss topics of interest.
 
 
 ### Day 2 : Tuesday, November 7th
 
-#### 10:00am - 11:00 : OPEN SLOT
+#### 8:00am - 10:00am : Open Discussion
+
+Swing by and talk about WebAssembly!
+WebAssembly folks and others can discuss topics of interest.
 
 #### 11:00am - 12:00 : Exceptions and Control-flow in WebAssembly
 Presenter + Moderator: *Heejin Ahn*
@@ -100,7 +134,13 @@ Presenter + Moderator: *Corentin Wallez*
     * API extensibility in WASM (can't just add a dictionary entry like JS)
     *Any questions you might have!
 
-#### 3:30pm - 5:00pm : Host Bindings (JS + DOM) for WebAssembly
+#### 3:30pm - 4:00pm : Abusing WebAssembly
+Moderator: *Brad Nelson*
+
+Discussion on what bearing coing mining and other CPU abuse has on WebAssembly.
+Follow up discussion of [Lifecycle API](https://github.com/spanicker/web-lifecycle/blob/master/README.md).
+
+#### 4:00pm - 5:00pm : Host Bindings (JS + DOM) for WebAssembly
 Presenter: *Brad Nelson*
 
 WebAssembly currently in practice relies on a substantial amount of support from
@@ -115,7 +155,6 @@ while improving performance and ergonomics. Bindings for non-Web hosts embedding
 WebAssembly folks and others can discuss topics of interest.
 
 NOTE: Brad Nelson will be away presenting to the AC.
-
 
 
 ### Schedule constraints
