@@ -49,16 +49,16 @@ Official meeting of the WebAssembly Working Group.
 1. Adoption of the agenda
 1. Approval of the minutes from last meeting
 1. TPAC Welcome
-    1. Welcome to TPAC (Brad Nelson).
-      * [Code of Conduct](https://www.w3.org/Consortium/cepc/)
-      * [Best Practices for Effective Meetings](https://www.w3.org/wiki/Meetings_Best_Practices_document)
-      * [Speaker Guidelines](https://www.w3.org/wiki/Speaker_Resources#Speakers_Guidelines)
-    1. Introduction of our W3C Team member [Eric Prud'hommeaux](https://www.w3.org/People/Eric/).
+   1. Welcome to TPAC (Brad Nelson).
+       * [Code of Conduct](https://www.w3.org/Consortium/cepc/)
+       * [Best Practices for Effective Meetings](https://www.w3.org/wiki/Meetings_Best_Practices_document)
+       * [Speaker Guidelines](https://www.w3.org/wiki/Speaker_Resources#Speakers_Guidelines)
+   1. Introduction of our W3C Team member [Eric Prud'hommeaux](https://www.w3.org/People/Eric/).
 1. Proposals and discussions
-    1. Discussion on increased coordination with other W3C Groups.
+   1. Discussion on increased coordination with other W3C Groups.
       * We'll talk about where we should be collaborating more with other groups,
         how we conduct outreach, and plan.
-    1. Discussion on the status of the specification.
+   1. Discussion on the status of the specification.
       1. [WebAssembly Core Specification](https://github.com/WebAssembly/spec)
       1. [WebAssembly JavaScript API](https://littledan.github.io/spec/document/JS.html)
       1. [WebAssembly Web API](https://littledan.github.io/spec/document/web/)
