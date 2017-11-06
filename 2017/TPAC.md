@@ -50,6 +50,9 @@ Official meeting of the WebAssembly Working Group.
 1. Approval of the minutes from last meeting
 1. TPAC Welcome
     1. Welcome to TPAC (Brad Nelson).
+      * [Code of Conduct](https://www.w3.org/Consortium/cepc/)
+      * [Best Practices for Effective Meetings](https://www.w3.org/wiki/Meetings_Best_Practices_document)
+      * [Speaker Guidelines](https://www.w3.org/wiki/Speaker_Resources#Speakers_Guidelines)
     1. Introduction of our W3C Team member [Eric Prud'hommeaux](https://www.w3.org/People/Eric/).
 1. Proposals and discussions
     1. Discussion on increased coordination with other W3C Groups.
@@ -68,6 +71,7 @@ Brad will give a quick rundown of all current in-progress WebAssembly proposals.
 We'll talk about where each is at in terms of our
 [phases](http://github.com/WebAssembly/meetings/blob/master/process/phases.md)
 and the obstacles each proposal faces.
+[Slides](https://docs.google.com/presentation/d/1uRpS79-kAoL3EoC7IxrJFU5G7V-Sxno9pm9rVjC20yE/)
 
 #### 11:30am - 12:30pm : WebAssembly Visits WebPerf
 
@@ -75,7 +79,7 @@ The Web Performance WG is discussing the
 [Lifecycle API](https://github.com/spanicker/web-lifecycle/blob/master/README.md).
 
 As modulating things like xCoin mining has bearing on WebAssembly,
-our group should go to the WePerf Room (Sandpebble C, Lobby Level).
+our group should go to the WebPerf Room (Sandpebble C, Lobby Level).
 
 #### 12:30am - 2:00pm : Lunch
 
