@@ -90,11 +90,15 @@ Presenter: *Ben Titzer*
 
 Ben will give a high level overview of WebAssembly.
 
-#### 3:00pm - 4:00pm : Toolchains
+#### 3:00pm - 3:30pm : Toolchains
 Presenter: *Derek Schuff*
 
 Emscripten is WebAssembly's toolchain.
 Derek will give an introduction on how to use it, tips and tricks, and where it's going.
+
+#### 3:30pm - 4:00pm : WPT
+
+Discussion on Web Platform Tests.
 
 #### 4:00pm - 5:00pm : Demos
 
