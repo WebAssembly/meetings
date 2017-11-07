@@ -71,7 +71,7 @@ Brad will give a quick rundown of all current in-progress WebAssembly proposals.
 We'll talk about where each is at in terms of our
 [phases](http://github.com/WebAssembly/meetings/blob/master/process/phases.md)
 and the obstacles each proposal faces.
-[Slides](https://docs.google.com/presentation/d/1uRpS79-kAoL3EoC7IxrJFU5G7V-Sxno9pm9rVjC20yE/)
+[Slides](https://docs.google.com/presentation/d/1uRpS79-kAoL3EoC7IxrJFU5G7V-Sxno9pm9rVjC20yE/).
 
 #### 11:30am - 12:30pm : WebAssembly Visits WebPerf
 
@@ -155,7 +155,8 @@ JavaScript + Web APIs to be useful on the Web. Interoperability with JavaScript
 and Web APIs will help make WebAssembly in practice more "of the Web"
 while improving performance and ergonomics. Bindings for non-Web hosts embeddings are also relevant.
 
-[Proposal](https://github.com/WebAssembly/host-bindings/blob/master/proposals/host-bindings/Overview.md)
+[Slides](https://docs.google.com/presentation/d/10vz6pldVOA8N3guv2jf4DCUujqz6jFmDnp37ax4SCc0/edit?usp=sharing).
+[Proposal](https://github.com/WebAssembly/host-bindings/blob/master/proposals/host-bindings/Overview.md).
 
 #### 5:00pm - 6:00pm : Open Discussion
 
