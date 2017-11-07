@@ -117,10 +117,9 @@ WebAssembly folks and others can discuss topics of interest.
 
 ### Day 2 : Tuesday, November 7th
 
-#### 8:00am - 10:00am : Open Discussion
+#### 9:00am - 10:00am : WebAudio + WebAssembly
 
-Swing by and talk about WebAssembly!
-WebAssembly folks and others can discuss topics of interest.
+WebAssembly and WebAudio WG folks to discuss future APIs, performance interactions, and avoiding garbage introduced by the API.
 
 #### 11:00am - 12:00 : Exceptions and Control-flow in WebAssembly
 Presenter + Moderator: *Heejin Ahn*
