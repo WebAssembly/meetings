@@ -155,7 +155,7 @@ JavaScript + Web APIs to be useful on the Web. Interoperability with JavaScript
 and Web APIs will help make WebAssembly in practice more "of the Web"
 while improving performance and ergonomics. Bindings for non-Web hosts embeddings are also relevant.
 
-[Proposal](https://github.com/flagxor/spec/blob/jsdom/proposals/jsdom/Overview.md)
+[Proposal](https://github.com/WebAssembly/host-bindings/blob/master/proposals/host-bindings/Overview.md)
 
 #### 5:00pm - 6:00pm : Open Discussion
 
