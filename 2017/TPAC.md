@@ -60,7 +60,7 @@ Official meeting of the WebAssembly Working Group.
         how we conduct outreach, and plan.
    1. Discussion on the status of the specification.
       1. [WebAssembly Core Specification](https://github.com/WebAssembly/spec)
-      1. [WebAssembly JavaScript API](https://littledan.github.io/spec/document/JS.html)
+      1. [WebAssembly JavaScript API](https://littledan.github.io/spec/document/js-api/)
       1. [WebAssembly Web API](https://littledan.github.io/spec/document/web/)
 1. Closure
 
@@ -144,7 +144,7 @@ Presenter + Moderator: *Corentin Wallez*
 #### 3:30pm - 4:00pm : Abusing WebAssembly
 Moderator: *Brad Nelson*
 
-Discussion on what bearing coing mining and other CPU abuse has on WebAssembly.
+Discussion on what bearing coin mining and other CPU abuse has on WebAssembly.
 Follow up discussion of [Lifecycle API](https://github.com/spanicker/web-lifecycle/blob/master/README.md).
 
 #### 4:00pm - 5:00pm : Host Bindings (JS + DOM) for WebAssembly
