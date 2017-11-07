@@ -123,7 +123,7 @@ WebAssembly and WebAudio WG folks to discuss future APIs, performance interactio
 
 #### 11:00am - 12:00 : Exceptions and Control-flow in WebAssembly
 Presenter + Moderator: *Heejin Ahn*
-* Presentation on Control-flow in WebAssembly + current state of exceptions proposal
+* Presentation on Control-flow in WebAssembly + current state of exceptions proposal. [Slides](https://docs.google.com/presentation/d/1bny3a9OFxDoJQpQXz_ZVN_bCqrTPNGEnotLaubyXrxY/edit?usp=sharing)
 * Discussion
 
 #### 12:00am - 2:00pm : Lunch
