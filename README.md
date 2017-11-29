@@ -36,3 +36,4 @@ Meeting process is documented:
    * [CG November in-person](2017/CG-11.md)
    * [TPAC](2017/TPAC.md)
    * [CG November 14th video call](2017/CG-11-14.md)
+   * [CG November 28th video call](2017/CG-11-28.md)
