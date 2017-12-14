@@ -39,3 +39,7 @@ Meeting process is documented:
    * [CG November 28th video call](2017/CG-11-28.md)
    * [WG December 6th video call](2017/WG-12-06.md)
    * [CG December 12th video call](2017/CG-12-12.md)
+
+* 2018
+
+   * [CG January 9th video call](2018/CG-01-09.md)
