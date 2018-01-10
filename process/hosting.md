@@ -5,7 +5,7 @@ Any organization can volunteer to host a WebAssembly meeting. Simply contact
 possibility at a meeting.
 
 It is the intent of this group to hold meetings where participants are located,
-not just in the Bay Area.
+not just in the Bay Area. Meetings usually last 2 or 3 days, from 9AM to 6PM.
 
 Locations should have the following characteristics:
 
