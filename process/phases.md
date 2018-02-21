@@ -8,11 +8,14 @@ requires additional opcodes, types, tests, or module sections.
 See case #3 [here](consensus.md).
 
 Something is definitely a feature if it:
+
   * Adds an opcode or other pieces of abstract syntax
   * Changes or extends the binary format
   * Changes or extends the text format
   * Requires adding or changing tests
   * Requires extending or changing the reference interpreter
+
+Something is out-of-scope if it doesn't fit the [WebAssembly Working Group's charter](https://www.w3.org/2017/08/wasm-charter) and there's agreement that the charter should not be ammended to cover the proposal.
 
 In general, the process moves forward through a series of numbered phases.
 However, if issues are uncovered or consensus devolves,
@@ -21,27 +24,28 @@ proposals should back up to the appropriate prior step.
 ## 0. Pre-Proposal [Community Group]
 
 Entry requirements:
+
   * A Community Group member has an idea.
 
-During this phase an issue issue is filed to track a feature idea.
-Discussion on the feature occurs.
-A champion or champions emerge.
-At a point where a written proposal is useful to ground the discussion
-of the feature, a new repository is requested.
+Pre-proposal process:
+
+  1. An issue issue is filed on the [design repository](https://github.com/WebAssembly/design/issues) to present the idea.
+  1. Discussion on the feature occurs on the issue.
+  1. A champion or champions emerge.
+  1. The champion(s) put together a somewhat-formal description of the feature in their own GitHub repository or on the issue.
+  1. An item is added to the [bi-weekly Community Group video calls](https://github.com/WebAssembly/meetings/)'s agenda through a pull request.
+  1. The CG votes on general interest to this issue. Consensus requirements are low: do members believe that the feature is in-scope and will plausibly be workable.
+  1. A [tracking issue](https://github.com/WebAssembly/design/labels/tracking) is created, and added to the [list of future features](https://github.com/WebAssembly/design/blob/master/FutureFeatures.md#tracking-issues).
+  1. A new repository is created by one of the WebAssembly organization administrators, or transfered to the WebAssembly organization by the champion.
 
 ## 1. Feature Proposal [Community Group]
 
 Entry requirements:
-  * A Community Group member requests a repository in which to develop a
-    feature.
 
-During this phase a new repository forking the spec repo is created (Community
-Group members can request this). PRs + Issues iterate on the design of the
-feature.
-If a high level descriptions in a design repo style .md files is useful,
+  * The pre-proposal process has succeeded
+
+During this phase the new repository forking the spec repo is populated. Pull requests and issues are used to iterate on the design of the feature. If a high level descriptions in a design repo style .md files is useful,
 these are added to describe the feature as it's being designed.
-A [tracking](https://github.com/WebAssembly/design/labels/tracking)
-issue is created in the design repo.
 
 If relevant to demonstrate the viability of a feature, prototype
 implementations of the feature are implemented in interested embedders (possibly
@@ -51,12 +55,13 @@ The Community Group will attempt to reach broad consensus.
 ## 2. Proposed Spec Text Available [Community + Working Group]
 
 Entry requirements:
+
    * Full proposed English spec text available in a forked repo around which a
      reasonably high level of consensus exists.
-   * *Updates to the formal notation, test suite,
-      and reference interpreter are NOT yet required*.
+   * *Updates to the formal notation, test suite, and reference interpreter are NOT yet required*.
 
 During this phase:
+
    * One or more implementations proceed on prototyping the
      feature to the point that a comprehensive set of tests can be added.
    * A test suite is added.
@@ -66,24 +71,27 @@ During this phase:
 ## 3. Implementation Phase [Community + Working Group]
 
 Entry requirements:
+
    * Test suite has been updated to cover the feature in its forked repo.
    * The test suite should run against some implementation, though it need not be
      the reference interpreter.
    * *Formal notation in the spec need not be updated.*
 
 During this phase, the following proceeds in parallel:
+
   * Embedders implement the feature.
-   * The forked repo is updated to include revisions to the formalization.
-   * The forked repo spec is updated to include implementation of the feature
-     in the reference interpreter (OCaml).
-   * The feature is implemented in toolchains.
+  * The forked repo is updated to include revisions to the formalization.
+  * The forked repo spec is updated to include implementation of the feature
+    in the reference interpreter.
+  * The feature is implemented in toolchains.
 
 ## 4. Standardize the Feature [Working Group]
 
 Entry requirements:
+
    * Two or more Web VMs implement the feature.
    * At least one toolchain implements the feature.
-   * The formalization and the OCaml reference interpreter are usually updated
+   * The formalization and the reference interpreter are usually updated
      (though these two can be done as part of step 3 at the Working Group
       chair's discretion).
    * Community Group has reached consensus in support of the feature.
@@ -91,6 +99,7 @@ Entry requirements:
      the Community Group is the sole venue where substantial work can occur.
 
 At this point:
+
    * The feature is fully handed off to the Working Group.
    * During this phase, Working Group members discuss the feature,
      consider edge cases, and work to confirm consensus that the feature is now
@@ -104,6 +113,7 @@ At this point:
 ## 5. The Feature is Standardized [Working Group]
 
 Entry requirements:
+
    * Consensus is reached in amongst Working Group members that the feature
      is complete.
 
@@ -112,45 +122,6 @@ into master on the spec repo.
 The W3C snapshots (for REC) are made at a regular cadence (in a W3C repo), used
 to stamp official version. Matching tags are added in the github spec repo.
 
-
-## Example how this might work
-
-### Worker based Threads
-
-0. Pre-Proposal
-   * Someone proposes adding threads to WebAssembly.
-   * They file an issue to discuss this possibility.
-   * Discussion continues and a champion for the feature emerges.
-   * A request is made to add a threads proposal fork of the spec.
-
-1. Feature Proposal
-   * A threads repo is created: https://github.com/WebAssembly/threads
-   * Once a human readable .md is agreed on describing behavior + opcodes,
-     work to update the spec's English text to reflect the change in a branch
-     occurs.
-     A few browsers begin to prototype atomic opcodes behind flag to demonstrate
-     feasibility.
-2. Proposed Spec Text Available
-   * The Working Group is informed of the thrads proposal.
-   * The proposed spec text is finalized describing the new opcodes for atomics,
-     memory model, etc.
-   * A test suite exercising threads is created. All the prototype
-     implementations can run it.
-3. Implementation Phase
-   * Work progresses to implement the agree opcodes for atomics in several
-     browsers.
-   * The OCaml interpreter is updated to simulate threads.
-   * The formal language in the spec is expanded to describe atomics and the
-     memory model.
-4. Standardized the Feature
-   * The Working Group examines the spec, looking for edge cases, testing gaps,
-     and unforseen interactions with other standards.
-   * Everything is in order.
-5. The Feature is Standardized
-   * Working Group member consensus is reached (potentially by distributed means).
-   * Editors merge the spec changes from the branch to master on the spec repo.
-   * Browsers turn on atomic ops by default.
-   * Profit!
 
 ## FAQ
 
