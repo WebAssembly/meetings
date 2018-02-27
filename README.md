@@ -48,4 +48,6 @@ Meeting process is documented:
    * [CG February 6th video call](2018/CG-02-06.md)
    * [WG February 12th video call](2018/WG-02-12.md)
    * [CG February 21st video call](2018/CG-02-21.md)
+   * [WG February 28th video call](2018/WG-02-28.md)
    * [CG March 6th video call](2018/CG-03-06.md)
+   * [CG April in-person](2018/CG-04.md)
