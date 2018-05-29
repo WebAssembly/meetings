@@ -59,3 +59,4 @@ Meeting process is documented:
    * [CG May 15th video call](2018/CG-05-15.md)
    * [WG May 23rd video call](2018/WG-05-23.md)
    * [CG May 29th video call](2018/CG-05-29.md)
+   * [CG June 12th video call](2018/CG-06-12.md)
