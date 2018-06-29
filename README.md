@@ -62,4 +62,5 @@ Meeting process is documented:
    * [WG June 6th video call](2018/WG-06-06.md)
    * [CG June 12th video call](2018/CG-06-12.md)
    * [CG June 26th video call](2018/CG-06-26.md)
+   * [CG July 10th video call](2018/CG-07-10.md)
    * [WG July 18th video call](2018/WG-07-18.md)
