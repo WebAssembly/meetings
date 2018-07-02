@@ -3,8 +3,11 @@
 The Debugging Subgroup is a sub-organization of the
 [WebAssembly Community Group](https://www.w3.org/community/webassembly/) of the W3C.
 As such, it is intended that its charter align with that of the CG. In particular, 
-the sections of the CG charter relating to Community and Business Group Process,
-Contribution Mechanics, Transparency, and Decision Process also apply to the Subgroup.
+the sections of the [CG charter](https://webassembly.github.io/cg-charter/) relating to
+[Community and Business Group Process](https://webassembly.github.io/cg-charter/#process),
+[Contribution Mechanics](https://webassembly.github.io/cg-charter/#contrib),
+[Transparency](https://webassembly.github.io/cg-charter/#transparency), and
+[Decision Process](https://webassembly.github.io/cg-charter/#decision) also apply to the Subgroup.
 
 ## Goals
 
@@ -19,11 +22,10 @@ static analysis of WebAssembly programs, including:
 - File formats and encodings for WebAssembly debug information
 e.g. as custom sections in wasm executables or object files, 
 - Extensions to the WebAssembly text format for debug information
-- Extensions or modifications to
-- Interaction with browsers (e.g. developer tools, debugging, profiling)
+- Interaction with browsers or other embedders (e.g. developer tools, debugging, profiling)
 - Interaction with external debuggers and IDEs (VS Code), and
-debuggers running in the browser
-- Presentation of source, callstack, or debugging information in browsers, debuggers,
+debuggers running as wasm-hosted code.
+- Presentation of source, callstack, or debugging information in embedders, debuggers,
 or IDEs
 
 
