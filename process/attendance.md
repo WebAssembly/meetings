@@ -11,10 +11,14 @@ It is expected that a small breakfast, snacks, and beverages will be offered on
 premise, either for free or for a reasonable fee. The host may organize a dinner
 as well. If a dinner is held, the host may require RSVP ahead of time.
 
-All attendees are required to be members of the
-[community group](w3.org/community/webassembly/) prior to attending. Further, we
-request that attendees register in advance so that the host may plan capacity
-accordingly and so that the meeting notes may record who was present.
+To attend a meeting:
+
+- All attendees are required to be members of the
+[community group](w3.org/community/webassembly/) prior to attending. 
+- We request that attendees register in advance so that the host may
+  plan capacity accordingly and so that the meeting notes may record who was
+  present. **To register, send an email to the contact listed in the meeting's
+  associated PR.**
 
 The host must not request that an NDA be signed by attendees.
 
