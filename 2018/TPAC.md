@@ -8,10 +8,10 @@
     - Thursday - 10:00am to 5:00pm
     - Friday - 10:00am to 5:00pm
 - **Location**:
-    Cité Centre de Congrès de Lyon
-    50, quai Charles de Gaulle
-    69463 Lyon Cedex 06
-    France
+    - Cité Centre de Congrès de Lyon
+    - 50, quai Charles de Gaulle
+    - 69463 Lyon Cedex 06
+    - France
 - **Wifi**: TBD
 - **Dinner**: TBD
 
