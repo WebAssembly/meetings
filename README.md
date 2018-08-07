@@ -66,4 +66,6 @@ Meeting process is documented:
    * [WG July 18th video call](2018/WG-07-18.md)
    * [CG July 24th video call](2018/CG-07-24.md)
    * [CG August 7th video call](2018/CG-08-07.md)
+   * [WG August 15th video call](2018/WG-08-15.md)
+   * [CG August 21st video call](2018/CG-08-21.md)
    * [TPAC - CG/WG October in-person](2018/TPAC.md)
