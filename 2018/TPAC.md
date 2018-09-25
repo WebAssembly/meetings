@@ -31,7 +31,7 @@ etc.
 
 The [TPAC schedule](https://www.w3.org/2018/10/TPAC/schedule.html) says that Thursday and Friday are full days for the WebAssembly Working Group, and there is a two-hour meeting on Tuesday for the Community Group. This is **not** correct.
 
-Instead, Thursday and Friday will be full days of Community Group discussion. You only need to be a member of the Community Group to attend.
+Instead, Thursday and Friday will be full days of Community Group discussion. To attend, you must [complete the TPAC registration](https://www.w3.org/2018/10/TPAC/#registration), pay the registration fees, and be a Community Group member. You do not need to be a Working Group member to attend.
 
 * Thursday - October 25th
     1. Opening, welcome and roll call
