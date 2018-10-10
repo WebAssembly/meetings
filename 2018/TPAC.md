@@ -41,6 +41,12 @@ Instead, Thursday and Friday will be full days of Community Group discussion. To
     1. Find volunteers for note taking
     1. Adoption of the agenda
     1. Proposals and discussions
+       1. [Tail calls](https://github.com/WebAssembly/tail-call) (Andreas Rossberg)
+          - status update, resolution of open issues
+          - poll: advance to stage 3?
+       1. [C/C++ API](https://github.com/rossberg/wasm-c-api) (Andreas Rossberg)
+          - new proposal presentation
+          - poll: advance to stage 1?
     1. Adjourn
 * Friday - October 26th
     1. Opening, welcome and roll call
@@ -50,6 +56,12 @@ Instead, Thursday and Friday will be full days of Community Group discussion. To
     1. Find volunteers for note taking
     1. Adoption of the agenda
     1. Proposals and discussions
+       1. [Multiple values](https://github.com/WebAssembly/multi-value) (Andreas Rossberg)
+          - quick status update
+       1. [Reference types](https://github.com/WebAssembly/reference-types) (Andreas Rossberg)
+          - quick status update
+       1. [Garbage collection](https://github.com/WebAssembly/gc) (Andreas Rossberg)
+          - overview of current MVP proposal
     1. Closure
 
 ## Meeting notes
