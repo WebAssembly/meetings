@@ -99,9 +99,9 @@ Instead, Thursday and Friday will be full days of Community Group discussion. To
           - How would this look in the source language?
             - Short recap of Rust wasm-bindgen
             - How would this look in other languages?  Is there an opportunity to share/regularize backend tools?
-                - 1+ hour?
-             1. [Garbage collection](https://github.com/WebAssembly/gc) (Andreas Rossberg)
-                - overview of current MVP proposal
+          - 1+ hour?
+       1. [Garbage collection](https://github.com/WebAssembly/gc) (Andreas Rossberg)
+          - overview of current MVP proposal
           - 1+ hour?
     1. Closure
 
