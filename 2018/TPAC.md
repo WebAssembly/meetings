@@ -88,7 +88,7 @@ Instead, Thursday and Friday will be full days of Community Group discussion. To
           - Presentation: Given Reference Types, what's left for Host Bindings to do?
           - Poll: Rename "Host Bindings" to something less abstract better capturing its purpose?
           - Poll: Define a Reference Types + Host Bindings milestone based on removing JS glue from wasm&rarr;WebIDL calls
-          - Discussion: Best way for C++ utilize this milestone?  (c.f. [Rust's wasm-bindgen](https://fitzgen.github.io/wasm-cg-wasm-bindgen))
+          - Discussion: Best way for C++ to utilize this milestone?  (c.f. [Rust's wasm-bindgen](https://fitzgen.github.io/wasm-cg-wasm-bindgen))
           - 1+ hour?
        1. [Garbage collection](https://github.com/WebAssembly/gc) (Andreas Rossberg)
           - overview of current MVP proposal
