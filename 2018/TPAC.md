@@ -83,22 +83,12 @@ Instead, Thursday and Friday will be full days of Community Group discussion. To
           - quick status update
           - 15 min
        1. [Host Bindings](https://github.com/WebAssembly/host-bindings) (Luke Wagner)
-          - Recap problem statement: direct calls to any Web IDL methods/accessors from wasm
-          - Recap developments since TPAC last year: extraction of the Reference Types proposal
+          - Recap developments since TPAC last year: factoring out the Reference Types proposal
           - Short browser update on any browser implementation progress toward Reference Types
-          - Given Reference Types, what's left for Host Bindings to do?
-            - The following are still missing when calling Web IDL:
-              - Pass/receive a non-undefined receiver
-              - Call as a constructor
-              - Opt into unsigned interpretation of i32/i64 when converting to Number/BigInt
-              - Callbacks: function reference types + func.bind (+ WeakRefs)
-            - With Reference Types factored out into the core spec, consider renaming to "Web IDL Bindings"?
-          - Observation: the real value prop to use any of this (from browser POV) is fast Web IDL calls
-          - So, proposal: let's define a milestone that combines Reference Types + Web IDL Bindings MVP
-          - Some WebGL/Emscripten glue code can move into WASM bytecode; this will help fast Web IDL calls
-          - How would this look in the source language?
-            - Short recap of Rust wasm-bindgen
-            - How would this look in other languages?  Is there an opportunity to share/regularize backend tools?
+          - Presentation: Given Reference Types, what's left for Host Bindings to do?
+          - Poll: Rename "Host Bindings" to something less abstract better capturing its purpose?
+          - Poll: Define a Reference Types + Host Bindings milestone based on removing JS glue from wasm&rarr;WebIDL calls
+          - Discussion: Best way for C++ utilize this milestone?  (c.f. [Rust's wasm-bindgen](https://fitzgen.github.io/wasm-cg-wasm-bindgen))
           - 1+ hour?
        1. [Garbage collection](https://github.com/WebAssembly/gc) (Andreas Rossberg)
           - overview of current MVP proposal
