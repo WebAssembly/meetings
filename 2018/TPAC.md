@@ -70,12 +70,12 @@ Instead, Thursday and Friday will be full days of Community Group discussion. To
     1. Find volunteers for note taking
     1. Adoption of the agenda
     1. Proposals and discussions
+       1. [Exception handling](https://github.com/WebAssembly/exception-handling) (Ben Titzer)
+          - 1 hour
        1. [JS BigInt to WebAssembly i64 Integration](https://github.com/WebAssembly/JS-BigInt-integration) (Dan Ehrenberg)
           - 15 min
        1. [ES6 Module Integration](https://github.com/WebAssembly/esm-integration) (Lin Clark)
           - 30 min
-       1. [Exception handling](https://github.com/WebAssembly/exception-handling) (Ben Titzer)
-          - 1 hour
        1. [Multiple values](https://github.com/WebAssembly/multi-value) (Andreas Rossberg)
           - quick status update
           - 15 min
