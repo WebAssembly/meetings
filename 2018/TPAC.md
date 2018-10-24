@@ -6,7 +6,7 @@
 - **Dates**: Thursday-Friday October 25-26, 2018
 - **Times**:
     - Thursday - 10:00am to 5:00pm
-    - Friday - 10:00am to 5:00pm
+    - Friday - 9:00am to 5:00pm
 - **Location**:
     - Cité Centre de Congrès de Lyon
     - 50, quai Charles de Gaulle
