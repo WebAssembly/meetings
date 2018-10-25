@@ -51,13 +51,13 @@ To attend, you must [complete the TPAC registration](https://www.w3.org/2018/10/
           - new proposal presentation
           - poll: advance to stage 1?
           - 30 min
+       1. [Bulk Memory Operations](https://github.com/WebAssembly/bulk-memory-operations) (Ben Smith)
+          - poll: advance to stage 2?
+          - 30 min
        1. [Threads](https://github.com/WebAssembly/threads) (Ben Smith, Andreas Rossberg, Conrad Watt)
           - Update on memory model and spec
           - [Race between memory.grow and access](https://github.com/WebAssembly/threads/issues/26#issuecomment-424742576)
           - 1 hour
-       1. [Bulk Memory Operations](https://github.com/WebAssembly/bulk-memory-operations) (Ben Smith)
-          - poll: advance to stage 2?
-          - 30 min
        1. [WebAssembly Content-Security-Policy](https://github.com/WebAssembly/content-security-policy) (Ben Titzer)
           - [How does CSP affect postMessaging of modules](https://github.com/WebAssembly/content-security-policy/pull/16)
           - 30-60 min
