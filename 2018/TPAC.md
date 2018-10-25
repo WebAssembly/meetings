@@ -76,7 +76,7 @@ To attend, you must [complete the TPAC registration](https://www.w3.org/2018/10/
           - 1 hour
        1. [JS BigInt to WebAssembly i64 Integration](https://github.com/WebAssembly/JS-BigInt-integration) (Dan Ehrenberg)
           - 15 min
-       1. [ES6 Module Integration](https://github.com/WebAssembly/esm-integration) (Lin Clark)
+       1. [ES6 Module Integration](https://github.com/WebAssembly/esm-integration) (Dan Ehrenberg)
           - 30 min
        1. [Reference types](https://github.com/WebAssembly/reference-types) (Andreas Rossberg)
           - quick status update
