@@ -5,7 +5,7 @@
 - **Host**: W3 TPAC, Lyon, France
 - **Dates**: Thursday-Friday October 25-26, 2018
 - **Times**:
-    - Thursday - 9:00am to 5:00pm
+    - Thursday - 9:30am to 5:00pm
     - Friday - 9:00am to 5:00pm
 - **Location**:
     - Cité Centre de Congrès de Lyon
