@@ -1,7 +1,5 @@
 ![WebAssembly logo](/images/WebAssembly.png)
 
-https://docs.google.com/document/d/1zTZYTc9taCwRVCMj3xJDc34tEA1tpJWr-HUMtmG6sMY/edit
-
 ## Agenda for the October meeting of WebAssembly's Community Group
 
 - **Host**: W3 TPAC, Lyon, France
@@ -20,6 +18,9 @@ https://docs.google.com/document/d/1zTZYTc9taCwRVCMj3xJDc34tEA1tpJWr-HUMtmG6sMY/
 - **Contact**:
     - Name: Ben Smith
     - Email: binji@google.com
+
+- **Scribing**: https://docs.google.com/document/d/1zTZYTc9taCwRVCMj3xJDc34tEA1tpJWr-HUMtmG6sMY/edit
+
 
 ## Registration
 
