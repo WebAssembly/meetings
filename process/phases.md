@@ -15,7 +15,7 @@ Something is definitely a feature if it:
   * Requires adding or changing tests
   * Requires extending or changing the reference interpreter
 
-Something is out-of-scope if it doesn't fit the [WebAssembly Working Group's charter](https://www.w3.org/2017/08/wasm-charter) and there's agreement that the charter should not be ammended to cover the proposal.
+Something is out-of-scope if it doesn't fit the [WebAssembly Working Group's charter](https://www.w3.org/2017/08/wasm-charter) and there's agreement that the charter should not be amended to cover the proposal.
 
 In general, the process moves forward through a series of numbered phases.
 However, if issues are uncovered or consensus devolves,
