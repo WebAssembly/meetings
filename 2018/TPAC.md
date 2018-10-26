@@ -82,6 +82,7 @@ To attend, you must [complete the TPAC registration](https://www.w3.org/2018/10/
           - quick status update
           - 15 min
        1. [Host Bindings](https://github.com/WebAssembly/host-bindings) (Luke Wagner)
+          - [Slides](https://docs.google.com/presentation/d/1ciUHPjNdD3-OGqDjYGNI_Uqod8y3yQOVOnKI3urr2v0)
           - Recap developments since TPAC last year: factoring out the Reference Types proposal
           - Short browser update on any browser implementation progress toward Reference Types
           - Presentation: Given Reference Types, what's left for Host Bindings to do?
