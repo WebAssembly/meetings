@@ -187,7 +187,10 @@ Poll phrasing: We should use JavaScript arrays for the return value for a multi-
 - one direction is relatively easy (Wasm returning mv to JS), which can be an array, but should it be frozen?
 
 #### POLL: Add JS API for multi-values into this proposal?
-SF 4 F 6 N 4 A 0 SA 0
+
+| SF | F | N | A | SA |
+| - | - | - | - | - |
+| 4 | 6 | 4 | 0 | 0 |
 
 Anyone willing to spec this? Dan Ehrenberg has volunteered.
 
@@ -212,7 +215,10 @@ Anyone willing to spec this? Dan Ehrenberg has volunteered.
 - DE: the whole point is to stay idiomatic with the web platform
 
 #### POLL: We should use the WebIDL sequence type for taking and returning multiple values.
-SF 0 F 5 N 7 A 1 SA 0
+
+| SF | F | N | A | SA |
+| - | - | - | - | - |
+| 0 | 5 | 7 | 1 | 0 |
 
 - any more on this topic? No…
 
@@ -286,11 +292,15 @@ return_call_indirect[table_index][type_index]
 
 #### Poll: Advance to Stage 2?
 
-SF 16 F 0 N 1 A 0 SA 0
+| SF | F | N | A | SA |
+| - | - | - | - | - |
+| 16 | 0 | 1 | 0 | 0 |
 
 #### Poll: Advance to Stage 3?
 
-SF 4 F 6 N 7 A 0 SA 0
+| SF | F | N | A | SA |
+| - | - | - | - | - |
+| 4 | 6 | 7 | 0 | 0 |
 
 - tail calls are now stage 3.
 
@@ -400,7 +410,9 @@ BT: may want to consider that anyref would then allow referencing meta-level obj
 
 #### Poll: Advance to stage 1?
 
-SF 7 F 6 N 5 A 1 SA 0
+| SF | F | N | A | SA |
+| - | - | - | - | - |
+| 7 | 6 | 5 | 1 | 0 |
 
 MH: looking at C API right now. Seems not very usable for people right now. Difficult and leaky.
 
@@ -478,8 +490,9 @@ AR: Do we know what’s missing?
 
 POLL: Move bulk memory operations to stage 2:
 
-SF| F| N| A| SA
-8| 9| 0| 0| 0
+| SF | F | N | A | SA |
+| - | - | - | - | - |
+| 8 | 9 | 0 | 0 | 0 |
 
 - poll: advance to stage 2?
 
@@ -640,8 +653,9 @@ Accesses may independently succeed
 
 POLL: Change access observation of bounds checks to be unordered (relaxed), rather than sequentially consistent
 
-SF | F | N | A | SA
-1 |  9 | 4 | 0 | 0
+| SF | F | N | A | SA |
+| - | - | - | - | - |
+| 1 |  9 | 4 | 0 | 0 |
 
 This adds new potential implementations.
 
@@ -686,8 +700,9 @@ BT: If the number is not representable, you should trap
 
 POLL: Move phase to stage 2? With the memory model spec appended to the current spec.
 
-SF | F | N | A | SA
-10 | 5 | 1 | 0 | 0
+| SF | F | N | A | SA |
+| - | - | - | - | - |
+| 10 | 5 | 1 | 0 | 0 |
 
 CW: Neutral because I want the memory model to be as good as possible.
 
@@ -1024,7 +1039,10 @@ SC: So proposal #2 depends on reftypes proposal landing first?
 AR: Yes
 
 POLL: Should do flavor 2"
-SF 5   F 5   N 4   A 1  SA 0
+
+| SF | F | N | A | SA |
+| - | - | - | - | - |
+| 5 | 5 | 4 | 1 | 0 |
 
 LH: This shouldn’t depend on allocation, storage management. Benefits of code sharing could be overstated.
 
@@ -1174,8 +1192,9 @@ AR: funcref is inhabited by null. There’d be a check before the call anyway. T
 
 POLL: splitting off funcref (ie funcref not a subtype of anyref yet)
 
-SF | F | N | A | SA
-4      4  10   0   0
+| SF | F | N | A | SA |
+| - | - | - | - | - |
+| 4 | 4 | 10 | 0 | 0 |
 
 AR: some table ops (fill, grow, size) would logically be included in bulk memory proposal, but depend on anyref.
 
@@ -1205,8 +1224,9 @@ All: we will cross this bridge when we get to it
 
 POLL: should we include these 3 table instructions in this proposal?
 
-SF | F | N | A | SA
-5      7   6    0   0
+| SF | F | N | A | SA |
+| - | - | - | - | - |
+| 5 | 7 | 6 | 0 | 0 |
 
 #### [Host Bindings](https://github.com/WebAssembly/host-bindings) (Luke Wagner)
           - Recap developments since TPAC last year: factoring out the Reference Types proposal
@@ -1523,7 +1543,10 @@ BS: IIRC we didn’t have it always has host bindings anyway
 LW: That very general things is reftypes.  This is more specific so  thats why think webidl makes sense.
 
 Poll: Should we rename to WebIDL bindings
-SF: 6, F: 5, N: 3, A: 2, SA: 0
+
+| SF | F | N | A | SA |
+| - | - | - | - | - |
+| 6 | 5 | 3 | 2 | 0 |
 
 DG: None of this very fleshed out to me to warrant a name change. Maybe a calling convention makes more sense. Mostly I want to see how this plays out before committing to a name change.
 
@@ -1627,8 +1650,6 @@ AR: We definitely want non-coercive subtyping in general.   The whole func.bind 
 
 
 <back to presentation - instructions - structs>
-
-
 
 BT: You also need a cast if you can override a method with a more specific type…
 
