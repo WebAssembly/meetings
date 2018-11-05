@@ -19,8 +19,6 @@
     - Name: Ben Smith
     - Email: binji@google.com
 
-- **Scribing**: https://docs.google.com/document/d/1zTZYTc9taCwRVCMj3xJDc34tEA1tpJWr-HUMtmG6sMY/edit
-
 
 ## Registration
 
@@ -500,8 +498,6 @@ POLL: Move bulk memory operations to stage 2:
 
 - poll: advance to stage 2?
 
-- 30 min
-
 
 #### [Threads](https://github.com/WebAssembly/threads) (Ben Smith, Andreas Rossberg, Conrad Watt)
 
@@ -720,8 +716,6 @@ KM: Bulk memory operations would be nice as function imports
 
 #### [WebAssembly Spec Update](https://github.com/WebAssembly/spec) (Ben Smith)
 
-- 15 min
-
 BS: Giving a spec update - high level overview of where we are at the Spec
 
 2 working drafts, move to candidate representation - we had two changes
@@ -751,8 +745,6 @@ BS: Sounds like we have a process to move forward with the tests. The other thin
 EP: Figure out which open issues are there, triage and label them accordingly, so there are no changes to the outcome of the tests, but semantic changes are ok. Address the tests with substance, and then we can figure out what to do wuth the rest.
 
 #### [WebAssembly Content-Security-Policy](https://github.com/WebAssembly/content-security-policy) (Ben Titzer)
-
-- 30-60 min
 
 - [How does CSP affect postMessaging of modules](https://github.com/WebAssembly/content-security-policy/pull/16)
 
@@ -954,7 +946,7 @@ Ben Titzer seconds
 
 #### [Exception handling](https://github.com/WebAssembly/exception-handling) (Ben Titzer)
 
-- 1 hour
+[Slides](https://github.com/WebAssembly/meetings/blob/master/2018/presentations/2018-10-titzer-exceptions.pdf)
 
 Titzer presents, notes will gloss on slides when relevant
 
