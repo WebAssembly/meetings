@@ -226,6 +226,8 @@ Anyone willing to spec this? Dan Ehrenberg has volunteered.
 
 #### [Tail calls](https://github.com/WebAssembly/tail-call) (Andreas Rossberg)
 
+[Slides](https://github.com/WebAssembly/meetings/blob/master/2018/presentations/2018-10-rossberg-tail-calls.pdf)
+
 - status update, resolution of open issues
 
 - recap: support proper tail calls for languages and implementation techniques
@@ -311,6 +313,8 @@ return_call_indirect[table_index][type_index]
 - AR: yes. Every call instruction will need a tailcall version. Should be a prefix? Probably not worth it.
 
 #### [C/C++ API](https://github.com/rossberg/wasm-c-api) (Andreas Rossberg)
+
+[Slides](https://github.com/WebAssembly/meetings/blob/master/2018/presentations/2018-10-rossberg-c-api.pdf)
 
 - new proposal presentation
 
@@ -505,7 +509,7 @@ POLL: Move bulk memory operations to stage 2:
 
 <CW Presenting - “Threads and Weak Memory”>
 
-Slides: https://drive.google.com/open?id=11TmIKejgYtBic0W1vsQc17DNP3bPDMNS
+[Slides](https://drive.google.com/open?id=11TmIKejgYtBic0W1vsQc17DNP3bPDMNS)
 
 Talking through the threads proposal, and walking through the memory model, and some principles on which we’re making decisions.
 
@@ -557,13 +561,9 @@ CW: small step semantics for webassembly makes the formal model easier to define
 
 CW: It will be a state of the art memory model. But it does have holes in it, since the research is not quite there.
 
-
-
 CW: Change of spec to accommodate weak memory - Loads/Stores change operational state, but now when execute a memory access, some abstract change will take place, which may or may not reflect in an operational change so the spec is hard to write. Include operational, and axiomatic definitions
 
 We can isolate the axiomatic version, but it doesn’t scale well - for example if we decide to share more state like tables - it’s an editorial decision - WDYT?
-
-
 
 LW: I would like to see it separated. Since I would like to read the single threaded, but also the axiomatic. It makes it easier to see the shared load/shared store, etc in one area.
 
@@ -764,7 +764,6 @@ KM: I might need to talk to other people about this, who do our CSP stuff.
 
 KM: Can come back, not promising anything
 
-
 Anne: I think this should be named unsafe-wasm-eval
 
 MH: Why does WebAssembly validate need to be restricted?
@@ -905,9 +904,6 @@ KM: I need to talk to other people, don’t make the decisions
 
 BT: Next steps - I can work with Dan to write Spec text, will close the issues we decided on, figure out how to move forward.
 
-
-
-
 ### Adjourn
 
 ### Opening, welcome and roll call
@@ -919,7 +915,7 @@ BT: Next steps - I can work with Dan to write Spec text, will close the issues w
 * Adam Klein
 * Alex Crichton
 * Andreas Rossberg
-* Barbara [..]
+* Barbara [...]
 * Benjamin Bouvier
 * Benoit [...]
 * Ben Smith
@@ -1079,8 +1075,6 @@ LW: Or we could have a "js exception" tag that could be caught specifically
 
 #### [JS BigInt to WebAssembly i64 Integration](https://github.com/WebAssembly/JS-BigInt-integration) (Dan Ehrenberg)
 
-          - 15 min
-
 <Dan Ehrenberg presenting>
 
 AK: Have you run into any problems?
@@ -1096,8 +1090,6 @@ AR: You need tests, and a POC implementation at least
 DE: Cannot be implemented in the reference interpreter
 
 #### [ES6 Module Integration](https://github.com/WebAssembly/esm-integration) (Dan Ehrenberg)
-
-          - 30 min
 
 Dan presenting, notes will gloss on slides when appropriate
 
@@ -1148,8 +1140,8 @@ KM: It must be draining promises somewhere…
 LW: I’d be happy to discuss more.
 
 #### [Reference types](https://github.com/WebAssembly/reference-types) (Andreas Rossberg)
-          - quick status update
-          - 15 min
+
+[Slides](https://github.com/WebAssembly/meetings/blob/master/2018/presentations/2018-10-rossberg-reference-types.pdf)
 
 (AR presents)
 
@@ -1229,13 +1221,8 @@ POLL: should we include these 3 table instructions in this proposal?
 | 5 | 7 | 6 | 0 | 0 |
 
 #### [Host Bindings](https://github.com/WebAssembly/host-bindings) (Luke Wagner)
-          - Recap developments since TPAC last year: factoring out the Reference Types proposal
-          - Short browser update on any browser implementation progress toward Reference Types
-          - Presentation: Given Reference Types, what's left for Host Bindings to do?
-          - Poll: Rename "Host Bindings" to something less abstract better capturing its purpose?
-          - Poll: Define a Reference Types + Host Bindings milestone based on removing JS glue from wasm&rarr;WebIDL calls?
-          - Discussion: Best way for C++ to utilize this milestone?  (c.f. [Rust's wasm-bindgen](https://fitzgen.github.io/wasm-cg-wasm-bindgen))
-          - 1+ hour?
+
+[Slides](https://docs.google.com/presentation/d/1ciUHPjNdD3-OGqDjYGNI_Uqod8y3yQOVOnKI3urr2v0)
 
 LW: Talking about host binding again.  What is host bindings? Is sharing memory?  Is it dlopen?
 
@@ -1244,7 +1231,6 @@ LW: Proposal has been inactive for almost a year.  With the progress of reftypes
 LW: What are we trying to solve: (a) removing JS stub code.. (b) Avoid constructing temporaries at the boundaries. (c) Make imported reflect methods fast
 
 LW: Out of scope: (a) A set of portable interface definitions (b) binding to naive dlls (dlopen). © WebIDL callbacks (d) Binding to all the JS things (beyond whats needed to Web APIs) LW: Questions.
-
 
 AK: Is web APIs that much narrower than all of JS. Promises, so…
 
@@ -1598,8 +1584,8 @@ LW: Any questions…  we’re done.
 
 
 #### [Garbage collection](https://github.com/WebAssembly/gc) (Andreas Rossberg)
-          - overview of current MVP proposal
-          - 1+ hour?
+
+[Slides](https://github.com/WebAssembly/meetings/blob/master/2018/presentations/2018-10-rossberg-c-gc.pdf)
 
 <AR presents slides>
 
@@ -1647,7 +1633,6 @@ AR: If you store it somewhere you have to use the universal representation.
 LW: Maybe we wouldn’t want to make it subtype but just a completely separate type.
 
 AR: We definitely want non-coercive subtyping in general.   The whole func.bind thing we need to think through a little more carefully.
-
 
 <back to presentation - instructions - structs>
 
