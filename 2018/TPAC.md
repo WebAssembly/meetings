@@ -748,7 +748,9 @@ EP: Figure out which open issues are there, triage and label them accordingly, s
 
 - [How does CSP affect postMessaging of modules](https://github.com/WebAssembly/content-security-policy/pull/16)
 
-<Ben Titzer Presenting> [TODO slides]
+[Slides](https://github.com/WebAssembly/meetings/blob/master/2018/presentations/2018-10-titzer-csp.pdf)
+
+<Ben Titzer Presenting>
 
 BT: Any questions about WebAssembly.instantiate being blessed?
 
