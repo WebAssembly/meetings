@@ -79,3 +79,4 @@ Meeting process is documented:
    * [TPAC - CG/WG October in-person](2018/TPAC.md)
    * [WG November 7th video call](2018/WG-11-7.md)
    * [CG November 13th video call](2018/CG-11-13.md)
+   * [CG November 27th video call](2018/CG-11-27.md)
