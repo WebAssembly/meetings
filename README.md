@@ -80,3 +80,6 @@ Meeting process is documented:
    * [WG November 7th video call](2018/WG-11-7.md)
    * [CG November 13th video call](2018/CG-11-13.md)
    * [CG November 27th video call](2018/CG-11-27.md)
+   * [WG December 5th video call](2018/WG-12-05.md)
+   * [CG December 11th video call](2018/CG-12-11.md)
+  
