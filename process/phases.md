@@ -29,7 +29,7 @@ Entry requirements:
 
 Pre-proposal process:
 
-  1. An issue issue is filed on the [design repository](https://github.com/WebAssembly/design/issues) to present the idea.
+  1. An issue issue is filed on the [proposal repository](https://github.com/WebAssembly/proposals/issues) to present the idea.
   1. Discussion on the feature occurs on the issue.
   1. A champion or champions emerge.
   1. The champion(s) put together a somewhat-formal description of the feature in their own GitHub repository or on the issue.
