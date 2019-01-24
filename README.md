@@ -21,25 +21,15 @@ Meeting process is documented:
 
 ## Meetings
 
-* 2017
+* 2019
 
-   * [CG May in-person](2017/CG-05.md)
-   * [CG July 6th video call](2017/CG-07-06.md)
-   * [CG July in-person](2017/CG-07.md)
-   * [CG August 8th video call](2017/CG-08-08.md)
-   * [CG August 22nd video call](2017/CG-08-22.md)
-   * [CG September 5th video call](2017/CG-09-05.md)
-   * [WG September 15th video call](2017/WG-09-15.md)
-   * [CG September 19th video call](2017/CG-09-19.md)
-   * [CG October 3rd video call](2017/CG-10-03.md)
-   * [CG October 17th video call](2017/CG-10-17.md)
-   * [CG November in-person](2017/CG-11.md)
-   * [TPAC](2017/TPAC.md)
-   * [CG November 14th video call](2017/CG-11-14.md)
-   * [CG November 28th video call](2017/CG-11-28.md)
-   * [WG December 6th video call](2017/WG-12-06.md)
-   * [CG December 12th video call](2017/CG-12-12.md)
-
+   * [CG January 8th video call](2019/CG-01-08.md)
+   * [WG January 16th video call](2019/WG-01-16.md)
+   * [CG January 22nd video call](2019/CG-01-22.md)
+   * [CG February 5th video call](2019/CG-02-05.md)
+   * [WG February 13th video call](2019/WG-02-13.md)
+   * [CG February 19nd video call](2019/CG-02-19.md)
+   
 * 2018
 
    * [CG January 9th video call](2018/CG-01-09.md)
@@ -83,8 +73,21 @@ Meeting process is documented:
    * [WG December 5th video call](2018/WG-12-05.md)
    * [CG December 11th video call](2018/CG-12-11.md)
 
-* 2019
+* 2017
 
-   * [CG January 8th video call](2019/CG-01-08.md)
-   * [WG January 16th video call](2019/WG-01-16.md)
-   * [CG January 22nd video call](2019/CG-01-22.md)
+   * [CG May in-person](2017/CG-05.md)
+   * [CG July 6th video call](2017/CG-07-06.md)
+   * [CG July in-person](2017/CG-07.md)
+   * [CG August 8th video call](2017/CG-08-08.md)
+   * [CG August 22nd video call](2017/CG-08-22.md)
+   * [CG September 5th video call](2017/CG-09-05.md)
+   * [WG September 15th video call](2017/WG-09-15.md)
+   * [CG September 19th video call](2017/CG-09-19.md)
+   * [CG October 3rd video call](2017/CG-10-03.md)
+   * [CG October 17th video call](2017/CG-10-17.md)
+   * [CG November in-person](2017/CG-11.md)
+   * [TPAC](2017/TPAC.md)
+   * [CG November 14th video call](2017/CG-11-14.md)
+   * [CG November 28th video call](2017/CG-11-28.md)
+   * [WG December 6th video call](2017/WG-12-06.md)
+   * [CG December 12th video call](2017/CG-12-12.md)
