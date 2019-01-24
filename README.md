@@ -21,16 +21,20 @@ Meeting process is documented:
 
 ## Meetings
 
-* 2019
-
+<details open>
+<summary>2019</summary>
+  
    * [CG January 8th video call](2019/CG-01-08.md)
    * [WG January 16th video call](2019/WG-01-16.md)
    * [CG January 22nd video call](2019/CG-01-22.md)
    * [CG February 5th video call](2019/CG-02-05.md)
    * [WG February 13th video call](2019/WG-02-13.md)
-   * [CG February 19nd video call](2019/CG-02-19.md)
-   
-* 2018
+   * [CG February 19th video call](2019/CG-02-19.md)
+
+</details>
+
+<details>
+<summary>2018</summary>
 
    * [CG January 9th video call](2018/CG-01-09.md)
    * [WG January 11th video call](2018/WG-01-11.md)
@@ -73,7 +77,10 @@ Meeting process is documented:
    * [WG December 5th video call](2018/WG-12-05.md)
    * [CG December 11th video call](2018/CG-12-11.md)
 
-* 2017
+</details>
+
+<details>
+<summary>2017</summary>
 
    * [CG May in-person](2017/CG-05.md)
    * [CG July 6th video call](2017/CG-07-06.md)
@@ -91,3 +98,5 @@ Meeting process is documented:
    * [CG November 28th video call](2017/CG-11-28.md)
    * [WG December 6th video call](2017/WG-12-06.md)
    * [CG December 12th video call](2017/CG-12-12.md)
+
+</details>
