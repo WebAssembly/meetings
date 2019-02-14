@@ -30,7 +30,7 @@ Meeting process is documented:
    * [CG February 5th video call](2019/CG-02-05.md)
    * [WG February 13th video call](2019/WG-02-13.md)
    * [CG February 19th video call](2019/CG-02-19.md)
-   * [CG April in-person](2019/CG-04.md)
+   * [CG June in-person](2019/CG-06.md)
 
 </details>
 
