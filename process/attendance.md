@@ -12,7 +12,7 @@ premise, either for free or for a reasonable fee. The host may organize a dinner
 as well. If a dinner is held, the host may require RSVP ahead of time.
 
 All attendees are required to be members of the
-[community group](w3.org/community/webassembly/) prior to attending. Further, we
+[community group](https://w3.org/community/webassembly/) prior to attending. Further, we
 request that attendees register in advance so that the host may plan capacity
 accordingly and so that the meeting notes may record who was present.
 
