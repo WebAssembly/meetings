@@ -33,6 +33,10 @@ Meeting process is documented:
    * [CG March 5th video call](2019/CG-03-05.md)
    * [WG March 13th video call](2019/WG-03-13.md)
    * [CG March 19th video call](2019/CG-03-19.md)
+   * [CG April 2nd video call](2019/CG-04-02.md)
+   * [WG April 10th video call](2019/WG-04-10.md)
+   * [CG April 16th video call](2019/CG-04-16.md)
+   * [CG April 30th video call](2019/CG-04-30.md)
    * [CG June in-person](2019/CG-06.md)
 
 </details>
