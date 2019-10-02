@@ -44,6 +44,13 @@ Meeting process is documented:
    * [CG July 9th video call](2019/CG-07-09.md)
    * [WG July 17th video call](2019/WG-07-17.md)
    * [CG July 23rd video call](2019/CG-07-23.md)
+   * [CG August 6th video call](2019/CG-08-06.md)
+   * [CG August 20th video call](2019/CG-08-20.md)
+   * [WG August 28th video call](2019/WG-08-28.md)
+   * [CG September 3rd video call](2019/CG-09-03.md)
+   * [CG September 17th video call](2019/CG-09-17.md)
+   * [CG October 10th video call](2019/CG-10-01.md)
+   
 
 </details>
 
