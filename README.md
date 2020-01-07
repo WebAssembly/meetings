@@ -22,6 +22,14 @@ Meeting process is documented:
 ## Meetings
 
 <details open>
+<summary>2020</summary>
+
+   * [CG January 21st video call](2019/CG-01-21.md)
+   * [CG February in-person](2020/CG-02.md)
+
+</details>
+
+<details>
 <summary>2019</summary>
   
    * [CG January 8th video call](2019/CG-01-08.md)
