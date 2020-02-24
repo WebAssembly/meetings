@@ -28,6 +28,7 @@ Meeting process is documented:
    * [CG January 21st video call](2020/CG-01-21.md)
    * [CG February in-person](2020/CG-02.md)
    * [CG March 3rd video call](2020/CG-03-03.md)
+   * [WG March 11th video call](2020/WG-03-11.md)
    * [CG March 17th video call](2020/CG-03-17.md)
 
 </details>
