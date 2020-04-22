@@ -1,9 +1,9 @@
 ![WebAssembly logo](/images/WebAssembly.png)
 
-## Agenda for the April 28th video call of WebAssembly's Community Group
+## Agenda for the April 2nd video call of WebAssembly's Community Group
 
 - **Where**: zoom.us
-- **When**: April 28th, 4pm-5pm UTC (April 28th, 9am-10am Pacific Daylight Time)
+- **When**: April 2nd, 4pm-5pm UTC (April 2nd, 9am-10am Pacific Daylight Time)
 - **Location**: *link on calendar invite*
 
 ### Registration
