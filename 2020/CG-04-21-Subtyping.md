@@ -114,7 +114,7 @@ AR: I have a slide that lists all the changes to the ref types proposal - can pr
 
 <AT Slide: Incompatible with superfluous casts>
 
-AR: counter argument is that this is unlikely to  be applicable to Wasm, not sure how relevant it is, because we have way more notation, and avoid inference. This will be a different design direction from what we have done so far. Might be interesting from the tooling side. If there are IL that compiles to Wasm, but again this is not relevant to Wasm, would be a separate language, with a separate type system, that does not impact Wasm (inside the engine).
+AR: counter argument is that this is unlikely to  be applicable to Wasm, not sure how relevant it is, because we have way more annotations, and avoid inference. This will be a different design direction from what we have done so far. Might be interesting from the tooling side. If there are IL that compiles to Wasm, but again this is not relevant to Wasm, would be a separate language, with a separate type system, that does not impact Wasm (inside the engine).
 
 
 TL: It does become relevant as a secondary argument. It becomes relevant when all the tools are using a separate language and type imports.. There is a risk here that if we say it’s a tooling feature and not a VM feature, we might end up with something that no one used. 
@@ -148,7 +148,7 @@ BS: 2, I believe, almost 3.
 
 <Slide Against #4>
 
-AR: This came with the argument that even if we don’t have subtyping, we can have conversion operations, I would argue that this is not enough, we also need both versions boxed and unboxed so you’re not converting back and forth in an expensive manner. If you have the unboxed types, once you have more precise types, you will still need boxed types in addition to the unboxed types.
+AR: This came with the argument that even if we don’t have subtyping, we can have conversion operations, I would argue that this is not enough, we also need both versions boxed and unboxed types so you’re not converting back and forth in an expensive manner. If you have the unboxed types, once you have more precise types, you will still need boxed types in addition to the unboxed types.
 
 <Slide Against #5>
 
@@ -188,7 +188,7 @@ AR: More like a design principle that we want to follow - like a rationale - mor
 
 RT: pops up in two spots, implicit direct handling between instructions, if we ever do func refs with some variance, then if a <: b, and func returns a, another func returns b, you can’t dynamically wrap func and do the coercion, has to automatically happen
 
-AR: If you have coercive subtyping then this doesn't compose...
+AR: Right, if you have coercive subtyping then it doesn't compose...
 
 JP: As of last conversation, we were not talking about having coercive subtyping <AR Agrees>, or variance? 
 
@@ -298,7 +298,9 @@ LH: Don’t care what it’s called
 
 JP: Jakob has asked to see Rossberg's slides on chat.
 
-<AR Presenting a slide on required design changes TODO: Add slides> 
+<AR Presenting a slide on required design changes>
+
+[Slides](https://github.com/WebAssembly/meetings/blob/master/2020/presentations/2020-04-21-rossberg-ref-type-subtyping.pdf)
 
 RT: It could be useful to leave in the spec where we expect subtyping to be used in the future.
 
