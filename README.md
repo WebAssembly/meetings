@@ -33,7 +33,9 @@ Meeting process is documented:
    * [CG March 31st video call](2020/CG-03-31.md)
    * [CG April 2nd video call](2020/CG-04-02-Subtyping.md)
    * [CG April 14th video call](2020/CG-04-14.md)
+   * [CG April 21st video call](2020/CG-04-21-Subtyping.md)
    * [CG April 28th video call](2020/CG-04-28.md)
+   * [CG May 12th video call](2020/CG-05-12.md)
 
 </details>
 
