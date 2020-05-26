@@ -21,52 +21,46 @@ In general, the process moves forward through a series of numbered phases.
 However, if issues are uncovered or consensus devolves,
 proposals should back up to the appropriate prior step.
 
-## 0. Pre-Proposal [Community Group]
+## 0. Pre-Proposal [Individual Contributor]
 
 Entry requirements:
 
-  * A Community Group member has an idea.
+  * A Community Group member has an idea. Notably, no CG vote is required to begin phase 0.
 
-Pre-proposal process:
+During this phase:
 
-  1. An issue issue is filed on the [design repository](https://github.com/WebAssembly/design/issues) to present the idea.
+  1. An issue is filed on the [design repository](https://github.com/WebAssembly/design/issues) to present the idea.
   1. Discussion on the feature occurs on the issue.
-  1. A champion or champions emerge.
+  1. A champion or champions emerge. They may add the proposal to the [proposal list](https://github.com/WebAssembly/proposals/blob/master/README.md) at phase 0.
   1. The champion(s) put together a somewhat-formal description of the feature in their own GitHub repository or on the issue.
   1. An item is added to the [bi-weekly Community Group video calls](https://github.com/WebAssembly/meetings/)'s agenda through a pull request.
-  1. The CG votes on general interest to this issue. Consensus requirements are low: do members believe that the feature is in-scope and will plausibly be workable.
-  1. A [tracking issue](https://github.com/WebAssembly/design/labels/tracking) is created, and added to the [list of future features](https://github.com/WebAssembly/design/blob/master/FutureFeatures.md#tracking-issues).
-  1. A new repository is created by one of the WebAssembly organization administrators, or transfered to the WebAssembly organization by the champion.
+  1. The CG votes on general interest in this proposal. Consensus requirements are low: do members believe that the feature is in-scope and will plausibly be workable?
 
 ## 1. Feature Proposal [Community Group]
 
 Entry requirements:
 
-  * The pre-proposal process has succeeded
+  * The pre-proposal vote has succeeded.
 
-During this phase the new repository forking the spec repo is populated. Pull requests and issues are used to iterate on the design of the feature. If a high level descriptions in a design repo style .md files is useful,
-these are added to describe the feature as it's being designed.
+During this phase:
 
-If relevant to demonstrate the viability of a feature, prototype
-implementations of the feature are implemented in interested embedders (possibly
-on a branch).
-The Community Group will attempt to reach broad consensus.
+  1. If the proposal is not already listed, it should be added to the [proposal list](https://github.com/WebAssembly/proposals/blob/master/README.md) at this time.
+  1. A new repository, forking the spec repo, is created by one of the WebAssembly organization administrators, or transfered to the WebAssembly organization by the champion.
+  1. The champion will attempt to reach broad consensus in the Community Group.
+  1. Pull requests and issues are used to iterate on the design of the feature. Specifically, the spec text must be in a reasonably complete state before attempting to move to phase 2.
+  1. If relevant to demonstrate the viability of a feature, prototype implementations of the feature are implemented by interested embedders (possibly on a branch).
 
 ## 2. Proposed Spec Text Available [Community + Working Group]
 
 Entry requirements:
 
-   * Full proposed English spec text available in a forked repo around which a
-     reasonably high level of consensus exists.
-   * *Updates to the formal notation, test suite, and reference interpreter are NOT yet required*.
+   * Full proposed English spec text available in a forked repo around which a reasonably high level of consensus exists.
+   * *Updates to the formal notation, test suite, and reference interpreter are NOT yet required.*
 
 During this phase:
 
-   * One or more implementations proceed on prototyping the
-     feature to the point that a comprehensive set of tests can be added.
-   * A test suite is added.
-     These tests need not pass the reference interpreter at this point,
-     but should pass on some implementation.
+   * One or more implementations proceed on prototyping the feature to the point that a comprehensive set of tests can be added.
+   * A test suite is added. These tests need not pass the reference interpreter at this point, but should pass on some implementation.
 
 ## 3. Implementation Phase [Community + Working Group]
 
