@@ -200,7 +200,7 @@ Derek Schuff agrees to take notes.
 Eric Prud'hommeaux seconds.
 
 ### Approval of the minutes from last meeting
-[https://github.com/WebAssembly/meetings/blob/master/wasm/2017/WG-10-23.md] 
+[https://github.com/WebAssembly/meetings/blob/master/main/2017/WG-10-23.md] 
 Ben Titzer seconds
 
 ### TPAC Welcome

@@ -224,7 +224,7 @@ Anyone willing to spec this? Dan Ehrenberg has volunteered.
 
 #### [Tail calls](https://github.com/WebAssembly/tail-call) (Andreas Rossberg)
 
-[Slides](https://github.com/WebAssembly/meetings/blob/master/wasm/2018/presentations/2018-10-rossberg-tail-calls.pdf)
+[Slides](https://github.com/WebAssembly/meetings/blob/master/main/2018/presentations/2018-10-rossberg-tail-calls.pdf)
 
 - status update, resolution of open issues
 
@@ -312,7 +312,7 @@ return_call_indirect[table_index][type_index]
 
 #### [C/C++ API](https://github.com/rossberg/wasm-c-api) (Andreas Rossberg)
 
-[Slides](https://github.com/WebAssembly/meetings/blob/master/wasm/2018/presentations/2018-10-rossberg-c-api.pdf)
+[Slides](https://github.com/WebAssembly/meetings/blob/master/main/2018/presentations/2018-10-rossberg-c-api.pdf)
 
 - new proposal presentation
 
@@ -748,7 +748,7 @@ EP: Figure out which open issues are there, triage and label them accordingly, s
 
 - [How does CSP affect postMessaging of modules](https://github.com/WebAssembly/content-security-policy/pull/16)
 
-[Slides](https://github.com/WebAssembly/meetings/blob/master/wasm/2018/presentations/2018-10-titzer-csp.pdf)
+[Slides](https://github.com/WebAssembly/meetings/blob/master/main/2018/presentations/2018-10-titzer-csp.pdf)
 
 <Ben Titzer Presenting>
 
@@ -948,7 +948,7 @@ Ben Titzer seconds
 
 #### [Exception handling](https://github.com/WebAssembly/exception-handling) (Ben Titzer)
 
-[Slides](https://github.com/WebAssembly/meetings/blob/master/wasm/2018/presentations/2018-10-titzer-exceptions.pdf)
+[Slides](https://github.com/WebAssembly/meetings/blob/master/main/2018/presentations/2018-10-titzer-exceptions.pdf)
 
 Titzer presents, notes will gloss on slides when relevant
 
@@ -1135,7 +1135,7 @@ LW: I’d be happy to discuss more.
 
 #### [Reference types](https://github.com/WebAssembly/reference-types) (Andreas Rossberg)
 
-[Slides](https://github.com/WebAssembly/meetings/blob/master/wasm/2018/presentations/2018-10-rossberg-reference-types.pdf)
+[Slides](https://github.com/WebAssembly/meetings/blob/master/main/2018/presentations/2018-10-rossberg-reference-types.pdf)
 
 (AR presents)
 
@@ -1579,7 +1579,7 @@ LW: Any questions…  we’re done.
 
 #### [Garbage collection](https://github.com/WebAssembly/gc) (Andreas Rossberg)
 
-[Slides](https://github.com/WebAssembly/meetings/blob/master/wasm/2018/presentations/2018-10-rossberg-c-gc.pdf)
+[Slides](https://github.com/WebAssembly/meetings/blob/master/main/2018/presentations/2018-10-rossberg-c-gc.pdf)
 
 <AR presents slides>
 

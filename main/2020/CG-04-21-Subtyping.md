@@ -212,7 +212,7 @@ AR: currently, there are notes in the spec, or you could add notes of some kind,
 
 JP: Do we want to look at RT’s slides? 
 
-Ross Tate presenting [slides](https://github.com/WebAssembly/meetings/blob/master/wasm/2020/presentations/2020-04-21-tate-embracing-heterogeneity.pptx)
+Ross Tate presenting [slides](https://github.com/WebAssembly/meetings/blob/master/main/2020/presentations/2020-04-21-tate-embracing-heterogeneity.pptx)
 
 LH: Spidermonkey uses NAn boxing, similar tricks with high tagging have been used, and everytime they are used, someone comes along to replace them. Just want to emphasize that it’s not as simple as presented here. 
 
@@ -300,7 +300,7 @@ JP: Jakob has asked to see Rossberg's slides on chat.
 
 <AR Presenting a slide on required design changes>
 
-[Slides](https://github.com/WebAssembly/meetings/blob/master/wasm/2020/presentations/2020-04-21-rossberg-ref-type-subtyping.pdf)
+[Slides](https://github.com/WebAssembly/meetings/blob/master/main/2020/presentations/2020-04-21-rossberg-ref-type-subtyping.pdf)
 
 RT: It could be useful to leave in the spec where we expect subtyping to be used in the future.
 
