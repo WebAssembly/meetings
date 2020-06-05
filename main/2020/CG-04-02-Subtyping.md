@@ -99,7 +99,7 @@ Jacob Mischka
 
 AR: Prepared some slides for impact on proposals
 
-[Slides](https://github.com/WebAssembly/meetings/blob/master/2020/presentations/2020-04-02-rossberg-ref-type-subtyping.pdf)
+[Slides](https://github.com/WebAssembly/meetings/blob/master/main/2020/presentations/2020-04-02-rossberg-ref-type-subtyping.pdf)
 
 AR: We don't want to have bias in types that can be imported/exported...
 
@@ -201,7 +201,7 @@ AR: What part of that is related to the proposal at hand?
 
 RT: Something I've been wondering about is how this works with call_indirect.
 
-<RT [Sharing slides](https://github.com/WebAssembly/meetings/blob/master/2020/presentations/2020-04-02-tate-call-indirect-subtyping.pptx) - how does this interact with call_indirect?>
+<RT [Sharing slides](https://github.com/WebAssembly/meetings/blob/master/main/2020/presentations/2020-04-02-tate-call-indirect-subtyping.pptx) - how does this interact with call_indirect?>
 
 RT: <bringing up issues w/ subtyping on "Test 2" slide>
 
