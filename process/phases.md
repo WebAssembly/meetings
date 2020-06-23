@@ -89,8 +89,8 @@ Entry requirements:
      (though these two can be done as part of step 3 at the Working Group
       chair's discretion).
    * Community Group has reached consensus in support of the feature.
-   * NOTE: By this point the proposal is basically frozen,
-     the Working Group is the sole venue where substantial work can occur.
+   * NOTE: By this point the proposal is basically frozen, since
+     the Community Group is the sole venue where substantial work can occur.
 
 At this point:
 
