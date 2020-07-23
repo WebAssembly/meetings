@@ -91,7 +91,7 @@ Dan Gohman
 
 Zhi An Ng
 
-Ionna Dimitriou
+Ioanna Dimitriou
 
 Jacob Mischka
 
