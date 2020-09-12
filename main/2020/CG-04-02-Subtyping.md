@@ -201,7 +201,7 @@ AR: What part of that is related to the proposal at hand?
 
 RT: Something I've been wondering about is how this works with call_indirect.
 
-<RT [Sharing slides](https://github.com/WebAssembly/meetings/blob/master/main/2020/presentations/2020-04-02-tate-call-indirect-subtyping.pptx) - how does this interact with call_indirect?>
+<RT Sharing slides [(pdf)](presentations/2020-04-02-tate-call-indirect-subtyping.pdf) [(pptx)](presentations/2020-04-02-tate-call-indirect-subtyping.pptx) - how does this interact with call_indirect?>
 
 RT: <bringing up issues w/ subtyping on "Test 2" slide>
 
