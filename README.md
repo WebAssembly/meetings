@@ -30,10 +30,14 @@ Meeting process is documented:
    * [WG February 10th video call](main/2021/WG-02-10.md)
    * [CG February 16th video call](main/2021/CG-02-16.md)
    * [CG March 2nd video call](main/2021/CG-03-02.md)
+   * [WG March 10th video call](main/2021/WG-03-10.md)
    * [CG March 16th video call](main/2021/CG-03-16.md)
    * [CG March 30th video call](main/2021/CG-03-30.md)
    * [CG April 13th video call](main/2021/CG-04-13.md)
+   * [WG April 14th video call](main/2021/WG-04-14.md)
    * [CG April 27th video call](main/2021/CG-04-27.md)
+   * [WG May 12th video call](main/2021/WG-05-12.md)
+   * [WG June 9th video call](main/2021/WG-06-09.md)
 
 </details>
 
