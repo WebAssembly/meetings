@@ -55,7 +55,10 @@ It is critical that work progresses between in-person meetings: agreed-upon
 designs need to move forward, and new ideas need to reach some level of maturity
 before being discussed in-person. To that end, this group can reach consensus
 online, either on GitHub repositories under the WebAssembly organization or in
-official video calls. In the latter case, decisions are recorded in meeting
+official video calls. In the latter case, the consensus vote must be added to
+the agenda at least 24 hours before the video call is scheduled to begin, except
+in the case of general interest votes moving pre-proposals to phase 1, which can
+be added as the discussion proceeds. Consensus decisions are recorded in meeting
 notes and published just like in-person meeting notes are published.
 
 We introduce the following concepts to help the online decision process:
