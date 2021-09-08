@@ -65,7 +65,7 @@ Installation is required, see the calendar invite.
 
 ###  JS API requirements and design space (Daniel Ehrenberg and Asumu Takikawa, 30 min)
 
-TODO: slides
+[Slides](https://docs.google.com/presentation/d/1XwCwOQvTTuV5mU74d2wLnEqsdpi20ReCxtFRZLcW0EA)
 
 AR: I’m surprised that you consider construction of Wasm GC objects to be harder. I was assuming that this would be necessary, but also that we would still have JS typed objects.
 
