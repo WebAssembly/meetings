@@ -1,0 +1,270 @@
+![WebAssembly logo](/images/WebAssembly.png)
+
+## Agenda for the September 7 video call of WebAssembly's Garbage Collection Subgroup
+
+- **Where**: zoom.us
+- **When**: September 7, 4pm-6pm UTC (September 7, 9am-11am Pacific Daylight Time)
+- **Location**: *link on calendar invite*
+
+### Registration
+
+None required if you've attended before. Fill out the form here to sign up if
+it's your first time: https://forms.gle/JehrAB4gWbtHjybt9. The meeting is open
+to CG members only.
+
+## Logistics
+
+The meeting will be on a zoom.us video conference.
+Installation is required, see the calendar invite.
+
+## Agenda items
+
+1. Opening, welcome and roll call
+    1. Opening of the meeting
+    1. Introduction of attendees
+1. Find volunteers for note taking (acting chair to volunteer)
+1. Adoption of the agenda
+1. Proposals and discussions
+    1. JS API requirements and design space (Daniel Ehrenberg and Asumu Takikawa, 30 min)
+    1. Separate compilation (Ross Tate, 30 minutes)
+1. Closure
+
+## Meeting Notes
+
+### Introduction of attendees
+
+- Thomas Lively
+- Leo Andres
+- Chambart Pierre
+- Asumu Takikawa
+- Francis McCabe
+- Zhi An Ng
+- Conrad Watt
+- Rick Battagline
+- Aske Simon Christensen
+- Luke Wagner
+- Jakob Kummerow
+- Zalim Bashorov
+- Ben Titzer
+- Ryan Hunt
+- Deepti Gandluri
+- Slava Kuzmich
+- Emanuel Ziegler
+- Ross Tate
+- Manos Koukoutos
+- Lars Hansen
+- Andreas Rossberg
+- Ioanna Dimitriou
+- Adam Klein
+- Fil Pizlo
+- Daniel Ehrenberg
+- Michael Knyszek
+- Derek Schuff
+- Alon Zakai
+- Ben Titzer
+
+###  JS API requirements and design space (Daniel Ehrenberg and Asumu Takikawa, 30 min)
+
+[Slides](https://docs.google.com/presentation/d/1XwCwOQvTTuV5mU74d2wLnEqsdpi20ReCxtFRZLcW0EA)
+
+AR: I’m surprised that you consider construction of Wasm GC objects to be harder. I was assuming that this would be necessary, but also that we would still have JS typed objects.
+
+AT: agree that this is desirable, will talk about this more when talking about proposals on JS side, and how that complements Wasm GC
+
+BT (chat): You can always define new types by JITing modules, so you could have a prototype API that is polyfilled
+
+AR: Can you explain the nature of the casts you’re talking about?
+
+AT: a specific example, a function defined in Wasm that takes a GC struct as an arg, and you export it. What checks should there be to ensure that JS passes in will match the struct type, you could do a rtt check for example. If you choose the canonical rtt for that type, that may not necessarily be the cast you want.
+
+AR: Not sure why the canonical RTT is not correct?
+
+DE: you could be too forgiving, two different types in source language, fields with the same position of the same corresponding type, you have to distinguish them at some level, not allowed to cast from one to another. They need different RTT, checks will need to be done statically by tooling, or at runtime by producer.
+
+AR: Are we talking about checks to protect Wasm invariants or something else?
+
+DE: to protect source language invariants. There will be different definitions for casting. For nominal, there will be a stronger check.
+
+AR: Right, this is kind of at the intersection of Wasm types being low-level types, but you’re thinking about the high-level types. Those are different universes and need to be bridged, but I’m not sure lowering all the high level types into Wasm is the best solution.
+
+DE: further in the presentation we will see some concrete examples
+
+LW (chat): Could one instead import a (const (global rtt))?
+
+DE (chat): Sure, same thing IMO
+
+AR: Why do you need the callback? Why not import the RTT as a global?
+
+AT: you can't get the parent, you need to pass the parent RTT to JS somehow. Are you saying you have multiple modules and thread them through?
+
+AR: this is a canon rtt, you can create on the JS side
+
+AT: in general, it might not be a canon rtt, might be deep in nested hierarchy, can't specify in JS side
+
+LW (chat): Oh I see, the function call allows more-dynamically weaving rtt parent chains
+
+DE: illustrates flexibility of the API
+
+AR: seems complicated
+
+AT: for simpler cases, if the hierarchy was all definable on JS side, with canon RTT and some children of it, then yes you can import RTTs itself, and do all definitions on JS
+
+AR: another more realistic example, parent RTT comes from another module, you don't need this callback pattern, will be surprised if this is a common pattern, although can imagine use cases.
+
+AT: original Wasm module, exports to JS, then JS exports to another Wasm module, which gets all the RTT at the end. If you do it that way, you still have the coupling between JS and Wasm.
+
+DE (chat): I don't understand the purpose of this line of questioning. This slide was intended to present a possible solution for the JS API, not to make a case about something being too complex or something like that.
+
+RT: I thought about a nuance with the imports/exports and the ordering of things. The methods you want to attach to the RTT are produced by the same module, so you already need it to be instantiated.
+
+LW: Prototypes are dynamic, you can call an imports that passes out the funcrefs, a lot of dynamism.
+
+RT: we're trying to reduce dynamism in multithreaded support
+
+DE: build a little trampoline, ordering issues exist, there are solutions
+
+AR: for structural design, the JS API would have the same primitives as in the language intself, rtt canon, rtt.sub, you can construct these in either JS or Wasm, whoever owns the type defines it. That's no different from how you'll do it in Wasm itself. most of the time you have someone defining the TT.
+
+DE: are you disagreeing with the stated goals of adding field names and methods?
+
+AR: this is something you have to do on the JS side, it is purely a JS issue. If you want something with custom JS behaviors, you should be doing it in JS.
+
+CW: the discussed approach of importing something from JS to create RTT, that's the right approach?
+
+AR: yes, also right approach for nominal
+
+DE: think what you're saying is consistent with AT's presentation
+
+AR: just wanted to clarify what the primitives are
+
+CW: also interpreted AR's comment as violent agreement
+
+AT: an API that has canon and sub makes sense, as a refinement of this
+
+LW (chat): Can shared struct objects have a prototype and, if so, can you have functions on the prototype? (Functions would seem not-shareable)
+
+AK (chat): @Luke very early, but there are some thoughts on shared functions alongside this proposal: https://github.com/syg/proposal-structs/blob/main/CODE-SHARING-IDEAS.md
+
+AR: x; is a field declaration?
+
+DE: you can have initializers, through the whole class hierarchy, which is immutable, all the fields are gathered in the beginning, all the fields are undefined, and non-configurable. Initializers replace the undefined with something else.
+
+AR: if these are untyped, then not sure how an engine will make them interchangeable with Wasm structs?
+
+DE: they can share a lot of the implementation, internal mechanism, but will be differences that the JS ones are not typed. There are some things engine can do with Wsm structs that they can't do with JS structs.
+
+RT: need to view each field as extern ref
+
+DE: that doesn't match up with how these things will be implemented
+
+AT: at the conceptual level, yes, you can think of it like that, but it won't behave the same as extern ref
+
+DE: if you export JS struct to Wasm module, can you make it show up as a Wasm struct? That would add al ot of implementation complexity.
+
+RT: there is a diff in having a field, and ordering. Can someone import type for SharedBox, and alos import field accessor for x
+
+DE: the SharedBox itself is a big externref. No particular structure when you export something that creates a SharedBox, just externref. This problem is not expressible in Wasm, only in JS, where it's all just strings.
+
+AR: this only works in one-way, you can view Wasm struct as JS struct, but not the other way around?
+
+DE: yes, they share implementation, to reduce maintenance burden, and better ergonomics.
+
+AT: leaves it extensible, when we have shared gc structs, will be smooth transition to smooth structs at JS boundary. Structs from Wasm have type checking, internal to engine.
+
+AR: would have to be part of JS api semantics, they are observable
+
+DE: type constructors take the types of the fields, that's one way to express it
+
+AR: run time tests in JS to dynamically check what the Wasm check statically, assumes you have all the type information around in runtime in Wasm objects, particularly references. It might e a significant cost.
+
+CW: sounds like for MVP types, not necessarily a problem, assumings JS engine knows how the RTT is calculated. With post-mvp extension, harder to add this. Are you thinking of generics?
+
+AR: maybe not generics, maybe continuations. Should we require that continuations references are self-describing in terms of their type.
+
+DE: checking for struct fields read writes, same as checking or arguments and return values.
+
+AR: with SIMD types, you can't use for the interface with JS functions, just type errors
+
+RT: Wasm types only going to be approximation, accessors for the field could be in general a Wasm function, custom code
+
+AR: you could have additional meta information in custom sections, so far our take on custom section is something that is not semantically relevant to engine, can be ignored, but in this case, will change external semantics, JS API. It doesn't affect Wasm itself, but affects how JS sees Wasm
+
+CW: can argue that instrument tracing is something like that
+
+RT: like custom section, deals with who-comes-first problem, also isolates from Wasm
+
+AR: agree with that, if it is in Wasm, it will be in the custom section. What if you have other embeddings? Becomes part of the JS API as well. Makes it specific to JS, what if you use it in an environment that is not JS, you don't have that information there? It is privileging JS with additional information. Any other embedding can come up with something similar, unlikely that toolchains will serve this equally well.
+
+RT: IT doing same thing, special bridging code for some environments.
+
+DE: custom sections give languages a chance, some languages have field names, hard to link together. As well as methods. Even if we define a custom section around the needs of JS, it will serve other embeddings. We will need this imperative API anyway, for a good reflection, start with an imperative API, then do a custom section. Okay to explore custom section in parallel.
+
+SK (chat): Wouldn’t single-purposed custom section with JS API definitions be faster to parse compared to evaluating a bunch of WebAssembly.RTT JS code? This might be an initialisation time issue for large Wasm modules.
+
+RT (chat): yes.
+
+JK (chat): @Slava: yes, big +1 to finding some declarative way that doesn't require calling back and forth
+
+LW: you probably want the imperative API in general, to handle more complicated situations that you can't do in declarative thing in custom section. Prior examples in Web platform APIs that start with declarative, then had to ass imperative API.
+
+DE: also easier for producers, to not generate all this back and forth
+
+LW: would we make a new kind of mini imperative language in the custom section? maybe it would look like JS?
+
+DE: will need little expressiveness, field name, parent, rtt, index, indices of different methods. Could go crazy and have accessors.
+
+RT: might have a declarative section, you have simple names for them, build complex things on top of it on the JS sides.
+
+CW: love every part of this presentation
+
+RT: great presentation
+
+AR: about asymmetry, should we make a stretch goal where JS can create Wasm GC objects. So far for all features, for anything you can export to JS, we always provided ways to construct them
+
+CW: having a reflection API in JS to create Wasm typed objects will just happen.
+
+LW: if you look at Wasm.RTT, it looks like a type object, it's a constructor when call will create an object with RTT
+
+RT: for struct thing, the list of fields people provide is not meant to be a fixed order, have to deal with field ordering differences
+
+DE: those fields are in fixed order
+
+RT: not allowed to rearrange the fields?
+
+DE: js structs are normally typed, in Wasm RTT type, they would be new RTT that have different prototypes, just be different things
+
+RT: for the JS space, if a JS program has the fields "a b c", inserting a field in the middle of those will break the program.
+
+DE: on the usage side, the usages are untyped, goes by names
+
+RT: field order is not fixed from the JS perspective
+
+CW: if someone on the JS side, edit their struct declaration in that way, the glue code (in custom or calling reflection), will need to be updated to handle that new field
+
+DE: yes, but unsupported in MVP
+
+LW: Wasm.RTT, different from the general purpose struct constructor
+
+DE: we can have an API to allocate things based on wasm RTT, wouldn't consider that this full bidirectional. It's important to support an ergonomic and usable on the JS side.
+
+LW: what would be wrong making the Wasm.RTT be a constructor function, if called, produce an instance that was an instance of an RTT
+
+DE: what would that achieve?
+
+LW: you can make these things from JS
+
+DE: whether a constructor or explicit function is a minor issue, either way you can create from JS. Class, struct don't support the full expressiveness.
+
+LW: agree on the value of the syntax, could there be a variation on the syntax that does actually turn to RTT in dynamic semantics?
+
+DE: talked at lengths in side meetings, including with JS engine maintainers, we discussed the possibility of type system used in struct fields. THe consensus is we don't want to do this right now, Wasm is far too limiting for what we need in JS. Need something more like typescript (erasure). premature to mix these together.
+
+RT: for untyped fields, still always a JS value, proxied by externref. Is there a reason why we can't view them as extern refs
+
+DE: in some engines, externrefs represented differently from JS value. Are we going to make it a requirement? Given that they don't line up today, and we don't have a good use case.
+
+AT: struct defined in JS, import into Wasm, and say it is a struct of extern refs? In SpiderMonkey, an externrefs can be a value from JS, it's not an identity operation, if it's not a ref in JS, some wrapping/boxing. You have do unbox when fields are extracted, in the middle of Wasm code. Engines aren't set up to do that, and performance overhead.
+
+### Separate compilation (Ross Tate, 30 minutes)
+
+Deferred to next meeting.
