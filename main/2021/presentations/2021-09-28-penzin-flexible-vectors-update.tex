@@ -1,0 +1,53 @@
+\documentclass[t,aspectratio=169, xcolor={table}]{beamer}
+\usepackage{listings}
+\hypersetup{colorlinks=true,urlcolor=blue}
+\title{Flexible Vectors update}
+\author{Petr Penzin}
+\institute{Intel Corporation}
+\date{\today}
+\begin{document}
+\begin{frame}
+  \titlepage
+\end{frame}
+\begin{frame}
+\frametitle{Agenda}
+  \begin{itemize}
+  \item Current state of the proposal
+  \item Poll for Phase 2
+  \end{itemize}
+\end{frame}
+\begin{frame}
+\frametitle{Proposal summary}
+  \begin{itemize}
+  \item Length-agnostic operation analagous, at a higher level, to $simd128$
+  \item Vector length resolved statically at runtime
+  \item No new non-determinsm if possible %FIXME needed?
+  \end{itemize}
+  \url{https://github.com/WebAssembly/flexible-vectors}
+\end{frame}
+\begin{frame}
+\frametitle{Proposal updates}
+  \begin{itemize}
+  \item Written (English) spec
+  \item Instruction encoding scheme and opcodes for most of the instructions
+  \item A few open discussions about additional fetures, in line with the above
+  \end{itemize}
+\end{frame}
+\begin{frame}
+\frametitle{Phase 2 criteria}
+  Entry requirements:
+  \begin{itemize}
+  \item Full proposed English spec text available in a forked repo around which a reasonably high level of consensus exists.
+  \item \textit{Updates to the formal notation, test suite, and reference interpreter are NOT yet required.}
+  \end{itemize}
+\end{frame}
+\begin{frame}
+\frametitle{Poll}
+  Flexible Vectors proposal to Phase 2?
+\end{frame}
+\begin{frame}
+\frametitle{~}
+\huge{Thank you}
+\end{frame}
+\end{document}
+
