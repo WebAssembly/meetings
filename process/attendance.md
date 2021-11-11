@@ -5,7 +5,7 @@ Meetings are held online every two weeks, and in-person as needed.
 To attend a meeting:
 
 - All attendees are required to be members of the
-[community group](w3.org/community/webassembly/) prior to attending. 
+[community group](https://www.w3.org/community/webassembly/) prior to attending. 
 - All CG meetings have PRs in the [main meetings directory](https://github.com/WebAssembly/meetings/tree/main/main)
  **To register, send an email to the contact listed in the meeting's
   associated PR.**
