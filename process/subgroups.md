@@ -7,10 +7,11 @@ Subgroups of the CG are created when one (or both) of the following apply:
 
 To create a subgroup, you should add a poll to a CG meeting agenda with at least 7 days notice. As part of the poll, you should provide information about who will be chairing the subgroup.
 
-## Active Subgroups
+## Current Subgroups
 
 | Subgroup  | Chair(s)  | Discussion Repo  | Meetings  |
 |---|---|---|---|
+| Debugging  | Derek Schuff (@dschuff)  | [Repo](https://github.com/WebAssembly/debugging)  | no meetings currently scheduled, but discussion or agenda suggestions are welcome |
 | GC  | Thomas Lively (@tlively)  | [Repo](https://github.com/WebAssembly/gc)  | [Agendas](https://github.com/WebAssembly/gc/issues?q=is%3Aissue+%22Agenda+for+subgroup+meeting%22)  |
 | SIMD  | Petr Penzin (@penzn), Ng Zhi An (@ngzhian)  | ? | [Agendas](https://github.com/WebAssembly/meetings/tree/main/simd/)  |
 | Stack Switching  | Francis McCabe (@fgmccabe)  | [Repo](https://github.com/WebAssembly/stack-switching)  | [Agendas](https://github.com/WebAssembly/meetings/tree/main/stack)  |
