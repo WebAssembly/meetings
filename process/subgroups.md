@@ -53,7 +53,7 @@ A subgroup chair is expected to:
   - Enforce the CoC (see below).
 
 - Maintain the issue queue:
-  - Triage new issues as they come in. This means different things for different proposals, but as the chair, you should keep an eye on issues as they come in and try to ensure that relevant issues are responded to appropriately.
+  - Triage new issues as they come in to ensure that relevant issues are responded to appropriately. In subgroups that span multiple proposals, the chair is responsible for triaging group-wide repos, such as the main discussion repo or shared infrastructure repos, while champions are responsible for triaging their own proposal-specific repos.
 
   - Facilitate discussion and identify and drive consensus, as in subgroup meetings.
 
