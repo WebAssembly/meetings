@@ -25,7 +25,7 @@ Subgroups require two kinds of leadership. These roles can be filled by the same
 A subgroup chair is expected to:
 
 - Organize subgroup meetings:
-  - Create agendas in advance so that others can add issues via PRs. These agendas should live in a subgroup-specific folder in the [WebAssembly meetings repo](https://github.com/WebAssembly/meetings). 
+  - Create agendas in advance so that others can add issues via PRs. These agendas should live in a subgroup-specific folder in the [WebAssembly meetings repo](https://github.com/WebAssembly/meetings). Alternatively, agendas can be organized via issues on a proposal repo for subgroups covering just a single proposal.
   
       Each agenda should have a header that includes meeting details and instructions for how to join. See [this agenda](https://github.com/WebAssembly/meetings/blob/main/wasi/2021/WASI-10-07.md) for an example.
   
