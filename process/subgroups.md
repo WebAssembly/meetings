@@ -5,6 +5,8 @@ Subgroups of the CG are created when one (or both) of the following apply:
 - An area of interest that needs a lot of discussion. Creating a subgroup with regular meetings provides more bandwidth for this discussion.
 - An area of interest is only relevant to a small group of participants. In these cases, subgroup meetings give a more focused venue. This way, participants don’t have concerns about wasting the CG’s time with something that the rest of the CG is not engaged in.
 
+To create a subgroup, you should add a poll to a CG meeting agenda with at least 7 days notice. As part of the poll, you should provide information about who will be chairing the subgroup.
+
 ## Active Subgroups
 
 | Subgroup  | Chair(s)  | Discussion Repo  | Meetings  |
