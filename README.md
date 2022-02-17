@@ -6,6 +6,11 @@ agenda published before the meeting, and minutes will be posted in the
 invitation document after the meeting, including topics discussions and
 decisions.
 
+There are also several [subgroups](process/subgroups.md), which are smaller groups
+focused on a particular topic. They have their own repositories and meetings;
+see the subgroups page for links, and contact the subgroup chair if you want to
+be added to those meeting invitations.
+
 If you're unfamiliar with standards meetings,
 [Allen's paper on standards committee participation for newbees](http://wirfs-brock.com/allen/files/papers/standpats-asianplop2016.pdf)
 may be helpful.
