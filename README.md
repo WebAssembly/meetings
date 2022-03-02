@@ -34,7 +34,7 @@ Meeting process is documented:
    * [CG February 1st video call](main/2022/CG-02-01.md)
    * [CG February 15th video call](main/2022/CG-02-15.md)
    * [CG March 1st video call](main/2022/CG-03-01.md)
-   * [CG March 15th video call](main/2021/CG-03-15.md)
+   * [CG March 15th video call](main/2022/CG-03-15.md)
    * [CG March 29th video call](main/2022/CG-03-29.md)
 
 </details>
