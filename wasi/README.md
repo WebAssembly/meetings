@@ -11,12 +11,20 @@ Meetings of the WASI Subgroup of the W3C WebAssembly Community Group (CG) follow
   * [WASI January 13th video call](2022/WASI-01-13.md)
   * [WASI January 27th video call](2022/WASI-01-27.md)
   * [WASI February 10th video call](2022/WASI-02-10.md)
-  * [WASI February 24th video call](2022/WASI-02-10.md)
+  * [WASI February 24th video call](2022/WASI-02-24.md)
   * [WASI March 10th video call](2022/WASI-03-10.md)
   * [WASI March 24th video call](2022/WASI-03-24.md)
+  * [WASI April 7th video call](2022/WASI-04-07.md)
+  * [WASI April 21st video call](2022/WASI-04-21.md)
+  * [WASI May 5th video call](2022/WASI-05-05.md)
+  * [WASI May 19th video call](2022/WASI-05-19.md)
+  * [WASI June 2nd video call](2022/WASI-06-02.md)
+  * [WASI June 16th video call](2022/WASI-06-16.md)
+  * [WASI June 30th video call](2022/WASI-06-30.md)
+  
 </details>
 
-<details open>
+<details>
 <summary>2021</summary>
 
   * [WASI January 14th video call](2021/WASI-01-14.md)
