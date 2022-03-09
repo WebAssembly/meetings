@@ -12,7 +12,7 @@ To create a subgroup, you should add a poll to a CG meeting agenda with at least
 | Subgroup  | Chair(s)  | Discussion Repo  | Meetings  |
 |---|---|---|---|
 | Debugging  | Derek Schuff (@dschuff)  | [Repo](https://github.com/WebAssembly/debugging)  | no meetings currently scheduled, but discussion or agenda suggestions are welcome |
-| GC  | Thomas Lively (@tlively)  | [Repo](https://github.com/WebAssembly/gc)  | [Agendas](https://github.com/WebAssembly/gc/issues?q=is%3Aissue+%22Agenda+for+subgroup+meeting%22)  |
+| GC  | Thomas Lively (@tlively)  | [Repo](https://github.com/WebAssembly/gc)  | [Agendas](https://github.com/WebAssembly/meetings/tree/main/gc)  |
 | SIMD  | Petr Penzin (@penzn), Ng Zhi An (@ngzhian)  | [Relaxed SIMD](https://github.com/WebAssembly/relaxed-simd) + [Flexible Vectors](https://github.com/WebAssembly/flexible-vectors/issues) | [Agendas](https://github.com/WebAssembly/flexible-vectors/issues)  |
 | Stack Switching  | Francis McCabe (@fgmccabe)  | [Repo](https://github.com/WebAssembly/stack-switching)  | [Agendas](https://github.com/WebAssembly/meetings/tree/main/stack)  |
 | WASI  | Lin Clark (@linclark), Sam Clegg (@sbc100)  | [Repo](https://github.com/WebAssembly/WASI)  | [Agendas](https://github.com/WebAssembly/meetings/tree/main/wasi)  |
