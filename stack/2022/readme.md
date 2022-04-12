@@ -11,5 +11,8 @@ This list is for convenience only.
 *  [Multicore OCaml in practice](https://github.com/ocaml-multicore/multicore-talks/blob/master/wasm-wg2022-stack-switching/slides.pdf) (Anil Madhavapeddy)
   Meeting: [2-7-2022](https://github.com/WebAssembly/meetings/blob/ff088ff603fd9322b8e987ad051a5c7844a07e56/stack/2022/sg-2-7.md)
   
-* Effect handlers in C++ (Maciej Piróg)
+* [Effect handlers in C++](https://github.com/WebAssembly/meetings/blob/1e594b8db8238b851c6afb3e057aeb6d99224323/stack/2022/presentations/wasm-eff-slides.pdf) (Maciej Piróg)
   Meeting: [3-21-22](https://github.com/WebAssembly/meetings/blob/d11333215704144f5c2b4a09e05ce69934ac9732/stack/2022/3-21-2022.md)
+
+* [Opting in to Stack Switching](https://docs.google.com/presentation/d/1fjnB5zOSCAURZI-mQ44Wpbbsr3yToVICL94oIg4zmSU) (Francis McCabe)
+  Meeting: [4-4-22](https://github.com/WebAssembly/meetings/blob/d2d342d2ed369705a4f56fbd7a89ce924c17ea95/stack/2022/4-4-2022.md)
