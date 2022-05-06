@@ -32,6 +32,8 @@ management of the proposal repository, which includes:
 - Responding to issues or PRs in the repository, or letting other people with
   expertise take care of them, ensuring that all important issues are
   appropriately addressed.
+These responsibilities may be shared with subgroup chairs in cases where there
+is a relevant subgroup.
 
 Note: First two paragraphs are adapted from the “Scope of Responsibility for
 Champions” section in https://tc39.es/process-document/.
