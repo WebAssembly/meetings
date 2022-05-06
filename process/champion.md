@@ -18,10 +18,10 @@ meetings](https://github.com/WebAssembly/meetings/). While minor changes can be
 made through discussions within the repository or the relevant subgroup,
 substantial design changes may require a vote from the CG so that the CG has a
 chance to review the proposal and possibly re-evaluate if the proposal is in
-the appropriate stage. Examples include a change to the fundamental assumption
+the appropriate stage. Examples include a change to the fundamental assumptions
 or structure of a proposal, a decision that has a substantial impact on the
-future direction, or a resolution to a contentious issue that is hard to be
-resolved.
+future direction, or a resolution to a contentious issue that is hard to
+resolve.
 
 It is not necessary that champions are knowledgeable about every component of
 the spec or its implementation, but they are responsible for the general
