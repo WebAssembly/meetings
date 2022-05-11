@@ -1,7 +1,7 @@
 # Responsibilities of a Champion
 
 Champions are authors and editors of proposals. The champion is responsible for
-the evolution of the proposal from Phase 0 through Phase 5, at Phase 4
+the evolution of the proposal from Phase 0 through Phase 5; at Phase 4
 maintenance transfers to the WebAssembly Working Group (WG). Champions have
 admin permissions in the proposal repository. Periodically, champions may bring
 their proposal to the [Community Group (CG)
