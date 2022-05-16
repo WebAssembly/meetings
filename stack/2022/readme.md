@@ -16,3 +16,6 @@ This list is for convenience only.
 
 * [Opting in to Stack Switching](https://docs.google.com/presentation/d/1fjnB5zOSCAURZI-mQ44Wpbbsr3yToVICL94oIg4zmSU) (Francis McCabe)
   Meeting: [4-4-22](https://github.com/WebAssembly/meetings/blob/d2d342d2ed369705a4f56fbd7a89ce924c17ea95/stack/2022/4-4-2022.md)
+  
+* [Component Model Async support](https://docs.google.com/presentation/d/1MNVOZ8hdofO3tI0szg_i-Yoy0N2QPU2C--LzVuoGSlE) (Luke Wagner)
+ Meeting: [5-9-22](https://github.com/WebAssembly/meetings/blob/ab2bfaead83e0597a4ab0c669e842ca5874299b8/stack/2022/5-9-22.md)
