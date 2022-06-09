@@ -19,3 +19,6 @@ This list is for convenience only.
   
 * [Component Model Async support](https://docs.google.com/presentation/d/1MNVOZ8hdofO3tI0szg_i-Yoy0N2QPU2C--LzVuoGSlE) (Luke Wagner)
  Meeting: [5-9-22](https://github.com/WebAssembly/meetings/blob/ab2bfaead83e0597a4ab0c669e842ca5874299b8/stack/2022/5-9-22.md)
+
+* [Task-based stack Switching](https://docs.google.com/presentation/d/1veLRa4d4B0dM3BU_8A39A1uu1bBFH_05GaWphF_4otQ) (Francis McCabe)
+ Meeting: [6-6-22](https://github.com/WebAssembly/meetings/blob/103f3c1fe70aaf248b357c662ccb257c89d212dd/stack/2022/6-6-22.md)
