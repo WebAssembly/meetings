@@ -31,7 +31,7 @@ During this phase:
 
   1. An issue is filed on the [design repository](https://github.com/WebAssembly/design/issues) to present the idea.
   1. Discussion on the feature occurs on the issue.
-  1. A champion or champions emerge. They may add the proposal to the [proposal list](https://github.com/WebAssembly/proposals/blob/master/README.md) at phase 0.
+  1. A champion or champions emerge. They may add the proposal to the [proposal list](https://github.com/WebAssembly/proposals/blob/main/README.md) at phase 0.
   1. The champion(s) put together a somewhat-formal description of the feature in their own GitHub repository or on the issue.
   1. An item is added to the [bi-weekly Community Group video calls](https://github.com/WebAssembly/meetings/)'s agenda through a pull request.
   1. The CG votes on general interest in this proposal. Consensus requirements are low: do members believe that the feature is in-scope and will plausibly be workable?
@@ -44,7 +44,7 @@ Entry requirements:
 
 During this phase:
 
-  1. If the proposal is not already listed, it should be added to the [proposal list](https://github.com/WebAssembly/proposals/blob/master/README.md) at this time.
+  1. If the proposal is not already listed, it should be added to the [proposal list](https://github.com/WebAssembly/proposals/blob/main/README.md) at this time.
   1. A new repository, forking the spec repo, is created by one of the WebAssembly organization administrators, or transfered to the WebAssembly organization by the champion.
   1. The champion will attempt to reach broad consensus in the Community Group.
   1. Pull requests and issues are used to iterate on the design of the feature. Specifically, the spec text must be in a reasonably complete state before attempting to move to phase 2.
