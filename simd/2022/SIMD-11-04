@@ -1,0 +1,307 @@
+![WebAssembly logo](/images/WebAssembly.png)
+
+## Agenda for the 2022-11-04 video call of WebAssembly's SIMD Subgroup
+
+- **Dates**: 2022-11-04
+- **Times**:
+    - 4pm-5pm UTC (9am-10am PDT)
+- **Location**: *link on calendar invite*
+
+### Registration
+
+You are a new attendee, please fill out this [form](https://forms.gle/9eB2ZYaziPEcTJabA) to attend.
+
+## Agenda items
+
+1. Opening, welcome and roll call
+    1. Opening of the meeting
+    1. Introduction of attendees
+1. Find volunteers for note taking
+1. Adoption of the agenda
+1. Proposals and discussions
+    1. 
+1. Closure
+
+## Meeting notes
+
+### Attendees
+
+Andrew Brown
+Anton Kirilov
+Benjamin Titzer
+Conrad Watt
+Dan Gohman
+Deepti Gandluri
+Johnnie Birch
+Luke Wagner
+Marat Dukhan
+Nabeel Al-Shamma
+Petr Penzin
+Richard Winterton
+Ryan Hunt
+Thomas Lively
+Yury Delendik
+Zhi An Ng
+
+### Discussion on CG meeting feedback
+
+DeeptiG: Hoping to discuss some of the feedback from the CG meeting. Deterministic lowering, what we can do about implementation-defined behavior, etc. Anything else we should address? 
+
+(No)
+
+DeeptiG: Deterministic and canonical lowerings mean different things. Assume that environments that need det lowerings should be supported. What environments are there?
+
+
+DanG: I have a proposal!
+
+PP: I also filed an issue talking about floating point versus the rest of the instructions. We can talk about that later.
+
+DanG presenting slides (TODO add link)
+
+CW: By framing, you're talking about editorial arrangement of the spec?
+
+DanG: Yes, mostly. I’ll also be proposing a new “mode.”
+
+RW: encourage Intel AMD to add IEEE754, we are compliant with that with 2008 spec with this, not the 2019.
+
+DanG: not IEEE754 compliant, SSE asymmetric min and max
+
+PP: AVX512 instructions are compliant
+
+RW: talked to some people, it doesn't add to accuracy, just a consistency, not more or less accurate
+
+DG: Semantics in Wasm are the same in JS & Java, so there is incentive for Intel to add them
+
+PP: not true, doesn't distinguish NaN bits
+
+DG: distinguish which NaN you get, and -0.0
+
+PP: different IEEE version, Wasm is the only spec that supports canonical NaN
+
+RW: an action item to take on our end, have talked to architects about that, can look at that potentially in future arch, but that's years out
+
+DG: take this offline
+
+(back on slide titled "fma")
+
+ZN: How would you turn on relaxed math mode?
+
+DanG: will just be enabled, implementations can pick one mode or another, relaxed math mode or other things. cloud vendor will opt in to default or strict mode
+
+CW: This is essentially ARs profiles idea, essentially editorially split out the, and separate them into different deterministic, and non-deterministic semantics
+
+MD: for bfloat 16 dot product, the current deterministic is to extract even elements of vector, extend them to 32 bits, do fused multiply add with accumulation, then do the same for odd. This semantics can be implemented on all CPUs with FMA, and can be implemented on ARM with BF16 with bit exact way.
+
+DG: Is that fast enough to be practical? 
+
+MD: expect so, no worse than software emulation
+
+DG: can change this to keep bf16, use what you suggested
+
+CW: want to bring up a subtlety, let the hands go first
+
+TL: Wanted to clarify my understanding of the modes, we have an engine that have the one that supports strict mode and not, what do they support? Different instructions? Different lowerings? 
+
+DanG: exact same instructions in both, the one with the relaxed math mode has a superset of behaviors the one that doesn't
+
+TL: same instruction sets, then engines with relaxed math mode, some of the non-det is allowed
+
+CW: the mechanism in the spec is general, you can define 2 disjoint modes for different instructions, only define modes that make sense for the ecosystem. Having 1 mode be a superset of another is relatively safe.
+
+DeeptiG: clarification about bf16, looking at canonical what hardware do, or looking for a deterministic lowering? We talk about canonical lowering that will converge on what hardware supports, for this instruction, it probably won't be that. What are we looking for here?
+
+DanG: The goal is to have defined single deterministic semantic, then define extra semantic in relaxed math mode.
+
+DeeptiG: want to point out, we don't expect this to converge with any support on hardware?
+
+CW: In deterministic mode you want single rounding FMA? 
+
+DanG: Z mentioned in chat ARM FP16 extension that adds single rounding 
+
+MD: BF16 extension
+
+DanG: some sort of convergence there
+
+MD: some deeper details, practically 4 ways to implement bf dot product, our spec allows more options. Either we extract even number elements, extend to fp32, then FMA, then do the same for odd, this is ARM BF16 with 2 instructions. Another semantics is similar except subnormals are treated as 0. This is BFDOT in ARMv9.2 and also Intel AVX512 BF16 extension. There is an option in software without FMA, don't think any hardware implements this semantics. Last is ARMv8.6 CPUs do for BFDOT, dot product computed separately with non-standard round-to-odd, dot product accumulated with normal rounding mode.
+
+DanG: will need background research on this, not sure which option will be best here
+
+CW: Predicting that there will be no one lowering that hardware convergence, because most of the hardware don’t need to converge based on the use cases
+
+MD: if we look at latest CPU, the semantics they support is extract even, extend FP32 flush denormals to 0, then do FMA, then same for odd elements.
+
+CW: is this something we can software emulate?
+
+MD: We can, but it would be slightly more expensive than the one that opts for software denormals
+
+DanG: Set flags to flush denormals
+
+MD: that's one option, flush denormals using software comparisons
+
+DanG: This is a part of the proposal, and I’m not prepared to drive in, let's complete the proposal
+
+CW: want to flag out that we should try to do the conceptually consistent thing if we are aiming for convergent FMA single rounding behavior. If it looks like there is a path for that.
+
+PP: bf16 is different datatype, use case for this is different, affects different categories of software, IMO maybe we have to converge, or not, open to discussion. How do you see switching between relaxed and non-relaxed mode.
+
+DanG: not user-configurable mode, engines just decide what it is
+
+CW: It’s more about communication than anything else, engine can signal which mode it’s in, only very special platforms like cloud computing that would signify that they would run in the strict mode
+
+PP: instead of a way to turn it on off
+
+CW: probably no way to test this programmatically, is a way for the service provider to signal this
+
+PP: user cannot tell if this is running in strict or relaxed mode
+
+CW: has to be the granularity of where you are deploying Wasm, if deploying to Cloud, you expetthat strict mode, if on the Web, can't assume anything, must be relaxed.
+
+DanG: this instructions not used by default in toolchain, need special compile flags
+
+CW: This gets back to what I was saying about modes or profiles, it’s a powerful and very generous mechanism, we want to make sure that we’re not fragmenting the ecosystem with too many modes
+
+PP: same instructions, relaxed mode v.s. strict mode, is it possible to accidentally provide the wrong module. Can we ensure the module cannot run in the wrong environment?
+
+CW: I think it’d be a bad idea to have a bit in the module that introduces that. If you’re taking the responsibility about building this type of relaxed module, you’re doing that intentionally, you know you're able to signal which one you’re building, so that’s enough of a threshold to signal what kind of module you want
+
+DeeptiG: if you take strict module and run on the web...
+
+CW: if you take a module that is relaxed, then run on strict, is fine. If module is strict then run on relax, it might break.
+
+BT: in the spec, there is a list of acceptable behavior for every instruction, this is an enumeration of the list we care about. Will there be divergent hardware instructions that change the semantics of these instructions?
+
+MD: We don’t control hardware vendors, and don’t guarantee that no new lowerings will be added, but it’s not required for engines to implement new lowerings when new instructions are added to hardware
+
+CW: at least with most relaxed instructions, including fma, little chance of hardware doing what we listed out. Hypothetically, for bf16, other arch can choose different rounding?
+
+DanG: that's my understanding yes
+
+BT: not comfortable about that, can't do anything about that, but uncomfortable about changing behaviors
+
+MD: Wasm engines wouldn't be able to introduce new behavior, Wasm engines won't' use new hardware instructions
+
+CW: hypothetically, imagine we spec a deterministic bf16, blesses a certain set of rounding modes. A new chip comes out with different rounding, we can't support it.
+
+ZN: We can have a new proposal to add new instruction if the chip is popular enough.
+
+DG: engines use a bunch of instructions, we spec semantics, not instructions. BF16 is a special case, it's so new that we don't know what's going to happen in that space. Other instructions have been around long enough.
+
+CW: my thought as well, specifying BF16 has hazard above the level of everything else
+
+PP: BF16 is improving in terms of hardware support, but not as common as other operations 
+
+MD: not very happy with renaming relaxed madd to alternate fma. We don't want to create a perception that something is FMA when something is not guaranteed to be.
+
+CW: We can table the naming of FMA, but we should table that discussion and handle that as the very last thing we do
+
+DanG: happy to table it
+
+BT: the idea of the union, it corresponds to listing out the potential behaviors and naming all of them. I don't understand how big that set is, and how much work there is.
+
+CW: not so far off list non-det already, we need to enumerate all that's going to happen.
+
+BT: I agree, how big is that set? 
+
+MD: BT's idea is to explicitly provide deterministic variant of each list-non-det semantics. We would have 2 for relaxed madd, 2 for relaxed nmadd, 4 for relaxed swizzle, probably 2 for 2 wide int dot product, 4 for 4 wide int dot product
+
+DanG: not sure if we need to dive into enumerations right now. Question to BT, what advantages?
+
+BT: What advantage do we have for doing these? 
+
+CW: Ben I don’t know if this is exactly what you wanted, if we had something along the lines of a profile, that would be exactly the kind of irresponsible kind of abstraction in terms of fragmentation.
+
+PP: if you think about the union, there are 2 distinct groups in the proposal. One is floating point, where differences between archs is more fundamental. For example, emulating single rounding on dual rounding is expensive. Existing non-float operations we are trying to relax have Arm semantics, and the difference between Arm and x86 is much more philosophical (as in what is the encoding of invalid value), it is possible to imagine those two semantics coexist. I have a write up in https://github.com/WebAssembly/relaxed-simd/issues/104
+
+MD: uncomfortable with changing Wasm NaN semantics
+
+DanG: have a slide for that
+
+CW: not at the core for Phase 4 on this proposal, if we can skip the discussion on Scalar NaNs somehow
+
+DeeptiG: do we see this as a stopgap to having profiles, then build that in, then not have modes in the spec?
+
+CW: we have to see it as the first profile
+
+DeeptiG: like the direction, implies for engines pretty much what we have today. One comment on bf16 dot product, given that new hardware doesn't have new bf16 instruction supported, we don't expect to use the FMA lowering, probaby lower to wasm semantics, until new hardware that uses it. Only new hardware is M2 chips.
+
+AK: it's supported ARMv9 SOCs, exynos (S22), graviton 3
+
+BT: about the mode, it's binary right now, support relaxed mode or deterministic. no alignment between semantics of one thing you get and another. Will programs want all the Intel versions of this instruction, is that guaranteed?
+
+CW: if we start with List non-det, we can strengthen it to something like that
+
+BT: part of the reason Wasm succeeded, already standards for floating point, and twos complement everywhere, this is us running ahead of non-standardized things, out on a limb here that makes it difficult, until there are other standards developed, e.g. for bf16.
+
+RW: BFloat is only available on AVX512 on server based systems, any client based hardware is very far out.
+
+MD: AMD4 supports bf16 extensions
+
+RW: yea not Intel, AMD supports because they support AVX512.
+
+MD: We have desktop and laptop systems that support AVX512
+
+CW: don't think the bar for including instructions should be some systems support that, especially what Deepti said about how V8 is going to compile it.
+
+ZN: Maybe support bfloat16 in relaxed mode only
+
+RW: not against BF16, just stating what is available on Intel
+
+CW: If we’re expecting that this are exposed for 2-3 years, not what will be available in 2-3 years, makes me less comfortable about adding this instruction
+
+DanG: relaxed SIMD already has 3 nondet for bf16, can imagine future generations will need different things. In the future, new hardware might not conform to whatever we spec.
+
+DeeptiG: vote for general mode, and also bf16 dot. was there more?
+
+DanG: only other slide is NaN bits, which we will table
+
+MD: important to keep BF16, even with lowering that keeps deterministic behavior, we see close to 2x speedup in benchmarks, we see 3x speedup if we allow semantics that treats denormals as 0. It is a bit forward looking, at least performance benefit is clear.
+
+CW: sounded to me like BF16 is lowered to Wasm SIMD instructions as a pass in V8, how are we getting that speedup? Can't we simply emit Wasm SIMD?
+
+DeeptiG: when we would support it, we will lower to Wasm instructions yes. We don't implement it, not sure about the MD numbers.
+
+MD: in native ISA but using different variants of lowering, emulating how Relaxed SIMD instructions will be lowered with different options
+
+CW: don't expect BF16 in v8 will give you any performance wins.
+
+MD: today, yes. In the future, V8 will start supporting optimized lowering. Some asymmetry here, if we don't include this, we are missing out on 2x or 3x performance in neural network for 5-10 years. If we include, and not useful, not very wasteful.
+
+BT: not sure I agree with that. You can make the same argument for implementing union, you can emulate everything. Uncomfortable speccing instructions that don't exist widely in hardware.
+
+MD: It exists widely in newer hardware, it hasn't propagated to the whole spectrum of hardware
+
+ZN: Let’s focus on Dan’s proposal and punt the BFloat16 discussion to the github issue
+
+PP: no strong opinions on BF16, regarding the mode, neutral, slightly for. Pragmatically, looking at how CG meeting, will have opposition there, a module will not know where it is running.
+
+CW: modes or profiles is potentially the right way to square the circle. Should instill in our hearts, a great fear of using profiles to solve the problem. Might be the right solution here, think carefully before we introduce modes. In 5 years, we don't end up with 20 different modes.
+
+RW: agree with that. Saying that we won't have BF16 in client software. As long as there is a path to minimize number of modes, can reduce number of modes if hardware supports it.
+
+LW: like this proposal, this deterministic mode might seem niche, this is a mainstream thing, whole bunch of Wasm will run on many hardware. Might be deploying on platforms, then deploying on platforms. Deterministic instructions are not pessimal, it is optimistic, maybe it has to be emulated, if everyone implemented that it will be optimal.
+
+PP: can be a problem....
+
+CW: putting ourselves in a position that an implementation can only morally signal deterministic, if it is running on hardware that is fast, or okay with being slow and emulated.
+
+PP: this would be default in a way, wouldn't that be?...
+
+CW: default is relaxed, that's what web engines do
+
+LW: for cloud platforms, it will be opposite, however they have newer hardware
+
+CW: cloud can be more ...
+
+MD: do we feel comfortable voting
+
+CW: poll on an issue?
+
+DG: BT has hand up
+
+BT: agree with CW, modes should be used extremely sparingly, improvement here to have a mode, especially a deterministic mode, not pick 1 of 5. If we have guidance that you are expected to test in deterministic mode.
+
+CW: separate poll
+
+DG: only heard from Dan, if others have ideas, follow up. If we decide to move forward with this approach, we should 
+
+CW: we start with this proposal to phase 4, then add mode later
