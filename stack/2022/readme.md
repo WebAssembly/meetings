@@ -22,3 +22,17 @@ This list is for convenience only.
 
 * [Task-based stack Switching](https://docs.google.com/presentation/d/1veLRa4d4B0dM3BU_8A39A1uu1bBFH_05GaWphF_4otQ) (Francis McCabe)
  Meeting: [6-6-22](https://github.com/WebAssembly/meetings/blob/103f3c1fe70aaf248b357c662ccb257c89d212dd/stack/2022/6-6-22.md)
+
+* ['Event-less' Task-Based Stack Switching](https://docs.google.com/presentation/d/1fGOCWa-OCi9duGq7EqVPHLLZbRpxh35PiWTrN74_UWM) (Francis McCabe)
+ Meeting: [7-18-22](https://github.com/WebAssembly/meetings/blob/6aa9b5e2ec3f9177e940c0519b5e992ed788c163/stack/2022/7-18-22.md)
+ 
+* [Fibers scenarios](https://docs.google.com/presentation/d/1EPAj8IXWokPFSqCwOvEhdtF6pUhzXOaBiWoriSrT01A) (Francis McCabe)
+ Meeting: (9-12-22)[https://github.com/WebAssembly/meetings/blob/6aa9b5e2ec3f9177e940c0519b5e992ed788c163/stack/2022/9-12-22.md]
+ 
+* [JSPI proposal](https://docs.google.com/presentation/d/1jpjX-Yw1GsCcdf2I1LSTtPGPY27Qaj2RWiL557M7BMY) (Thibaud Michaud)
+ Meeting: (9-26-22)[https://github.com/WebAssembly/meetings/blob/6aa9b5e2ec3f9177e940c0519b5e992ed788c163/stack/2022/9-26-22.md]
+ 
+* [Greenlets brainstorm](https://github.com/WebAssembly/meetings/blob/main/stack/2022/presentations/2022-11-21-tate-python-greenlets.pdf) (Ross Tate)
+ Meeting: (11-21-22)[https://github.com/WebAssembly/meetings/blob/6aa9b5e2ec3f9177e940c0519b5e992ed788c163/stack/2022/11-21-22.md]
+ 
+
