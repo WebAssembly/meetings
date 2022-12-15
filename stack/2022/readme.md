@@ -27,12 +27,12 @@ This list is for convenience only.
  Meeting: [7-18-22](https://github.com/WebAssembly/meetings/blob/6aa9b5e2ec3f9177e940c0519b5e992ed788c163/stack/2022/7-18-22.md)
  
 * [Fibers scenarios](https://docs.google.com/presentation/d/1EPAj8IXWokPFSqCwOvEhdtF6pUhzXOaBiWoriSrT01A) (Francis McCabe)
- Meeting: (9-12-22)[https://github.com/WebAssembly/meetings/blob/6aa9b5e2ec3f9177e940c0519b5e992ed788c163/stack/2022/9-12-22.md]
+ Meeting: [9-12-22](https://github.com/WebAssembly/meetings/blob/6aa9b5e2ec3f9177e940c0519b5e992ed788c163/stack/2022/9-12-22.md)
  
 * [JSPI proposal](https://docs.google.com/presentation/d/1jpjX-Yw1GsCcdf2I1LSTtPGPY27Qaj2RWiL557M7BMY) (Thibaud Michaud)
- Meeting: (9-26-22)[https://github.com/WebAssembly/meetings/blob/6aa9b5e2ec3f9177e940c0519b5e992ed788c163/stack/2022/9-26-22.md]
+ Meeting: [9-26-22](https://github.com/WebAssembly/meetings/blob/6aa9b5e2ec3f9177e940c0519b5e992ed788c163/stack/2022/9-26-22.md)
  
 * [Greenlets brainstorm](https://github.com/WebAssembly/meetings/blob/main/stack/2022/presentations/2022-11-21-tate-python-greenlets.pdf) (Ross Tate)
- Meeting: (11-21-22)[https://github.com/WebAssembly/meetings/blob/6aa9b5e2ec3f9177e940c0519b5e992ed788c163/stack/2022/11-21-22.md]
+ Meeting: [11-21-22](https://github.com/WebAssembly/meetings/blob/6aa9b5e2ec3f9177e940c0519b5e992ed788c163/stack/2022/11-21-22.md)
  
 
