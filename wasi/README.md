@@ -6,6 +6,38 @@ Meetings of the WASI Subgroup of the W3C WebAssembly Community Group (CG) follow
 ## Meetings
 
 <details open>
+
+<summary>2023</summary>
+
+  * [WASI January 12th video call](2023/WASI-01-12.md)
+  * [WASI January 26th video call](2023/WASI-01-26.md)
+  * [WASI February 9th video call](2023/WASI-02-09.md)
+  * [WASI February 23rd video call](2023/WASI-02-23.md)
+  * [WASI March 9th video call](2023/WASI-03-09.md)
+  * [WASI March 23rd video call](2023/WASI-03-23.md)
+  * [WASI April 6th video call](2023/WASI-04-06.md)
+  * [WASI April 20th video call](2023/WASI-04-20.md)
+  * [WASI May 4th video call](2023/WASI-05-04.md)
+  * [WASI May 18th video call](2023/WASI-05-18.md)
+  * [WASI June 1st video call](2023/WASI-06-01.md)
+  * [WASI June 15th video call](2023/WASI-06-15.md)
+  * [WASI June 29th video call](2023/WASI-06-29.md)
+  * [WASI July 13th video call](2023/WASI-07-13.md)
+  * [WASI July 27th video call](2023/WASI-07-27.md)
+  * [WASI August 10th video call](2023/WASI-08-10.md)
+  * [WASI August 24th video call](2023/WASI-08-24.md)
+  * [WASI September 7th video call](2023/WASI-09-07.md)
+  * [WASI September 21nd video call](2023/WASI-09-21.md)
+  * [WASI October 5th video call](2023/WASI-10-05.md)
+  * [WASI October 19th video call](2023/WASI-10-19.md)
+  * [WASI November 2nd video call](2023/WASI-11-02.md)
+  * [WASI November 16th video call](2023/WASI-11-16.md)
+  * [WASI November 30th video call](2023/WASI-11-30.md)
+  * [WASI December 14th video call](2023/WASI-12-14.md)
+
+</details>
+
+<details>
 <summary>2022</summary>
 
   * [WASI January 13th video call](2022/WASI-01-13.md)
@@ -30,7 +62,7 @@ Meetings of the WASI Subgroup of the W3C WebAssembly Community Group (CG) follow
   * [WASI October 6th video call](2022/WASI-10-06.md)
   * [WASI October 20th video call](2022/WASI-10-20.md)
   * [WASI November 3rd video call](2022/WASI-11-03.md)
-  * [WASI November 17th video call](2022/WASI-11-17.md)
+  * WASI November 17th video call _Canceled_
   * [WASI December 1st video call](2022/WASI-12-01.md)
   * [WASI December 15th video call](2022/WASI-12-15.md)
   
