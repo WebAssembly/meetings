@@ -47,7 +47,7 @@ During this phase:
   1. If the proposal is not already listed, it should be added to the [proposal list](https://github.com/WebAssembly/proposals/blob/main/README.md) at this time.
   1. A new repository, forking the spec repo, is created by one of the WebAssembly organization administrators, or transfered to the WebAssembly organization by the champion. See the [how-to](https://github.com/WebAssembly/proposals/blob/main/howto.md) for this step.
   1. The champion will attempt to reach broad consensus in the Community Group.
-  1. Pull requests and issues are used to iterate on the design of the feature. Specifically, an overview document must be produced that specifies the feature with reasonably precise and complete language before attempting to move to phase 2 (meaning that is sufficiently precise for a person to implement it following this description, without obvious holes or ambiguities).
+  1. Pull requests and issues are used to iterate on the design of the feature. Specifically, an overview document must be produced that specifies the feature with reasonably precise and complete language before attempting to move to phase 2 (meaning it is sufficiently precise to be implemented following this description, without obvious holes or ambiguities).
   1. If relevant to demonstrate the viability of a feature, prototype implementations of the feature are implemented by interested embedders (possibly on a branch).
 
 ## 2. Feature Description Available [Community + Working Group]
