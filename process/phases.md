@@ -50,7 +50,7 @@ During this phase:
   1. Pull requests and issues are used to iterate on the design of the feature. Specifically, an overview document must be produced that specifies the feature with reasonably precise and complete language before attempting to move to phase 2 (meaning that is sufficiently precise for a person to implement it following this description, without obvious holes or ambiguities).
   1. If relevant to demonstrate the viability of a feature, prototype implementations of the feature are implemented by interested embedders (possibly on a branch).
 
-## 2. Precise Feature Description Available [Community + Working Group]
+## 2. Feature Description Available [Community + Working Group]
 
 Entry requirements:
 
@@ -60,7 +60,7 @@ Entry requirements:
 During this phase:
 
    * One or more implementations proceed on prototyping the feature to the point that a comprehensive set of tests can be added.
-   * A test suite is added. These tests need not pass the reference interpreter at this point, but should pass on some implementation.
+   * A test suite is added in the forked repo. These tests need not pass the reference interpreter at this point, but should pass on *some* implementation.
 
 ## 3. Implementation Phase [Community + Working Group]
 
@@ -69,11 +69,11 @@ Entry requirements:
    * Test suite has been updated to cover the feature in its forked repo.
    * The test suite should run against some implementation, though it need not be
      the reference interpreter.
-   * *The actual spec does not need not to be updated yet.*
+   * *Updates on the actual spec document and reference interpreter are NOT yet required (but can happen earlier).*
 
 During this phase, the following proceeds in parallel:
 
-   * Embedders implement the feature.
+   * Production engines implement the feature.
    * The spec document in the forked repo is updated to include the full English prose *and* formalization.
    * The reference interpreter in the forked repo is updated to include a complete implementation of the feature.
    * The feature is implemented in toolchains.
@@ -85,10 +85,12 @@ Entry requirements:
 
    * Two or more Web VMs have implemented the feature.
    * At least one toolchain has implemented the feature.
-   * The formalization and the reference interpreter have been updated.
+   * The spec document has been fully updated in the forked repo.
+   * The reference interpreter has been fully updated in the forked repo and passes the test suite.
    * The Community Group has reached consensus in support of the feature.
-   * NOTE: By this point the proposal is basically frozen, since
-     the Community Group is the sole venue where substantial work can occur.
+
+NOTE: By this point the proposal is basically frozen, since
+the Community Group is the sole venue where substantial work can occur.
 
 At this point:
 
