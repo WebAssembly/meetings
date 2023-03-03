@@ -60,7 +60,8 @@ Entry requirements:
 During this phase:
 
    * One or more implementations proceed on prototyping the feature to the point that a comprehensive set of tests can be added.
-   * A test suite is added in the forked repo. These tests need not pass the reference interpreter at this point, but should pass on *some* implementation.
+   * A test suite is added in the forked repo. These tests need not pass the reference interpreter at this point, but should pass on *some* implementation (this primarily is a sanity check for the test suite).
+   * Updates to the reference interpreter are not yet required at this point, but recommended.
 
 ## 3. Implementation Phase [Community + Working Group]
 
@@ -83,11 +84,11 @@ During this phase, the following proceeds in parallel:
 
 Entry requirements:
 
-   * Two or more Web VMs have implemented the feature (where applicable).
+   * Two or more Web VMs have implemented the feature and pass the test suite (where applicable).
    * At least one toolchain has implemented the feature (where applicable).
    * The spec document has been fully updated in the forked repo.
    * The reference interpreter has been fully updated in the forked repo and passes the test suite.
-   * The Community Group has reached consensus in support of the feature.
+   * The Community Group has reached consensus in support of the feature and consensus that its specification is complete.
 
 NOTE: By this point the proposal is basically frozen, since
 the Community Group is the sole venue where substantial work can occur.
