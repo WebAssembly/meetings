@@ -60,7 +60,7 @@ Entry requirements:
 During this phase:
 
    * One or more implementations proceed on prototyping the feature to the point that a comprehensive set of tests can be added.
-   * A test suite is added in the forked repo. These tests need not pass the reference interpreter at this point, but should pass on *some* implementation (this primarily is a sanity check for the test suite).
+   * A test suite is added in the forked repo. These tests need not pass the reference interpreter at this point, but should pass on the prototype or some other implementation (this primarily is to check that the test suite is functional).
    * Updates to the reference interpreter are not yet required at this point, but recommended.
 
 ## 3. Implementation Phase [Community + Working Group]
