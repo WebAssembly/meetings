@@ -26,7 +26,7 @@ Several different types of repositories are hosted there. Examples
 # Administration
 The GitHub organization is managed by the CG and subject to the same
 decision-making processes as proposals or other CG activity.  It has several
-organization owners (for redundancy and to cover several time zones): this is
+organization owners (for redundancy and to cover several time zones): these are
 usually the CG/WG chairs and spec editor.
 
 Any CG member can be a Member of the organization. Being a member allows you to
