@@ -33,7 +33,7 @@ Any CG member can be a Member of the organization. Being a member allows you to
 be selected as a reviewer for PRs, easily @-mentioned in discussions, and a few
 other practical conveniences, but otherwise doesn't confer any special
 permissions or status.  Members will be added on request (contact
-webassemly-cg-chair@chromium.org).
+webassembly-cg-chair@chromium.org).
 
 Repository ownership and committer status are determined for each repo
 individually, depending on the nature of the repo.  Proposal repos are owned by
