@@ -74,7 +74,7 @@ Entry requirements:
 
 During this phase, the following proceeds in parallel:
 
-   * Production engines implement the feature (where applicable).
+   * Engines implement the feature (where applicable).
    * The spec document in the forked repo is updated to include the full English prose *and* formalization.
    * The reference interpreter in the forked repo is updated to include a complete implementation of the feature.
    * The feature is implemented in toolchains.
