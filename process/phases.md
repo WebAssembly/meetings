@@ -45,22 +45,23 @@ Entry requirements:
 During this phase:
 
   1. If the proposal is not already listed, it should be added to the [proposal list](https://github.com/WebAssembly/proposals/blob/main/README.md) at this time.
-  1. A new repository, forking the spec repo, is created by one of the WebAssembly organization administrators, or transfered to the WebAssembly organization by the champion.
+  1. A new repository, forking the spec repo, is created by one of the WebAssembly organization administrators, or transfered to the WebAssembly organization by the champion. See the [how-to](https://github.com/WebAssembly/proposals/blob/main/howto.md) for this step.
   1. The champion will attempt to reach broad consensus in the Community Group.
-  1. Pull requests and issues are used to iterate on the design of the feature. Specifically, the spec text must be in a reasonably complete state before attempting to move to phase 2.
+  1. Pull requests and issues are used to iterate on the design of the feature. Specifically, an overview document must be produced that specifies the feature with reasonably precise and complete language before attempting to move to phase 2 (meaning it is sufficiently precise to be implemented following this description, without obvious holes or ambiguities).
   1. If relevant to demonstrate the viability of a feature, prototype implementations of the feature are implemented by interested embedders (possibly on a branch).
 
-## 2. Proposed Spec Text Available [Community + Working Group]
+## 2. Feature Description Available [Community + Working Group]
 
 Entry requirements:
 
-   * Full proposed English spec text available in a forked repo around which a reasonably high level of consensus exists.
-   * *Updates to the formal notation, test suite, and reference interpreter are NOT yet required.*
+   * Precise and complete overview document is available in a forked repo around which a reasonably high level of consensus exists.
+   * *Updates to the actual spec document, test suite, and reference interpreter are NOT yet required.*
 
 During this phase:
 
    * One or more implementations proceed on prototyping the feature to the point that a comprehensive set of tests can be added.
-   * A test suite is added. These tests need not pass the reference interpreter at this point, but should pass on some implementation.
+   * A test suite is added in the forked repo. These tests need not pass the reference interpreter at this point, but should pass on the prototype or some other implementation (this primarily is to check that the test suite is functional).
+   * Updates to the reference interpreter are not yet required at this point, but recommended.
 
 ## 3. Implementation Phase [Community + Working Group]
 
@@ -69,28 +70,28 @@ Entry requirements:
    * Test suite has been updated to cover the feature in its forked repo.
    * The test suite should run against some implementation, though it need not be
      the reference interpreter.
-   * *Formal notation in the spec need not be updated.*
+   * *Updates on the actual spec document and reference interpreter are NOT yet required (but can happen earlier).*
 
 During this phase, the following proceeds in parallel:
 
-  * Embedders implement the feature.
-  * The forked repo is updated to include revisions to the formalization.
-  * The forked repo spec is updated to include implementation of the feature
-    in the reference interpreter.
-  * The feature is implemented in toolchains.
+   * Engines implement the feature (where applicable).
+   * The spec document in the forked repo is updated to include the full English prose *and* formalization.
+   * The reference interpreter in the forked repo is updated to include a complete implementation of the feature.
+   * The feature is implemented in toolchains.
+   * Remaining open questions are resolved.
 
 ## 4. Standardize the Feature [Working Group]
 
 Entry requirements:
 
-   * Two or more Web VMs implement the feature.
-   * At least one toolchain implements the feature.
-   * The formalization and the reference interpreter are usually updated
-     (though these two can be done as part of step 3 at the Working Group
-      chair's discretion).
-   * Community Group has reached consensus in support of the feature.
-   * NOTE: By this point the proposal is basically frozen, since
-     the Community Group is the sole venue where substantial work can occur.
+   * Two or more Web VMs have implemented the feature and pass the test suite (where applicable).
+   * At least one toolchain has implemented the feature (where applicable).
+   * The spec document has been fully updated in the forked repo.
+   * The reference interpreter has been fully updated in the forked repo and passes the test suite.
+   * The Community Group has reached consensus in support of the feature and consensus that its specification is complete.
+
+NOTE: By this point the proposal is basically frozen, since
+the Community Group is the sole venue where substantial work can occur.
 
 At this point:
 
@@ -108,12 +109,14 @@ At this point:
 
 Entry requirements:
 
-   * Consensus is reached in amongst Working Group members that the feature
+   * Consensus has been reached amongst Working Group members that the feature
      is complete.
 
-When Working Group consensus is reached (online), editors can merge the feature
-into master on the spec repo.
-The W3C snapshots (for REC) are made at a regular cadence (in a W3C repo), used
+During this phase:
+
+   * Editors perform final editorial tweaks and merge the feature into the main branch of the primary spec repo.
+
+W3C snapshots (for REC) are made at a regular cadence (in a W3C repo), used
 to stamp official version. Matching tags are added in the github spec repo.
 
 
