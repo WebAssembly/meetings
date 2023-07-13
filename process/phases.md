@@ -21,6 +21,12 @@ In general, the process moves forward through a series of numbered phases.
 However, if issues are uncovered or consensus devolves,
 proposals should back up to the appropriate prior step.
 
+No vote is required for a proposal to enter phase 0. To advance from one phase
+to another, a vote proposing the advancement is added to a
+[Community Group meeting](https://github.com/WebAssembly/meetings/) agenda
+through a pull request, and the CG votes on whether to approve it, evaluating
+whether the new phase's entry requirements have been met.
+
 ## 0. Pre-Proposal [Individual Contributor]
 
 Entry requirements:
@@ -33,14 +39,13 @@ During this phase:
   1. Discussion on the feature occurs on the issue.
   1. A champion or champions emerge. They may add the proposal to the [proposal list](https://github.com/WebAssembly/proposals/blob/main/README.md) at phase 0.
   1. The champion(s) put together a somewhat-formal description of the feature in their own GitHub repository or on the issue.
-  1. An item is added to the [bi-weekly Community Group video calls](https://github.com/WebAssembly/meetings/)'s agenda through a pull request.
-  1. The CG votes on general interest in this proposal. Consensus requirements are low: do members believe that the feature is in-scope and will plausibly be workable?
 
 ## 1. Feature Proposal [Community Group]
 
 Entry requirements:
 
-  * The pre-proposal vote has succeeded.
+  * There is general interest within the CG in this feature.
+  * The CG believes the feature is in-scope and will plausibly be workable.
 
 During this phase:
 
