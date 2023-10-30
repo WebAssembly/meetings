@@ -49,6 +49,10 @@ Meeting process is documented:
    * [CG September 12th video call](main/2023/CG-09-12.md)
    * [CG September 26th video call](main/2023/CG-09-26.md)
    * [CG October 11th-12th in-person hybrid](main/2023/CG-10.md)
+   * [CG November 7th video call](main/2023/CG-11-07.md)
+   * [CG November 21st video call](main/2023/CG-11-21.md)
+   * [CG December 5th video call](main/2023/CG-12-05.md)
+   * [CG December 19th video call](main/2023/CG-12-19.md)
 
 
 </details>
