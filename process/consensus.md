@@ -25,7 +25,7 @@ Polling consensus is done by the chair:
    or `Strongly Against`. Participants vote for a single option by raising their
    hand, voting on a poll, or in chat for online meetings, or abstain entirely.
    Aggregate votes are recorded by the note-taker.
-4. If deemed relevant, the chair can ask certain participants if their wish to
+4. If deemed relevant, the chair can ask certain participants if they wish to
    explain their vote for the note-taker.
 5. The chair determines whether consensus was reached.
 6. A participant may decide to register a formal objection to the decision. An
