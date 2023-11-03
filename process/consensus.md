@@ -90,7 +90,7 @@ We differentiate the following cases:
    three contributors of different affiliations is acceptable as long as there
    is no objection. Consensus will be deemed to not have been reached if
    interested parties did not sign off. At any point in time a contributor can
-   request that final consensus be delayed to a subgroup, or a CG meeting. In this
+   request that final consensus be delayed to a subgroup or CG meeting. In this
    case, the chair puts the item on the group's agenda of upcoming
    discussions.
 3. Substantial technical changes or additions are usually carried in their own
