@@ -11,7 +11,7 @@ Consensus is critical in a standards process:
 
 ## Consensus at meetings
 
-For in-person, and online meetings, champions are expected to list points for which they
+For in-person and online meetings, champions are expected to list points for which they
 will seek consensus in the meeting agenda, and new consensus points can be added 
 as the discussion proceeds.
 
