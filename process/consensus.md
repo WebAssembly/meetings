@@ -9,11 +9,11 @@ Consensus is critical in a standards process:
   over time, break down. Recording dissent is therefore a critical part of
   building consensus.
 
-## In-person meeting consensus
+## Consensus at meetings
 
-For in-person meetings, champions are expected to list points for which they
-will seek consensus in the meeting agenda, and new consensus points can be added
-in-person as the discussion proceeds.
+For in-person, and online meetings, champions are expected to list points for which they
+will seek consensus in the meeting agenda, and new consensus points can be added 
+as the discussion proceeds.
 
 Polling consensus is done by the chair:
 
@@ -23,11 +23,12 @@ Polling consensus is done by the chair:
 2. The chair asks all participants to express their opinion to the question,
    asking in turn whether they are `Strongly For`, `For`, `Neutral`, `Against`,
    or `Strongly Against`. Participants vote for a single option by raising their
-   hand, or abstain entirely. Aggregate votes are recorded by the note-taker.
-3. If deemed relevant, the chair can ask certain participants if their wish to
+   hand, voting on a poll, or in chat for online meetings, or abstain entirely.
+   Aggregate votes are recorded by the note-taker.
+4. If deemed relevant, the chair can ask certain participants if their wish to
    explain their vote for the note-taker.
-4. The chair determines whether consensus was reached.
-5. A participant may decide to register a formal objection to the decision. An
+5. The chair determines whether consensus was reached.
+6. A participant may decide to register a formal objection to the decision. An
    individual who registers a formal objection should cite technical arguments
    and propose changes that would remove the formal objection; these proposals
    may be vague or incomplete. Note: in the Working Group, formal objections are
@@ -59,7 +60,7 @@ official video calls. In the latter case, the consensus vote must be added to
 the agenda at least 24 hours before the video call is scheduled to begin, except
 in the case of general interest votes moving pre-proposals to phase 1, which can
 be added as the discussion proceeds. Consensus decisions are recorded in meeting
-notes and published just like in-person meeting notes are published.
+notes and published just like meeting notes are published.
 
 We introduce the following concepts to help the online decision process:
 
@@ -69,7 +70,9 @@ We introduce the following concepts to help the online decision process:
   participate in the WebAssembly Community Group or Working Group and are
   interested in a particular topic.
 * *Small group* is a subset of Community Group and Working Group participants
-  who decide to collaborate on a single targeted proposal.
+  who decide to collaborate on a single targeted proposal, or a group of related
+  proposals. If an official [subgroup](https://github.com/WebAssembly/meetings/blob/main/process/subgroups.md)
+  for the proposal exists, this term would refer to the subgroup.
 
 We differentiate the following cases:
 
@@ -87,7 +90,7 @@ We differentiate the following cases:
    three contributors of different affiliations is acceptable as long as there
    is no objection. Consensus will be deemed to not have been reached if
    interested parties did not sign off. At any point in time a contributor can
-   request that final consensus be delayed to an in-person meeting. In this
+   request that final consensus be delayed to a subgroup, or a CG meeting. In this
    case, the chair puts the item on the group's agenda of upcoming
    discussions.
 3. Substantial technical changes or additions are usually carried in their own
@@ -95,12 +98,14 @@ We differentiate the following cases:
    to evolve quickly without much process. Early on in such a proposal's
    lifetime no consensus is needed and a single champion can modify the proposal
    at will. As the proposal matures it is expected that the champion will seek
-   collaborators to form a small group. Gauging consensus in the small group is
-   left up to the champion, with input from the chair. When a proposal is near
-   maturity the champion shall bring it to a meeting and seek wider
+   collaborators to form a subgroup. Gauging consensus in the small group is
+   left up to the champion, gauging consensus in a subgroup is left to the chair,
+   or co-chairs of that subgroup. If a small group, or a subgroup is unable to reach
+   consensus, consensus can be sought at an in-person, or online CG meeting. 
+   When a proposal is near maturity the champion shall bring it to a meeting and seek wider
    consensus on open design points and contended issues. All decisions made by
-   the small group can be revisited until consensus is reached at an in-person
-   meeting.
+   the small group can be revisited until consensus is reached at an in-person,
+   or online CG meeting.
 
 Only 1. and 2. apply to the Working Group since the Community Group is the sole
 venue where substantial work can occur. It is expected that Working Group
