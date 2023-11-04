@@ -23,7 +23,7 @@ Polling consensus is done by the chair:
 2. The chair asks all participants to express their opinion to the question,
    asking in turn whether they are `Strongly For`, `For`, `Neutral`, `Against`,
    or `Strongly Against`. Participants vote for a single option by raising their
-   hand, voting on a poll, or in chat for online meetings, or abstain entirely.
+   hand, voting in an automated poll, in chat for online meetings, or abstain entirely.
    Aggregate votes are recorded by the note-taker.
 4. If deemed relevant, the chair can ask certain participants if they wish to
    explain their vote for the note-taker.
@@ -98,13 +98,13 @@ We differentiate the following cases:
    to evolve quickly without much process. Early on in such a proposal's
    lifetime no consensus is needed and a single champion can modify the proposal
    at will. As the proposal matures it is expected that the champion will seek
-   collaborators to form a subgroup. Gauging consensus in the small group is
+   collaborators to form a small group. Gauging consensus in the small group is
    left up to the champion, and gauging consensus in a subgroup is left to the chair
    or co-chairs of that subgroup. If a small group, or a subgroup is unable to reach
-   consensus, consensus can be sought at an in-person, or online CG meeting. 
+   consensus, consensus can be sought at an in-person or online CG meeting. 
    When a proposal is near maturity the champion shall bring it to a meeting and seek wider
    consensus on open design points and contended issues. All decisions made by
-   the small group can be revisited until consensus is reached at an in-person,
+   the small group can be revisited until consensus is reached at an in-person
    or online CG meeting.
 
 Only 1. and 2. apply to the Working Group since the Community Group is the sole
