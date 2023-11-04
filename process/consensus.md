@@ -100,7 +100,7 @@ We differentiate the following cases:
    at will. As the proposal matures it is expected that the champion will seek
    collaborators to form a small group. Gauging consensus in the small group is
    left up to the champion, and gauging consensus in a subgroup is left to the chair
-   or co-chairs of that subgroup. If a small group, or a subgroup is unable to reach
+   or co-chairs of that subgroup. If a small group is unable to reach
    consensus, consensus can be sought at an in-person or online CG meeting. 
    When a proposal is near maturity the champion shall bring it to a meeting and seek wider
    consensus on open design points and contended issues. All decisions made by
