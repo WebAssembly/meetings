@@ -60,8 +60,8 @@ online, either on GitHub repositories under the WebAssembly organization or in
 official video calls. In the latter case, the consensus vote must be added to
 the agenda at least 24 hours before the video call is scheduled to begin, except
 in the case of general interest votes moving pre-proposals to phase 1, which can
-be added as the discussion proceeds. Consensus decisions are recorded in meeting
-notes and published just like meeting notes are published.
+be added as the discussion proceeds. Consensus decisions are recorded in the
+published meeting notes.
 
 We introduce the following concepts to help the online decision process:
 
@@ -99,14 +99,15 @@ We differentiate the following cases:
    to evolve quickly without much process. Early on in such a proposal's
    lifetime no consensus is needed and a single champion can modify the proposal
    at will. As the proposal matures it is expected that the champion will seek
-   collaborators to form a small group. Gauging consensus in the small group is
-   left up to the champion, and gauging consensus in a subgroup is left to the chair
-   or co-chairs of that subgroup. If a small group is unable to reach
-   consensus, consensus can be sought at an in-person or online CG meeting. 
-   When a proposal is near maturity the champion shall bring it to a meeting and seek wider
-   consensus on open design points and contended issues. All decisions made by
-   the small group can be revisited until consensus is reached at an in-person
-   or online CG meeting.
+   collaborators to form a small group, or use the subgroup if one relevant to the
+   proposal exists. Gauging online consensus in the small group is left up to the
+   champion or in some cases the subgroup chair. Gauging consensus at a subgroup meeting is
+   left to the chair or co-chairs of that subgroup. If a small group is unable to reach
+   consensus online or at a subgroup meeting, consensus can be sought at an in-person
+   or online CG meeting. When a proposal is near maturity the champion shall bring it
+   to a meeting and seek wider consensus on open design points and contended issues.
+   All decisions made by the small group can be revisited until consensus is reached
+   at an in-person or online CG meeting.
 
 Only 1. and 2. apply to the Working Group since the Community Group is the sole
 venue where substantial work can occur. It is expected that Working Group
