@@ -23,8 +23,9 @@ Polling consensus is done by the chair:
 2. The chair asks all participants to express their opinion to the question,
    asking in turn whether they are `Strongly For`, `For`, `Neutral`, `Against`,
    or `Strongly Against`. Participants vote for a single option by raising their
-   hand, voting in an automated poll, in chat for online meetings, or abstain entirely.
-   Aggregate votes are recorded by the note-taker.
+   hand, voting in an automated poll, or typing in the chat of an online meeting.
+   Aggregate votes are recorded by the note-taker. Any participant may choose to
+   abstain instead of indicating a vote.
 4. If deemed relevant, the chair can ask certain participants if they wish to
    explain their vote for the note-taker.
 5. The chair determines whether consensus was reached.
