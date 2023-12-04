@@ -1,0 +1,66 @@
+#!/usr/bin/env python3
+
+import argparse, os
+from datetime import date, datetime, timedelta
+
+def main():
+    parser = argparse.ArgumentParser(
+        prog = 'gen-agendas',
+        description = 'Generate meeting templates',
+        formatter_class=argparse.ArgumentDefaultsHelpFormatter)
+
+    parser.add_argument(
+        '--start',
+        required=True,
+        help='The first meeting day')
+
+    parser.add_argument(
+        '--frequency',
+        required=False,
+        default=7,
+        help='The frequency that this meeting happens in units of days. Default is weekly.')
+
+    parser.add_argument(
+        '--num',
+        required=False,
+        default=10,
+        help='The number of meetings to generate')
+
+    parser.add_argument(
+        '--template',
+        required=True,
+        help='''
+            The template to use. Can use `{{month}}` and `{{day}}`-style formats. For
+            example, `./cranelift/TEMPLATE.md`.
+        ''')
+
+    parser.add_argument(
+        '--filename-template',
+        required=True,
+        help='''
+            How to generate filenames for meeting agenda files. For example
+            `./cranelift/%%Y/cranelift-%%m-%%d.md` will generate files like e.g
+            `./cranelift/2023/cranelift-02-08.md`
+        ''')
+
+    args = parser.parse_args()
+
+    start = datetime.strptime(args.start, '%Y-%m-%d').date()
+
+    with open(args.template, 'r') as f:
+        template = f.read()
+
+
+    for i in range(0, int(args.num)):
+        d = start + timedelta(days=i * int(args.frequency))
+
+        path = d.strftime(args.filename_template)
+        directory = os.path.dirname(path)
+        os.makedirs(directory, exist_ok=True)
+
+        with open(path, 'w') as f:
+            agenda = template.format(month=d.strftime('%B'), day=d.strftime('%d'))
+            f.write(agenda)
+
+if __name__ == '__main__':
+    main()
