@@ -7,6 +7,38 @@ Meetings of the WASI Subgroup of the W3C WebAssembly Community Group (CG) follow
 
 <details open>
 
+<summary>2024</summary>
+
+  * [WASI January 11th video call](2024/WASI-01-11.md)
+  * [WASI January 25th video call](2024/WASI-01-25.md)
+  * [WASI February 8th video call](2024/WASI-02-08.md)
+  * [WASI February 22 video call](2024/WASI-02-22.md)
+  * [WASI March 7th video call](2024/WASI-03-07.md)
+  * [WASI March 21st video call](2024/WASI-03-21.md)
+  * [WASI April 4th video call](2024/WASI-04-04.md)
+  * [WASI April 18th video call](2024/WASI-04-18.md)
+  * [WASI May 2nd video call](2024/WASI-05-02.md)
+  * [WASI May 16th video call](2024/WASI-05-16.md)
+  * [WASI May 30th video call](2024/WASI-05-30.md)
+  * [WASI June 13th video call](2024/WASI-06-13.md)
+  * [WASI June 27th video call](2024/WASI-06-27.md)
+  * [WASI July 11th video call](2024/WASI-07-11.md)
+  * [WASI July 25th video call](2024/WASI-07-25.md)
+  * [WASI August 8th video call](2024/WASI-08-08.md)
+  * [WASI August 22nd video call](2024/WASI-08-22.md)
+  * [WASI September 5th video call](2024/WASI-09-05.md)
+  * [WASI September 19th video call](2024/WASI-09-19.md)
+  * [WASI October 3rd video call](2024/WASI-10-03.md)
+  * [WASI October 17th video call](2024/WASI-10-17.md)
+  * [WASI October 31st video call](2024/WASI-10-31.md)
+  * [WASI November 14th video call](2024/WASI-11-14.md)
+  * [WASI November 28th video call](2024/WASI-11-28.md)
+  * [WASI December 12th video call](2024/WASI-12-12.md)
+
+</details>
+
+<details open>
+
 <summary>2023</summary>
 
   * [WASI January 12th video call](2023/WASI-01-12.md)
