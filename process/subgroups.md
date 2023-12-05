@@ -15,6 +15,7 @@ To create a subgroup, you should add a poll to a CG meeting agenda with at least
 | GC  | Thomas Lively (@tlively)  | [Repo](https://github.com/WebAssembly/gc)  | [Agendas](https://github.com/WebAssembly/meetings/tree/main/gc)  |
 | SIMD  | Petr Penzin (@penzn), Ng Zhi An (@ngzhian)  | [Relaxed SIMD](https://github.com/WebAssembly/relaxed-simd) + [Flexible Vectors](https://github.com/WebAssembly/flexible-vectors/issues) | [Agendas](https://github.com/WebAssembly/flexible-vectors/issues)  |
 | Stack Switching  | Francis McCabe (@fgmccabe)  | [Repo](https://github.com/WebAssembly/stack-switching)  | [Agendas](https://github.com/WebAssembly/meetings/tree/main/stack)  |
+| Threads | Andrew Brown (@abrown), Thomas Lively (@tlively), Conrad Watt (@conrad-watt) | [Repo](https://github.com/webassembly/shared-everything-threads/) | File issues to schedule agenda items |
 | WASI  | Bailey Hayes (@ricochet), Pat Hickey (@pchickey)  | [Repo](https://github.com/WebAssembly/WASI)  | [Agendas](https://github.com/WebAssembly/meetings/tree/main/wasi)  |
 
 ## Subgroup Leadership Expectations
