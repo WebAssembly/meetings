@@ -39,6 +39,13 @@ The Subgroup may produce software related to benchmarking of WebAssembly, includ
 
 - Benchmarking tools specifically designed for WebAssembly
 - Libraries or frameworks to aid in the benchmarking of WebAssembly applications
+- Distilling and collating WebAssembly benchmarking suites. 
+
+### Specifications
+
+The Subgroup may produce amendments and extensions to existing WebAssembly
+proposals or propose the creation of new proposals leading to better
+instrospection (e.g profiling/tracing) for WebAssembly. 
 
 ## Amendments to this Charter and Chair Selection
 
