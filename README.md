@@ -25,6 +25,14 @@ Meeting process is documented:
 * [Hosting](process/hosting.md)
 
 ## Meetings
+<details open>
+<summary>2024</summary>
+
+   * [CG January 2nd video call](main/2024/CG-01-02.md)
+   * [CG January 16th video call](main/2024/CG-01-16.md)
+   * [CG January 30th video call](main/2023/CG-01-30.md)
+
+</details>
 
 <details open>
 <summary>2023</summary>
