@@ -3,6 +3,8 @@
 Meetings of the WASI Subgroup of the W3C WebAssembly Community Group (CG) follow
 [the process of the CG](https://github.com/WebAssembly/meetings).
 
+If this is your first time attending, please [fill out the registration form](https://docs.google.com/forms/d/e/1FAIpQLSdpO6Lp2L_dZ2_oiDgzjKx7pb7s2YYHjeSIyfHWZZGSKoZKWQ/viewform) to receive an invite.
+
 ## Meetings
 
 <details open>
