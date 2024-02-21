@@ -46,7 +46,7 @@ Installation is required, see the calendar invite.
 - Syrus Akbary
 - Andrew Brown
 - Thomas Lively
-- Jonnie Birch
+- Johnnie Birch
 - Luis Pardo
 - Emanuel Ziegler
 - Deepti Gandluri
