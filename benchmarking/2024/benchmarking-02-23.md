@@ -26,6 +26,7 @@ This meeting will be a Google Meet video conference.
     1. Please help add your name to the meeting notes
     1. Please help take notes.
 1. Announcements
+    1. Sightglass Presentation (Andrew Brown + Nick Fitzgerald)
 1. Proposals and discussions
 1. Closure
 
