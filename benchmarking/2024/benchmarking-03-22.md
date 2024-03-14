@@ -27,6 +27,7 @@ This meeting will be a Google Meet video conference.
     1. Please help take notes.
 1. Announcements
 1. Proposals and discussions
+    1. wish-you-were-fast presentation, Ben Titzer
 1. Closure
 
 ## Meeting notes
