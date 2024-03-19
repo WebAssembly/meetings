@@ -1,9 +1,9 @@
 ![WebAssembly logo](/images/WebAssembly.png)
 
-## Agenda for the March 19, 2024 video call of WebAssembly's Threads Subgroup
+## Agenda for the April 2, 2024 video call of WebAssembly's Threads Subgroup
 
 - **Where**: zoom.us
-- **When**: March 19, 2024, 4pm-5pm UTC (March 19, 2024, 9am-10am Pacific Time)
+- **When**: April 2, 2024, 4pm-5pm UTC (April 2, 2024, 9am-10am Pacific Time)
 - **Location**: *link on calendar invite*
 
 ### Registration
