@@ -3,7 +3,7 @@
 ## Agenda for the {FULLDATE} video call of WebAssembly's Community Group
 
 - **Where**: Virtual meeting
-- **When**: {FULLDATE}, 5pm-6pm UTC ({FULLDATE}, 9am-10am Pacific Standard Time)
+- **When**: {FULLDATE}, 9am-10am Pacific Standard Time ({FULLDATE}, 17:00-18:00 UTC)
 - **Location**: *link on W3C [calendar](https://www.w3.org/groups/cg/webassembly/calendar/) or Google Calendar invitation*
 
 ### Registration
