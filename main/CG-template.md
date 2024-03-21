@@ -25,6 +25,8 @@ to sign up if it's your first time. The meeting is open to CG members only.
 
 To be filled in after the meeting.
 
+### Attendees
+
 ### Proposals and discussions
 
 ### Closure
