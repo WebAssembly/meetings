@@ -23,4 +23,8 @@ to sign up if it's your first time. The meeting is open to CG members only.
 
 ## Meeting Notes
 
-To be added after the meeting.
+To be filled in after the meeting.
+
+### Proposals and discussions
+
+### Closure
