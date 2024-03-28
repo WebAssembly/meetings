@@ -30,6 +30,18 @@ This meeting will be a Google Meet video conference.
     1. wish-you-were-fast presentation, Ben Titzer
 1. Closure
 
+## Attendees
+
+* Ajay Chhokra
+* Andrew Brown
+* Benjamin Titzer
+* Daniel Lehmann
+* Johnnie Birch
+* Nick Fitzgerald
+* Marco Rudilosso
+* Petr Penzin
+* Saúl Cabrera
+
 ## Meeting notes
 
 ###  Wish you were fast (Ben L. Titzer)
