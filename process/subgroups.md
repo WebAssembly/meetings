@@ -14,9 +14,10 @@ To create a subgroup, you should add a poll to a CG meeting agenda with at least
 
 | Subgroup  | Chair(s)  | Discussion Repo  | Meetings  |
 |---|---|---|---|
+| Benchmarking | Petr Penzin (@ppenzin), Saúl Cabrera (@saulecabrera)  | [Repo](https://github.com/WebAssembly/benchmarks)  | [Agendas](https://github.com/WebAssembly/meetings/tree/main/benchmarking)  |
 | Debugging  | Derek Schuff (@dschuff)  | [Repo](https://github.com/WebAssembly/debugging)  | no meetings currently scheduled, but discussion or agenda suggestions are welcome |
 | GC  | Thomas Lively (@tlively)  | [Repo](https://github.com/WebAssembly/gc)  | [Agendas](https://github.com/WebAssembly/meetings/tree/main/gc)  |
-| SIMD  | Petr Penzin (@penzn), Ng Zhi An (@ngzhian)  | [Relaxed SIMD](https://github.com/WebAssembly/relaxed-simd) + [Flexible Vectors](https://github.com/WebAssembly/flexible-vectors/issues) | [Agendas](https://github.com/WebAssembly/flexible-vectors/issues)  |
+| SIMD  | Petr Penzin (@ppenzin), Ng Zhi An (@ngzhian)  | [Flexible Vectors](https://github.com/WebAssembly/flexible-vectors/issues) | [Agendas](https://github.com/WebAssembly/meetings/tree/main/gc)  |
 | Stack Switching  | Francis McCabe (@fgmccabe)  | [Repo](https://github.com/WebAssembly/stack-switching)  | [Agendas](https://github.com/WebAssembly/meetings/tree/main/stack)  |
 | Threads | Andrew Brown (@abrown), Thomas Lively (@tlively), Conrad Watt (@conrad-watt) | [Repo](https://github.com/webassembly/shared-everything-threads/) | File issues to schedule agenda items |
 | WASI  | Bailey Hayes (@ricochet), Pat Hickey (@pchickey)  | [Repo](https://github.com/WebAssembly/WASI)  | [Agendas](https://github.com/WebAssembly/meetings/tree/main/wasi)  |
