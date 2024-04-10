@@ -8,8 +8,7 @@
 
 ### Registration
 
-None required if you've attended before. Send an email to the acting [WebAssembly CG chair](mailto:webassembly-cg-chair@chromium.org)
-to sign up if it's your first time. The meeting is open to CG members only.
+No registration is required for VC meetings. The meeting is open to CG members only.
 
 ## Agenda items
 
