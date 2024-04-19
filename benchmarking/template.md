@@ -1,6 +1,6 @@
 ![WebAssembly logo](/images/WebAssembly.png)
 
-## Agenda for the {Date} of WebAssembly's Benchmarking Subgroup
+## Agenda for the {Date} video call of WebAssembly's Benchmarking Subgroup
 
 - **Where**: Google Meet
 - **When**: {Date}, 4pm-4:45pm UTC (8am-8:45am PDT, 11am-11:45am EST)
