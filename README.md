@@ -55,7 +55,7 @@ Meeting process is documented:
 
 </details>
 
-<details open>
+<details>
 <summary>2023</summary>
 
    * [CG January 3rd video call](main/2023/CG-01-03.md)
@@ -86,7 +86,7 @@ Meeting process is documented:
 
 </details>
 
-<details open>
+<details>
 <summary>2022</summary>
 
    * [CG January 4th video call](main/2022/CG-01-04.md)
@@ -117,7 +117,7 @@ Meeting process is documented:
 
 </details>
 
-<details open>
+<details>
 <summary>2021</summary>
 
    * [CG January 5th video call](main/2021/CG-01-05.md)
@@ -154,7 +154,7 @@ Meeting process is documented:
 
 </details>
 
-<details open>
+<details>
 <summary>2020</summary>
 
    * [CG January 7th video call](main/2020/CG-01-07.md)
