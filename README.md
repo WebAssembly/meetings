@@ -36,7 +36,7 @@ Meeting process is documented:
    * [CG April 9th video call](main/2024/CG-04-09.md)
    * [CG April 23rd video call](main/2024/CG-04-23.md)
    * [CG May 7th video call](main/2024/CG-05-07.md)
-   * [CG May 21st video call](main/2024/CG-05-23.md)
+   * [CG May 21st video call](main/2024/CG-05-21.md)
    * [CG June 5th-6th in-person hybrid](main/2024/CG-06.md)
    * [CG June 18th video call](main/2024/CG-06-18.md)
    * [CG July 2nd video call](main/2024/CG-07-02.md)
