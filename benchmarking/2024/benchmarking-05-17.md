@@ -65,7 +65,3 @@ AC: The last study is taking care of ensuring that the toolchains versions are c
 DB: Different wasm-opt versions might impact performance, as pointed by Adrew. Has anyone experienced performance differences between wasm-opt versions?
 
 AB: Hasn't experienced performance differences, but sometimes in different versions different sizes are observed.
-
-
-
-
