@@ -35,13 +35,13 @@ This meeting will be a Google Meet video conference.
 
 ### Attendees
 
-- Doehyun Baek
-- Tom An
 - Andrew Brown
-- Daniel Lehmann
 - Benjamin Titzer
+- Daniel Lehmann
+- Doehyun Baek
 - Johnnie Birch
 - Petr Penzin
+- Tom An
 
 ### Notes
 
