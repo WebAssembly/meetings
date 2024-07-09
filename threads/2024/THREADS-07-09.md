@@ -168,7 +168,7 @@ CW: We want to do shared functions. It's the new capability for the platform.
 
 TL: Shared structs and arrays are also a new capability for the platform, or at least get WasmGC languages to parity with linear memory languages.
 
-CW: There are three levels...
+CW: There are three levels of complexity in supporting shared functions. (1) shared-nonsuspendable with only parameter passing, (2) shared-suspendable by adding thread-bound JS functions, (2) shared-suspendable by adding true Wasm-level TLS features. The point being that it would be good to at least do (1) rather than totally giving up on shared functions!
 
 CW: What is the motivation for reduced scope of V8 prototyping? If we had a perfect TLS design, would V8 implement the full thing now?
 
