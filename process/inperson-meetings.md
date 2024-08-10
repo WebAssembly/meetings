@@ -11,11 +11,13 @@ the host may plan capacity accordingly, and so that the meeting notes may
 record who was present. 
 
 The meeting invitation will contain logistics on location, time, address,
-parking, nearby hotels, Wi-Fi, and host contact. This invitation will be sent no
-later than 2 weeks before the meeting, through a pull request on the
+parking, nearby hotels, Wi-Fi, and host contact. This invitation will be sent
+in advance of the meeting, through a pull request on the
 [meetings repository](https://github.com/WebAssembly/meetings) as well as
 through an email to the Community Group's mailing list.
 
+All attendees are required to be members of the
+[community group](https://www.w3.org/community/webassembly/) prior to attending.
 The usual
 [WebAssembly code of conduct](https://github.com/WebAssembly/design/blob/master/CodeOfConduct.md)
 applies to in-person meetings as well as surrounding events and online
