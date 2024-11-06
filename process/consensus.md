@@ -67,15 +67,12 @@ before being adopted by the Working Group. It is expected that all changes or
 additions which reach consensus in the Community Group will be forwarded to the
 Working Group for adoption.
 
-When a proposal is near maturity the champion shall bring it to a CG or subgroup
-meeting and seek formal consensus on open design questions and contentious
-issues. All decisions made by the small group can be revisited until formal
-consensus is reached at a subgroup or CG meeting.
-
 When a proposal is ready for phase advancement, the champion shall bring it to a
 Community Group meeting and seek formal consensus for phase advancement.
-Champions may also ask for formal consensus on specific design decisions. No
-proposal can advance phases without formal consensus in a CG meeting.
+Champions may also ask for formal consensus on specific design decisions. All
+decisions made by small groups can be revisited until formal consensus is
+reached at a subgroup or CG meeting. No proposal can advance phases without
+formal consensus in a CG meeting.
 
 ## Formal consensus at meetings
 
