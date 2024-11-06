@@ -49,11 +49,13 @@ We differentiate the following cases:
    chair puts the item on the group's agenda of upcoming discussions.
 
 3. Substantial technical changes or additions are developed in their own GitHub
-   repository by a champion. It is critical that these proposals be able to
-   evolve quickly without much process. Early on in such a proposal's lifetime
-   no consensus is needed and a single champion can modify the proposal at will.
-   As the proposal matures it is expected that the champion will seek
-   collaborators to form a small group or
+   repository by a champion following the
+   [phase](https://github.com/WebAssembly/meetings/blob/main/process/phases.md)
+   process. It is critical that these proposals be able to evolve quickly
+   without much process. Early on in such a proposal's lifetime no consensus is
+   needed and a single champion can modify the proposal at will. As the proposal
+   matures it is expected that the champion will seek collaborators to form a
+   small group or
    [subgroup](https://github.com/WebAssembly/meetings/blob/main/process/subgroups.md).
    Gauging consensus within small groups is left up to the champion and gauging
    consensus within subgroups is left up to the subgroup chair.
@@ -71,7 +73,8 @@ issues. All decisions made by the small group can be revisited until formal
 consensus is reached at a subgroup or CG meeting.
 
 When a proposal is ready for phase advancement, the champion shall bring it to a
-Community Group meeting and seek formal consensus for phase advancement. No
+Community Group meeting and seek formal consensus for phase advancement.
+Champions may also ask for formal consensus on specific design decisions. No
 proposal can advance phases without formal consensus in a CG meeting.
 
 ## Formal consensus at meetings
