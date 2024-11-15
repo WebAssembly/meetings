@@ -6,7 +6,7 @@
 - **When**: {month} {day} 2024, 17:00-18:00 UTC
 - **Contact**:
   - Name: Pat Hickey and Bailey Hayes
-  - Email: pat@moreproductive.organd bailey@cosmonic.com
+  - Email: phickey@fastly.com and bailey@cosmonic.com
 
 ### Registration
 
