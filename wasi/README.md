@@ -9,6 +9,38 @@ If this is your first time attending, please [fill out the registration form](ht
 
 <details open>
 
+<summary>2025</summary>
+
+  * [WASI January 9th video call](2025/WASI-01-09.md)
+  * [WASI January 23rd video call](2025/WASI-01-25.md)
+  * [WASI February 6th video call](2025/WASI-02-06.md)
+  * [WASI February 20th video call](2025/WASI-02-20.md)
+  * [WASI March 6th video call](2025/WASI-03-06.md)
+  * [WASI March 20th video call](2025/WASI-03-20.md)
+  * [WASI April 3rd video call](2025/WASI-04-03.md)
+  * [WASI April 17th video call](2025/WASI-04-17.md)
+  * [WASI May 1st video call](2025/WASI-05-01.md)
+  * [WASI May 15th video call](2025/WASI-05-15.md)
+  * [WASI May 29th video call](2025/WASI-05-29.md)
+  * [WASI June 12th video call](2025/WASI-06-12.md)
+  * [WASI June 26th video call](2025/WASI-06-26.md)
+  * [WASI July 10th video call](2025/WASI-07-10.md)
+  * [WASI July 24th video call](2025/WASI-07-24.md)
+  * [WASI August 7th video call](2025/WASI-08-07.md)
+  * [WASI August 21st video call](2025/WASI-08-21.md)
+  * [WASI September 4th video call](2025/WASI-09-04.md)
+  * [WASI September 18th video call](2025/WASI-09-18.md)
+  * [WASI October 2nd video call](2025/WASI-10-02.md)
+  * [WASI October 16th video call](2025/WASI-10-16.md)
+  * [WASI October 30th video call](2025/WASI-10-30.md)
+  * [WASI November 13th video call](2025/WASI-11-13.md)
+  * [WASI November 27th video call](2025/WASI-11-27.md)
+  * [WASI December 11th video call](2025/WASI-12-11.md)
+
+</details>
+
+<details open>
+
 <summary>2024</summary>
 
   * [WASI January 11th video call](2024/WASI-01-11.md)
@@ -39,7 +71,7 @@ If this is your first time attending, please [fill out the registration form](ht
 
 </details>
 
-<details open>
+<details>
 
 <summary>2023</summary>
 
