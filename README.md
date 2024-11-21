@@ -19,12 +19,12 @@ may be helpful.
 
 Meeting process is documented:
 
-* [Attendance](process/attendance.md)
-* [Day-of](process/day-of.md)
+* [Virtual Meetings](process/vc-meetings.md)
+* [In-person Meetings](process/inperson-meetings.md)
 * [Consensus](process/consensus.md)
-* [Hosting](process/hosting.md)
 
 ## Meetings
+
 <details open>
 <summary>2024</summary>
 
@@ -187,7 +187,7 @@ Meeting process is documented:
 
 <details>
 <summary>2019</summary>
-  
+
    * [CG January 8th video call](main/2019/CG-01-08.md)
    * [WG January 16th video call](main/2019/WG-01-16.md)
    * [CG January 22nd video call](main/2019/CG-01-22.md)
