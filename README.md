@@ -40,6 +40,7 @@ These documents explain how the community works overall:
 
 * [Important Github repositories](process/github.md)
 * [Discussing constructively](process/discussion.md)
+[Code of Conduct](CODE_OF_CONDUCT.md) for all meetings and WebAssembly activities
 
 ## CG and WG meeting agendas and notes
 
