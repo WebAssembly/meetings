@@ -1,12 +1,14 @@
 # WebAssembly meetings
 
-Information on official in-person WebAssembly meetings hosted by the W3C
-[Community Group](https://w3.org/community/webassembly/). Each meeting will have its own
+This repository hosts information on official WebAssembly meetings hosted by the W3C
+[Community Group](https://w3.org/community/webassembly/) (the "CG") and
+[Working Group](https://www.w3.org/groups/wg/wasm/) (the "WG").
+Each meeting will have its own
 agenda published before the meeting, and minutes will be posted in the
 invitation document after the meeting, including topics discussions and
 decisions.
 
-There are also several [subgroups](process/subgroups.md), which are smaller groups
+In addition to the CG and WG, there are also several [subgroups](process/subgroups.md) of the CG, which are smaller groups
 focused on a particular topic. They have their own repositories and meetings;
 see the subgroups page for links, and contact the subgroup chair if you want to
 be added to those meeting invitations.
@@ -15,15 +17,31 @@ If you're unfamiliar with standards meetings,
 [Allen's paper on standards committee participation for newbees](http://wirfs-brock.com/allen/files/papers/standpats-asianplop2016.pdf)
 may be helpful.
 
-## Process
+## How meetings work
 
-Meeting process is documented:
+These documents explain how online and in-person meetings are conducted:
 
 * [Virtual Meetings](process/vc-meetings.md)
 * [In-person Meetings](process/inperson-meetings.md)
 * [Consensus](process/consensus.md)
 
-## Meetings
+## How proposals work
+
+These documents explain the process for proposing new features to be added to
+WebAssembly, from idea to standardization:
+
+* [An overview of the proposal process](process/proposal.md)
+* [The process specifics](process/phases.md)
+* [Championing a proposal](process/champion.md)
+
+## How the community works
+
+These documents explain how the community works overall:
+
+* [Important Github repositories](process/github.md)
+* [Discussing constructively](process/discussion.md)
+
+## CG and WG meeting agendas and notes
 
 <details open>
 <summary>2024</summary>
