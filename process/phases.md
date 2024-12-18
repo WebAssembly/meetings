@@ -37,7 +37,7 @@ During this phase:
 
   1. An issue is filed on the [design repository](https://github.com/WebAssembly/design/issues) to present the idea.
   1. Discussion on the feature occurs on the issue.
-  1. A champion or champions emerge. They may add the proposal to the [proposal list](https://github.com/WebAssembly/proposals/blob/main/README.md) at phase 0.
+  1. A champion or champions emerge.
   1. The champion(s) put together a somewhat-formal description of the feature in their own GitHub repository or on the issue.
 
 ## 1. Feature Proposal [Community Group]
