@@ -3,7 +3,7 @@
 ## Agenda for the December 10, 2024 video call of WebAssembly's Threads Subgroup
 
 - **Where**: zoom.us
-- **When**: December 10, 2024, 5pm-6pm UTC (August 6, 2024, 9am-10am Pacific Time)
+- **When**: December 10, 2024, 5pm-6pm UTC (December 10, 2024, 9am-10am Pacific Time)
 - **Location**: *link on calendar invite*
 
 ### Registration
