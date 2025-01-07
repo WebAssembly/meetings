@@ -45,6 +45,36 @@ These documents explain how the community works overall:
 ## CG and WG meeting agendas and notes
 
 <details open>
+<summary>2025</summary>
+
+   * [CG January 14th video call](main/2025/CG-01-14.md)
+   * [CG January 28th video call](main/2025/CG-01-28.md)
+   * [CG February 12th-13th in-person hybrid](main/2025/CG-02.md)
+   * [CG February 25th video call](main/2025/CG-02-25.md)
+   * [CG March 11th video call](main/2025/CG-03-11.md)
+   * [CG March 25th video call](main/2025/CG-03-25.md)
+   * [CG April 8th video call](main/2025/CG-04-08.md)
+   * [CG April 22nd video call](main/2025/CG-04-22.md)
+   * [CG May 6th video call](main/2025/CG-05-06.md)
+   * [CG May 20th video call](main/2025/CG-05-20.md)
+   * [CG June 3rd video call](main/2025/CG-06-01.md)
+   * [CG June 17th video call](main/2025/CG-06-17.md)
+   * [CG July 1st video call](main/2025/CG-07-01.md)
+   * [CG July 15th video call](main/2025/CG-07-15.md)
+   * [CG July 29th video call](main/2025/CG-07-29.md)
+   * [CG August 12th video call](main/2025/CG-08-12.md)
+   * [CG August 26th video call](main/2025/CG-08-26.md)
+   * [CG September 9th video call](main/2025/CG-09-09.md)
+   * [CG September 23rd video call](main/2025/CG-09-23.md)
+   * [CG October 7th video call](main/2025/CG-10-07.md)
+   * [CG October 21nd video call](main/2025/CG-10-21.md)
+   * [CG November 4th video call](main/2025/CG-11-04.md)
+   * [CG November 18th video call](main/2025/CG-11-18.md)
+   * [CG December 2nd video call](main/2025/CG-12-02.md)
+   * [CG December 16th video call](main/2025/CG-12-16.md)
+</details>
+
+<details>
 <summary>2024</summary>
 
    * [CG January 2nd video call](main/2024/CG-01-02.md)
