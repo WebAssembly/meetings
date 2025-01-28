@@ -3,10 +3,10 @@
 ## Agenda: {month} {day} WASI video call
 
 - **Where**: zoom.us (see Registration below)
-- **When**: {month} {day} 2024, 17:00-18:00 UTC
+- **When**: {month} {day} 2025, 17:00-18:00 UTC
 - **Contact**:
-  - Name: Pat Hickey and Bailey Hayes
-  - Email: pat@moreproductive.org and bailey@cosmonic.com
+  - Name: Yosh Wuyts and Bailey Hayes
+  - Email: wasm@yosh.is and bailey@cosmonic.com
 
 ### Registration
 
