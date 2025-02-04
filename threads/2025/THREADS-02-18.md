@@ -1,9 +1,9 @@
 ![WebAssembly logo](/images/WebAssembly.png)
 
-## Agenda for the February 4, 2025 video call of WebAssembly's Threads Subgroup
+## Agenda for the February 18, 2025 video call of WebAssembly's Threads Subgroup
 
 - **Where**: zoom.us
-- **When**: February 4, 2025, 4pm-5pm UTC (February 4, 2025, 9am-10am Pacific Time)
+- **When**: February 18, 2025, 4pm-5pm UTC (February 18, 2025, 9am-10am Pacific Time)
 - **Location**: *link on calendar invite*
 
 ### Registration
