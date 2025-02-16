@@ -25,7 +25,7 @@ Installation is required, see the calendar invite.
 1. Find volunteers for note taking (acting chair to volunteer)
 1. Adoption of the agenda
 1. Proposals and discussion
-    1. TBD
+    1. TLS discussion
 1. Closure
 
 ## Meeting Notes
