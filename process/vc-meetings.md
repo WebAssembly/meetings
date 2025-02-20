@@ -19,7 +19,7 @@ All attendees are required to be members of the
 
 ## Meeting notes and transcripts
 
-The chairs and other volunteer note takers will ensure that meeting notes kept of
+The chairs and other volunteer note takers will ensure that meeting notes are kept of
 attendees, key discussion points and expressed positions, votes, and vote
 outcomes, to be posted to this repository after the meeting concludes.
 
