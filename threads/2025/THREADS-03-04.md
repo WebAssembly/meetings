@@ -87,13 +87,13 @@ RH: Makes sense to me; my concern is that in resuming a stack, if the engine had
 
 TL: The compiler would have to understand all this… It would need to mark the functions as "shared-suspendable" and would need to know not to stash the stack pointer in those functions. Seems complicated.
 
-AR: Circling back, I’m wondering how this is all related: when instantiating modules dynamically, wouldn’t the engine have to implement this under the hood. Don’t we need the same mechanism already for first-class thread locals? Why not expose this directly?
+AR: Circling back, I’m wondering how this is all related: when instantiating modules dynamically, wouldn’t the engine have to implement the same hashmap under the hood that languages with first-class thread locals need as well? Why not expose this directly?
 
 TL: Thinking about LLVM, it understands the various TLS schemes (e.g., local_exec), because that’s all implemented in LLVM userspace, there is no need from those languages to provide this in WebAssembly. You’re right that the engine already does this for instances added to the store, I haven’t thought much about whether we need to expose it.
 
 (TL presenting “Implementation Strategies”)
 
-AR: We already have global instances so this would be a pair of the global and instance…
+AR: We already have global instances independent of modules, so this would just be a pair of thread and global instance…
 
 TL: But at compile time you don’t know which instance the global may be imported from.
 
