@@ -1,9 +1,9 @@
 ![WebAssembly logo](/images/WebAssembly.png)
 
-## Agenda for the May 13, 2025 video call of WebAssembly's Threads Subgroup
+## Agenda for the May 27, 2025 video call of WebAssembly's Threads Subgroup
 
 - **Where**: zoom.us
-- **When**: May 13, 2025, 4pm-5pm UTC (May 13, 2025, 9am-10am Pacific Time)
+- **When**: May 27, 2025, 4pm-5pm UTC (May 27, 2025, 9am-10am Pacific Time)
 - **Location**: *link on calendar invite*
 
 ### Registration
