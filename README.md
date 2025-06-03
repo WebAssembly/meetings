@@ -57,7 +57,7 @@ These documents explain how the community works overall:
    * [CG April 22nd video call](main/2025/CG-04-22.md)
    * [CG May 6th video call](main/2025/CG-05-06.md)
    * [CG May 20th video call](main/2025/CG-05-20.md)
-   * [CG June 3rd video call](main/2025/CG-06-01.md)
+   * [CG June 3rd video call](main/2025/CG-06-03.md)
    * [CG June 17th video call](main/2025/CG-06-17.md)
    * [CG July 1st video call](main/2025/CG-07-01.md)
    * [CG July 15th video call](main/2025/CG-07-15.md)
