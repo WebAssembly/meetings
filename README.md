@@ -68,7 +68,7 @@ These documents explain how the community works overall:
    * [CG September 23rd video call](main/2025/CG-09-23.md)
    * [CG October 7th video call](main/2025/CG-10-07.md)
    * [CG October 21nd video call](main/2025/CG-10-21.md)
-   * [CG Octover 29th-30th in-person hybrid](main/2025/CG-10.md)
+   * [CG Octover 28th-29th in-person hybrid](main/2025/CG-10.md)
    * [CG November 4th video call](main/2025/CG-11-04.md)
    * [CG November 18th video call](main/2025/CG-11-18.md)
    * [CG December 2nd video call](main/2025/CG-12-02.md)
