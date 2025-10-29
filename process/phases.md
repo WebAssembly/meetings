@@ -95,15 +95,16 @@ Entry requirements:
    * The reference interpreter has been fully updated in the forked repo and passes the test suite.
    * The Community Group has reached consensus in support of the feature and consensus that its specification is complete.
 
-NOTE: By this point the proposal is basically frozen, since
-the Community Group is the sole venue where substantial work can occur.
+NOTE: By this point the proposal is basically frozen, since 
+the Community Group is the sole venue where substantial changes are made.
 
 At this point:
 
    * The feature is fully handed off to the Working Group.
    * During this phase, Working Group members discuss the feature,
-     consider edge cases, and work to confirm consensus that the feature is now
-     complete.
+     consider edge cases,
+     work to confirm consensus that the feature is now complete,
+     and fulfill requirements of the W3C standardization process.
    * Periodically, the Working Group will hold polls on how "ship worthy" the feature is,
      in order to help browsers to make decisions about when to ship.
    * Only minor cosmetic changes occur at this point.
@@ -137,7 +138,8 @@ overseen by the Community Group.
 
 #### What about licenses?
 
-The spec and spec forks will move to a
+The [W3C Community Contributor License Agreement (CLA)](https://www.w3.org/community/about/process/cla/) governs contributions to the Community Group spec.
+In the Working Group, the spec and spec forks will move to a
 [W3C Software and Document Notice and
 License](https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document).
 Other related repos for prototypes + tools will continue under their respective
@@ -152,8 +154,9 @@ It should attempt to address all concerns, but need not reach 100% consensus.
 
 #### What is the Working Group for?
 
-To finalize and ratify mostly complete specs + test suites from the Community
-Group.
+To fulfill W3C standardization requirements on mostly complete specs + test suites 
+from the Community Group.
+
 Changes to the spec need not have reached full consensus in the Community Group
 to move to the Working Group, but key Working Group stakeholders should resolve
 outstanding mismatch in the Community Group.
