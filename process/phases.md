@@ -138,7 +138,7 @@ overseen by the Community Group.
 
 #### What about licenses?
 
-The [W3C Community Contributor License Agreement (CLA)](https://www.w3.org/community/about/process/cla/) governs contributions to the Community Group spec.
+The [W3C Community Contributor License Agreement (CLA)](https://www.w3.org/community/about/process/cla/) governs contributions to the spec and proposal repositories.
 In the Working Group, the spec and spec forks will move to a
 [W3C Software and Document Notice and
 License](https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document).
