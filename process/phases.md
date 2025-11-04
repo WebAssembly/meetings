@@ -140,8 +140,7 @@ overseen by the Community Group.
 
 The [W3C Community Contributor License Agreement (CLA)](https://www.w3.org/community/about/process/cla/) governs contributions to the spec and proposal repositories.
 In the Working Group, the spec and spec forks will move to a
-[W3C Software and Document Notice and
-License](https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document).
+[W3C Software and Document Notice and License](https://www.w3.org/copyright/software-license/).
 Other related repos for prototypes + tools will continue under their respective
 licenses.
 
