@@ -45,6 +45,48 @@ These documents explain how the community works overall:
 ## CG and WG meeting agendas and notes
 
 <details open>
+<summary>2026</summary>
+
+   * [CG January 13th video call](main/2026/CG-2026-01-13.md)
+   * [CG January 27th video call](main/2026/CG-2026-01-27.md)
+   * [WG February 4th video call](main/2026/WG-2026-02-04.md)
+   * [CG February 10th video call](main/2026/CG-2026-02-10.md)
+   * [CG February 24th video call](main/2026/CG-2026-02-24.md)
+   * [WG March 4th video call](main/2026/WG-2026-03-04.md)
+   * [CG March 10th video call](main/2026/CG-2026-03-10.md)
+   * [CG March 24th video call](main/2026/CG-2026-03-24.md)
+   * [WG April 1st video call](main/2026/WG-2026-04-01.md)
+   * [CG April 7th video call](main/2026/CG-2026-04-07.md)
+   * [CG April 21st video call](main/2026/CG-2026-04-21.md)
+   * [WG April 29th video call](main/2026/WG-2026-04-29.md)
+   * [CG May 5th video call](main/2026/CG-2026-05-05.md)
+   * [CG May 19th video call](main/2026/CG-2026-05-19.md)
+   * [WG May 27th video call](main/2026/WG-2026-05-27.md)
+   * [CG June 2nd video call](main/2026/CG-2026-06-02.md)
+   * [CG June 16th video call](main/2026/CG-2026-06-16.md)
+   * [WG June 24th video call](main/2026/WG-2026-06-24.md)
+   * [CG June 30th video call](main/2026/CG-2026-06-30.md)
+   * [CG July 14th video call](main/2026/CG-2026-07-14.md)
+   * [WG July 22nd video call](main/2026/WG-2026-07-22.md)
+   * [CG July 28th video call](main/2026/CG-2026-07-28.md)
+   * [CG August 11th video call](main/2026/CG-2026-08-11.md)
+   * [WG August 19th video call](main/2026/WG-2026-08-19.md)
+   * [CG August 25th video call](main/2026/CG-2026-08-25.md)
+   * [CG September 8th video call](main/2026/CG-2026-09-08.md)
+   * [WG September 16th video call](main/2026/WG-2026-09-16.md)
+   * [CG September 22nd video call](main/2026/CG-2026-09-22.md)
+   * [CG October 6th video call](main/2026/CG-2026-10-06.md)
+   * [WG October 14th video call](main/2026/WG-2026-10-14.md)
+   * [CG October 20th video call](main/2026/CG-2026-10-20.md)
+   * [CG November 3rd video call](main/2026/CG-2026-11-03.md)
+   * [WG November 11th video call](main/2026/WG-2026-11-11.md)
+   * [CG November 17th video call](main/2026/CG-2026-11-17.md)
+   * [CG December 1st video call](main/2026/CG-2026-12-01.md)
+   * [WG December 9th video call](main/2026/WG-2026-12-09.md)
+   * [CG December 15th video call](main/2026/CG-2026-12-15.md)
+</details>
+
+<details>
 <summary>2025</summary>
 
    * [CG January 14th video call](main/2025/CG-01-14.md)
