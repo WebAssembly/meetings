@@ -20,10 +20,10 @@ No installation is required.
 1. Opening, welcome and roll call
 1. Adoption of the agenda
 1. Proposals and discussion
-    1. Update on relaxed atomics prototyping (Rezvan Mahdavi Hezaveh, 15 minutes)
-    1. Shared string builtins ([#103](https://github.com/WebAssembly/shared-everything-threads/issues/103)), (Thomas Lively, 15 minutes)
+    1. Check in on status of threads repo (Thomas Lively, 5 minutes) 
+    1. Update and discussion on relaxed atomics prototyping (Rezvan Mahdavi Hezaveh, 30 minutes)
+    1. Shared string builtins ([#103](https://github.com/WebAssembly/shared-everything-threads/issues/103)), (Thomas Lively, 10 minutes)
     1. Waitqueue as a packed type ([#102](https://github.com/WebAssembly/shared-everything-threads/issues/102)), (Thomas Lively, 15 minutes)
-    1. Atomic accesses to unshared GC data ([#98](https://github.com/WebAssembly/shared-everything-threads/issues/98)), (Thomas Lively, 15 minutes)
 1. Closure
 
 ## Meeting Notes
