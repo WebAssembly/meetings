@@ -23,6 +23,9 @@ No installation is required.
     1. Discussion: Waitqueue design (Thomas Lively, 40 minutes)
         1. Should we allow spurious wakeups?
         1. Should we try to update ECMA-262 and HTML to allow blocking on the main thread?
+    1. Relaxed atomics (Rezvan Mahdavi Hezaveh, 20 minutes)
+        1. Present benchmarking results
+        2. Discuss proposal separation from shared everything thread
 1. Closure
 
 ## Meeting Notes
