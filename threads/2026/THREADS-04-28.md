@@ -20,13 +20,13 @@ No installation is required.
 1. Opening, welcome and roll call
 1. Adoption of the agenda
 1. Proposals and discussion
+    1. Relaxed atomics (Rezvan Mahdavi Hezaveh, 20 minutes)
+        1. Present benchmarking results
+        2. Discuss proposal separation from shared everything thread
     1. Discussion: Waitqueue design (Thomas Lively, 30 minutes)
         1. Should we allow spurious wakeups?
         1. Should we try to update ECMA-262 and HTML to allow blocking on the main thread?
     1. Should data segments always be shared? [#83](https://github.com/WebAssembly/shared-everything-threads/issues/83) (Thomas Lively, 10 minutes)
-    1. Relaxed atomics (Rezvan Mahdavi Hezaveh, 20 minutes)
-        1. Present benchmarking results
-        2. Discuss proposal separation from shared everything thread
 1. Closure
 
 ## Meeting Notes
