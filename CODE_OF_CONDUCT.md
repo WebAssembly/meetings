@@ -53,6 +53,6 @@ applicable to the Wasm CG, and will be carried out with respect, confidentiality
 The W3C also has [procedures][],
 allowing you to access its ombuds directly and confidentially, in case other venues of resolution have not resulted in a satisfactory outcome.
 
-  [Code of Ethics and Professional Conduct]: https://www.w3.org/policies/code-of-conduct/
+  [Code of Conduct]: https://www.w3.org/policies/code-of-conduct/
   [procedures]: https://www.w3.org/guide/process/coc-incident-resolution-ombuds.html
-  [disciplinary process]: https://github.com/w3c/PWETF/blob/main/DisputeResolution.md
+  [disciplinary actions]: https://github.com/w3c/PWETF/blob/main/DisputeResolution.md#disciplinary-actions
