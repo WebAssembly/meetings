@@ -47,7 +47,7 @@ to ensure a positive work environment in the WebAssembly CG.
 
  - **Indefinite suspension, revoking membership etc.**
 
-The set of actions above are an edited version of the W3C [disciplinary process][] as
+The set of actions above are an edited version of the W3C [disciplinary actions][] as
 applicable to the Wasm CG, and will be carried out with respect, confidentiality, and fairness.
 
 The W3C also has [procedures][],
