@@ -1,34 +1,26 @@
-# Code of Ethics and Professional Conduct
+# Code of Conduct
 
 WebAssembly operates under the W3C's
-[Code of Ethics and Professional Conduct][]:
+[Code of Conduct][]:
 
-> W3C is a growing and global community where participants choose to work
-> together, and in that process experience differences in language, location,
-> nationality, and experience. In such a diverse environment, misunderstandings
-> and disagreements happen, which in most cases can be resolved informally. In
-> rare cases, however, behavior can intimidate, harass, or otherwise disrupt one
-> or more people in the community, which W3C will not tolerate.
->
-> A Code of Ethics and Professional Conduct is useful to define accepted and
-> acceptable behaviors and to promote high standards of professional
-> practice. It also provides a benchmark for self evaluation and acts as a
-> vehicle for better identity of the organization.
+> W3C is a growing and global community where participants choose to work together. W3C is committed to maintaining a positive working environment, where each participant feels appreciated and respected and where everyone adheres to the same high level of standards of personal behavior. In that process we experience differences in language, location, nationality, and experience. In such a diverse environment, misunderstandings and disagreements happen, which in most cases can be resolved informally.
 
-We hope that our community group act according to these guidelines, and that
+> W3C's Code of Conduct is useful to define accepted and acceptable behaviors and to promote high standards of professional practice. The goal of this Code of conduct is to ensure that W3C is an environment where everyone who participates is treated equitably and with respect, including being able to participate without fear of harassment. It also provides a benchmark for self evaluation and acts as a vehicle for better identity of the organization.
+
+We expect our community group to act according to these guidelines, and that
 participants hold each other to these high standards.
 
 If you are worried that the code isn't being followed, or are witness to a violation
 but are uncomfortable speaking up, please contact the Community Group's chairs at
 `team-wasm-chairs@w3.org` (note: this list is also visible to W3C staff).
 
-In cases where there is repeated disregard for the CEPC, it is possible to incur disciplinary
+In cases where there is repeated disregard for the COC, it is possible to incur disciplinary
 action. The points below outline a series of steps that will be taken in case of violations
 to ensure a positive work environment in the WebAssembly CG.
 
  - **Informal warning**
    An informal or verbal warning can be issued in any relevant medium of communication calling
-   out inappropriate behavior as a violation of the CEPC
+   out inappropriate behavior as a violation of the COC
    (examples: responses to github issues or PRs, discord, email, meetings).
 
  - **Corrective action and/or counseling**
@@ -55,12 +47,12 @@ to ensure a positive work environment in the WebAssembly CG.
 
  - **Indefinite suspension, revoking membership etc.**
 
-The set of actions above are an edited version of the W3C [disciplinary process][] as
+The set of actions above are an edited version of the W3C [disciplinary actions][] as
 applicable to the Wasm CG, and will be carried out with respect, confidentiality, and fairness.
 
 The W3C also has [procedures][],
 allowing you to access its ombuds directly and confidentially, in case other venues of resolution have not resulted in a satisfactory outcome.
 
-  [Code of Ethics and Professional Conduct]: https://www.w3.org/Consortium/cepc
-  [procedures]: https://www.w3.org/Consortium/pwe/#Procedures
-  [disciplinary process]: https://github.com/w3c/PWETF/blob/main/CEPCdisciplinary-process.md
+  [Code of Conduct]: https://www.w3.org/policies/code-of-conduct/
+  [procedures]: https://www.w3.org/guide/process/coc-incident-resolution-ombuds.html
+  [disciplinary actions]: https://github.com/w3c/PWETF/blob/main/DisputeResolution.md#disciplinary-actions
