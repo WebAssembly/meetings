@@ -1,4 +1,4 @@
-# Code of Ethics and Professional Conduct
+# Code of Conduct
 
 WebAssembly operates under the W3C's
 [Code of Conduct][]:
