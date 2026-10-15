@@ -1,6 +1,6 @@
 ![WebAssembly logo](/images/WebAssembly.png)
 
-## Agenda for the October 26th, 2026 video call of WebAssembly's Threads Subgroup
+## Agenda for the October 26th, 2026 video call of WebAssembly's Component Model Subgroup
 
 - **Where**: Zoom
 - **When**: October 26, 4pm-5pm UTC (October 13, 9am-10am Pacific Time)
