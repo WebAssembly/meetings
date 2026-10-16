@@ -15,6 +15,7 @@ To create a subgroup, you should add a poll to a CG meeting agenda with at least
 | Subgroup  | Chair(s)  | Discussion Repo  | Meetings  |
 |---|---|---|---|
 | Benchmarking | Petr Penzin (@ppenzin), Saúl Cabrera (@saulecabrera)  | [Repo](https://github.com/WebAssembly/benchmarks)  | [Agendas](https://github.com/WebAssembly/meetings/tree/main/benchmarking)  |
+| Component Model | Ryan Hunt (@eqrion), Luke Wagner (@lukewagner)  | [Repo](https://github.com/WebAssembly/component-model)  | [Agendas](https://github.com/WebAssembly/meetings/tree/main/component-model)  |
 | Debugging  | Derek Schuff (@dschuff)  | [Repo](https://github.com/WebAssembly/debugging)  | no meetings currently scheduled, but discussion or agenda suggestions are welcome |
 | GC  | Thomas Lively (@tlively)  | [Repo](https://github.com/WebAssembly/gc)  | [Agendas](https://github.com/WebAssembly/meetings/tree/main/gc)  |
 | SIMD  | Petr Penzin (@ppenzin)  | [Flexible Vectors](https://github.com/WebAssembly/flexible-vectors/issues) | [Agendas](https://github.com/WebAssembly/meetings/tree/main/gc)  |
