@@ -8,7 +8,7 @@
 
 ### Registration
 
-None required. Join the WebAssembly CG and view the joining instructions on the [W3C calendar](TODO).
+None required. Join the WebAssembly CG and view the joining instructions on the [W3C calendar](https://www.w3.org/events/meetings/d732ffb9-968c-47a7-a8ea-3cd3ce1c1572/).
 
 ## Logistics
 
