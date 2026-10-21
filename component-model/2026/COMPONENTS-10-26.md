@@ -22,7 +22,8 @@ No installation is required.
 1. Opening, welcome and roll call
 1. Adoption of the agenda
 1. Proposals and discussion
-    1. Open discussion of problem statement and scope (Ryan Hunt/Luke Wagner, 60 minutes)
+    1. How do we want to operate and what do we want to cover first? (Ryan Hunt/Luke Wagner, 15 minutes)
+    1. Open discussion of problem statement and scope (Ryan Hunt/Luke Wagner, 45 minutes)
 1. Closure
 
 ## Meeting Notes
