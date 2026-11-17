@@ -1,0 +1,77 @@
+\documentclass{beamer}
+\usetheme{default}
+
+\title{SIMD Subgroup Update}
+%\subtitle{more title?}
+\author{Petr Penzin}
+\date{November 17, 2026}
+
+\begin{document}
+
+\begin{frame}
+
+\titlepage
+
+\end{frame}
+
+\begin{frame}{Background}
+
+%SIMD Subgroup
+
+\begin{itemize}
+\item Grew out of the meetings for SIMD proposal
+  \begin{itemize}
+  \item started in 2020
+  \item Subgroup status in 2022
+  \item SIMD proposal work started in 2015
+  \end{itemize}
+\item Current and former proposals
+  \begin{itemize}
+  \item SIMD
+  \item Relaxed SIMD
+  \item Flexible vectors
+  \end{itemize}
+\item Recent topics covered
+  \begin{itemize}
+  \item Relaxed SIMD
+  \item Hardware support
+  \item Flexible vectors
+  \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Relaxed SIMD}
+\begin{itemize}
+\item Test suite and semantics - closed remaining issues, fixed a number of inconsistencies in tests post ratification
+\item Flexible vectors
+\item Documentation (proposal repo vs spec, MDN)
+\item Adoption in open source projects (ex.: ONNX)
+\item Toolchain support
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Hardware support}
+Support in engines, practical considerations of supporting in Wasm, both for current standard and proposals.
+\begin{itemize}
+\item SIMD/Vector hardware support
+\item Half precision floating point
+\item Matrix hardware extensions
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Flexible vectors}
+\begin{itemize}
+\item Upcoming vector hardware
+  \begin{itemize}
+  \item Return of AVX512
+  \item More SVE hardware, related AMX hardware
+  \item RISC-V?
+  \end{itemize}
+\item Workloads: TSVC, ISPC, Highway, etc
+\item Planned CG update
+\end{itemize}
+\end{frame}
+
+\end{document}
